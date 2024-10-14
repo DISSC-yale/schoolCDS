@@ -1,0 +1,42 @@
+url: https://DISSC-yale.github.io/schoolCDS
+
+template:
+  bootstrap: 5
+  bslib:
+    info: "#E6F2FD"
+    headings-color: "#206B72"
+    link-color: "#216B73"
+    link-color-dark: "#cef4f9"
+    link-decoration: underline dotted
+  light-switch: true
+
+authors:
+  Data-Intensive Social Science Center:
+    href: https://dissc.yale.edu/
+
+navbar:
+  bg: info
+  type: light
+  structure:
+    left: [reference]
+    right: [lightswitch, search, github]
+
+home:
+  sidebar:
+    structure: [links, authors]
+  links:
+  - text: Test Coverage
+    href: coverage.html
+
+reference:
+  - title: Data
+    desc: The current version of the dataset is included in the package.
+  - contents:
+    - cds_data
+
+  - title: Collection and Processing
+    desc: These functions are used to collect CDS data.
+  - contents:
+    - cds_get_links
+    - cds_get_reports
+    - cds_process_report

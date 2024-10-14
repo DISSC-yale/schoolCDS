@@ -1,0 +1,2000 @@
+Common Data Set
+
+       Northwestern Common Data Set The Common Data Set reports standard data items and definitions of
+       information detailing enrollment statistics, academic offerings, student life, and tuition at the University.
+
+
+Common Data Set: 2000-01
+Common Data Set > 2000-01 > A. General information
+
+The Common Data Set emerged from a collaborative effort between publishers and the educational community to
+improve the consistency and accuracy of information about institutions of higher education. Items and definitions
+conform with those most commonly used and understood by institutions and agencies (including the U. S.
+Department of Education) that collect and report such information.
+
+A. General information
+
+A1. Address Information
+
+
+    Name of College or University                                            Northwestern University
+
+                                                                             633 Clark St.
+    Mailing Address, City/State/Zip/Country                                  Evanston, IL 60208
+                                                                             USA
+
+    Street Address (if different), City/State/Zip/Country
+
+    Main Phone Number                                                        847-491-3741
+
+    WWW Home Page Address                                                    http://www.northwestern.edu
+
+    Admissions Phone Number                                                  847-491-7271
+
+    Admissions Toll-free Number
+
+                                                                             Northwestern University
+                                                                             Office of Undergraduate Admission
+    Admissions Office Mailing Address, City/State/Zip/Country                P.O. Box 3060
+                                                                             Evanston, IL 60204-3060
+                                                                             USA
+
+    Admissions Fax Number
+
+    Admissions E-mail Address                                                ug-admission@northwestern.edu
+
+    Is there a separate URL application site on the Internet? If so,
+                                                                             http://www.ugadm.northwestern.edu
+    please specify:
+
+
+A2. Source of institutional control (check one only)
+
+  Public
+  Private (nonprofit)
+  Proprietary
+
+A3. Classify your undergraduate institution:
+
+  Coeducational college
+  Men's college
+  Women's college
+
+A4. Academic year calendar
+
+  Semester
+  Quarter
+  Trimester
+  4-1-4
+  Continuous
+  Differs by program (describe):
+  Other (describe):
+
+A5. Degrees offered by your institution
+
+  Certificate
+  Diploma
+  Associate
+   Transfer
+   Terminal
+  Bachelor's
+  Postbachelor's certificate
+  Master's
+  Post-master's certificate
+  Doctoral
+  First professional
+  First professional certificate
+
+Common Data Set
+
+       Northwestern Common Data Set The Common Data Set reports standard data items and definitions of
+       information detailing enrollment statistics, academic offerings, student life, and tuition at the University.
+
+
+Common Data Set: 2000-01
+Common Data Set > 2000-01 > B. Enrollment and persistence
+
+B. Enrollment and persistence
+
+B1. Institutional Enrollment - Men and Women
+
+Provide numbers of students for each of the following categories as of the institution's official fall reporting date or
+as of October 15, 2000.
+
+                                                             FULL-TIME           PART-TIME
+
+                                                             Men     Women       Men     Women
+
+     Undergraduates
+
+     Degree-seeking, first-time freshmen                     898     987         0       0
+
+     Other first-year, degree-seeking                        176     155         9       5
+
+     All other degree-seeking                                2,520   2,812       66      63
+
+     Total degree-seeking                                    3,594   3,954       75      68
+
+     All other undergraduates enrolled in credit courses     6       3           11      13
+
+     Total undergraduates                                    3,600   3,957       86      81
+
+     First-professional
+
+     First-time, first-professional students                 240     211         7       0
+
+     All other first-professionals                           534     485         9       4
+
+     Total first-professional                                774     696         16      4
+
+     Graduate
+
+     Degree-seeking, first-time                              882     756         242     114
+
+     All other degree-seeking                                1,710   1,259       948     492
+
+     All other graduates enrolled in credit courses          34      5           5       2
+
+     Total graduate                                          2,626   2,020       1,195   608
+
+Total all undergraduates:                       7,724
+Total all graduate and professional students: 7,939
+
+GRAND TOTAL ALL STUDENTS:                      15,663
+
+
+B2. Enrollment by Racial/Ethnic Category
+
+Provide numbers of undergraduate students for each of the following categories as of the institution's official fall
+reporting date or as of October 15, 2000.
+
+                                                                                                Total
+                                                     Degree-        Degree-seeking
+                                                                                                Undergraduates
+                                                     seeking        Undergraduates
+                                                                                                (both degree- and
+                                                     First-time     (include first-time
+                                                                                                non-degree-
+                                                     First year     first-year)
+                                                                                                seeking)
+
+     Nonresident aliens                              85             268                         273
+
+     Black, non-Hispanic                             113            501                         501
+
+     American Indian or Alaskan Native               6              18                          18
+
+     Asian or Pacific Islander                       307            1,282                       1,282
+
+     Hispanic                                        77             321                         321
+
+     White, non-Hispanic                             1,151          4,854                       4,861
+
+     Race/ethnicity unknown                          146            448                         468
+
+     TOTAL                                           1,885          7,692                       7,724
+
+Persistence
+
+B3. Number of degrees awarded by your institution from July 1, 1999, to June 30, 2000.
+
+
+Certificate/diploma              5
+Associate degrees                0
+Bachelor's degrees               2007
+Postbachelor's certificates      0
+Master's degrees                 2159
+Post-master's certificates       3
+Doctoral degrees                 321
+First professional degrees       427
+First professional certificates 16
+
+Graduation Rates
+
+The items in this section correspond to data elements collected by the IPEDS Web-based Data Collection
+System's Graduation Rate Survey (GRS). For complete instructions and definitions of data elements, see the
+IPEDS GRS instructions and glossary on the 1999 paper-based survey or the 2000 Web-based survey.
+
+For Bachelor's or Equivalent Programs
+Report for the cohort of full-time first-time bachelor's (or equivalent) degree-seeking undergraduate students who
+
+entered in fall 1994. Include in the cohort those who entered your institution during the summer term preceding fall
+1994.
+
+B4. Initial 1994 cohort of first-time, full-time bachelor's (or equivalent) degree-seeking undergraduate
+    students; total all students:                                                                              1866
+B5. Of the initial 1994 cohort, how many did not persist and did not graduate for the following reasons:
+    deceased, permanently disabled, armed forces, foreign aid service of the federal government, or
+    official church missions; total allowable exclusions:                                                      1
+B6. Final 1994 cohort, after adjusting for allowable exclusions:
+    (Subtract question B5 from question B4)                                                                    1865
+B7. Of the initial 1994 cohort, how many completed the program in four years or less (by August 31,
+    1998):                                                                                                     1539
+B8. Of the initial 1994 cohort, how many completed the program in more than four years but in five years
+    or less (after August 31, 1998 and by August 31, 1999):                                              171
+B9. Of the initial 1994 cohort, how many completed the program in more than five years but in six years
+    or less (after August 31, 1999 and by August 31, 2000):                                                    7
+B10. Total graduating within six years (sum of questions B7, B8, and B9):                                      1717
+B11. Six-year graduation rate for 1994 cohort (question B10 divided by question B6):                           92.0%
+
+For Two-Year Institutions:
+
+B12. Initial 1997 cohort, total of first-time, full-time degree/certificate-seeking students:
+      B13. Of the initial 1997 cohort, how many did not persist and did not graduate for the following reasons:
+      deceased, permanently disabled, armed forces, foreign aid service of the federal government, or official
+      church missions; total allowable exclusions:
+B14. Final 1997 cohort, after adjusting for allowable exclusions
+     (Subtract question B13 from question B12)
+B15. Completers of programs of less than two years duration (total):
+B16. Completers of programs of less than two years within 150 percent of normal time:
+B17. Completers of programs of at least two but less than four years (total):
+B18. Completers of programs of at least two but less than four-years within 150 percent of normal time:
+B19. Total transfers-out (within three years) to other institutions:
+B20. Total transfers to two-year institutions:
+B21. Total transfers to four-year institutions:
+
+Retention Rates
+
+Report for the cohort of all full-time, first-time bachelor's (or equivalent) degree-seeking undergraduate students
+who entered in fall 1999 (or the preceding summer term). The initial cohort may be adjusted for students who
+departed for the following reasons: deceased, permanently disabled, armed forces, foreign aid service of the
+federal government or official church missions. No other adjustments to the initial cohort should be made.
+
+B22. For the cohort of all full-time bachelor's (or equivalent) degree-seeking undergraduate students who
+     entered your institution as freshmen in fall 1999 (or the preceding summer term), what percentage was
+     enrolled at your institution as of the date your institution calculates its official enrollment in fall 2000? 95%
+
+Common Data Set
+
+       Northwestern Common Data Set The Common Data Set reports standard data items and definitions of
+       information detailing enrollment statistics, academic offerings, student life, and tuition at the University.
+
+
+Common Data Set: 2000-01
+Common Data Set > 2000-01 > C. First-time, first-year (freshman) admission
+
+C. First-time, first-year (freshman) admission
+
+Applications
+
+C1. First-time, first-year (freshman) students:
+
+Provide the number of degree-seeking, first-time, first-year students who applied, were admitted, and enrolled (full-
+or part-time) in fall 2000. Include early decision, early action, and students who began studies during summer in
+this cohort. Applicants should include only those students who fulfilled the requirements for consideration for
+admission (i.e., who completed actionable applications) and who have been notified of one of the following actions:
+admission, nonadmission, placement on waiting list, or application withdrawn (by applicant or institution). Admitted
+applicants should include wait-listed students who were subsequently offered admission.
+
+Total first-time, first-year (freshman) men who applied                6694
+Total first-time, first-year (freshman) women who applied              8031
+
+Total first-time, first-year (freshman) men who were admitted          2337
+Total first-time, first-year (freshman) women who were admitted        2490
+
+Total full-time, first-time, first-year (freshman) men who enrolled    898
+Total part-time, first-time, first-year (freshman) men who enrolled    0
+
+Total full-time, first-time, first-year (freshman) women who enrolled 987
+Total part-time, first-time, first-year (freshman) women who enrolled 0
+
+
+C2. Freshman wait-listed students (students who met admission requirements but whose final admission
+was contingent on space availability)
+
+Do you have a policy of placing students on a waiting list?  Yes    No
+If yes, please answer the questions below for fall 2000 admissions:
+
+Number of qualified applicants placed on waiting list 725
+Number accepting a place on the waiting list           395
+Number of wait-listed students admitted                5
+
+Admission Requirements
+
+C3. High school completion requirement
+
+Check the appropriate box to identify your high school completion requirement for degree-seeking entering
+
+students:
+
+  High school diploma is required and GED is accepted
+  High school diploma is required and GED is not accepted
+  High school diploma or equivalent is not required
+
+C4. Does your institution require or recommend a general college-preparatory program for degree-seeking
+students?
+
+  Require
+  Recommend
+  Neither require nor recommend
+
+C5. Distribution of high school units required and/or recommended.
+
+Specify the distribution of academic high school course units required and/or recommended of all or most degree-
+seeking students using Carnegie units (one unit equals one year of study or its equivalent). If you use a different
+system for calculating units, please convert.
+
+                                       Units Required Units Recommended
+    Total academic units                               16
+
+    English                                            4
+
+    Mathematics                                        3-4
+
+    Science                                            2
+
+    Of these, units that must be lab                   2
+
+    Foreign language                                   2
+
+    Social studies                                     2-4
+
+    History
+
+    Academic electives                                 1-3
+
+    Other (specify)
+
+Basis for Selection
+
+C6. Do you have an open admission policy, under which virtually all secondary school graduates or
+students with GED equivalency diplomas are admitted without regard to academic record, test scores, or
+other qualifications? If so, check which applies:
+
+
+Open admission policy as described above for all students
+Open admission policy as described above for most students, but
+  selective admission for out-of-state students
+  selective admission to some programs
+  other (explain)
+
+C7. Relative importance of each of the following academic and nonacademic factors in your first-time,
+first-year, degree-seeking (freshman) admission decisions.
+
+
+                                        Very Important Important Considered Not Considered
+     Academic
+
+     Secondary school record            X
+
+     Class rank                         X
+
+     Recommendation(s)                                   X
+
+     Standardized test scores           X
+
+     Essay                              X
+
+     Nonacademic
+
+     Interview                                                      X
+
+     Extracurricular activities                          X
+
+     Talent/ability                                      X
+
+     Character/personal qualities                        X
+
+     Alumni/ae relation                                             X
+
+     Geographical residence                                                       X
+
+     State residency                                                              X
+
+     Religious affiliation/commitment                                             X
+
+     Minority status                                                X
+
+     Volunteer work                                                 X
+
+     Work experience                                                X
+
+SAT and ACT Policies
+
+C8. Entrance exams
+
+A. Does your institution make use of SAT I, SAT II, or ACT scores in admission decisions for first-time, first-year,
+degree-seeking applicants?
+
+  Yes
+  No
+
+If yes, place check marks in the appropriate boxes below to reflect your institution's policies for use in admission.
+
+                                    ADMISSION
+
+                                                                Require for         Consider If              Not
+                                    Require    Recommend
+                                                                Some                Submitted                Used
+
+     SAT I
+
+     ACT
+
+     SAT I or ACT (no
+                                    X
+     preference)
+
+     SAT I or ACT - SAT I
+     preferred
+
+     SAT I or ACT - ACT
+     preferred
+
+     SAT I and SAT II
+
+     SAT I and SAT II or ACT
+
+     SAT II                                    X                X
+
+In addition, does your institution use applicants' test scores for placement or counseling?
+
+Placement
+  Yes
+  No
+
+Counseling
+  Yes
+  No
+
+B. Does your institution use the SAT I or II or the ACT for placement only? If so, please mark the appropriate
+boxes below:
+
+                     PLACEMENT
+
+                     Require    Recommend          Require for some
+
+     SAT I
+
+     SAT II
+
+     ACT
+
+     SAT I or ACT
+
+
+
+C. Latest date by which SAT I or ACT scores must be received for fall-term admission Jan. 15 (Dec. Test)
+   Latest date by which SAT II scores must be received for fall-term admission            Jan. 15 (Dec. Test)
+
+D. If necessary, use this space to clarify your test policies (e.g., if tests are recommended for some students, or if
+tests are not required of some students):
+
+Freshman Profile
+
+Provide percentages for ALL enrolled, degree-seeking, full-time and part-time, first-time, first-year
+(freshman) students enrolled in fall 2000, including students who began studies during summer, international
+students/nonresident aliens, and students admitted under special arrangements.
+
+C9. Percent and number of first-time, first-year (freshman) students enrolled in fall 2000 who submitted
+national standardized (SAT/ACT) test scores.
+
+Include information for ALL enrolled, degree-seeking, first-time, first-year (freshman) students who
+submitted test scores. Do not include partial test scores (e.g., mathematics scores but not verbal for a category
+of students) or combine other standardized test results (such as TOEFL) in this item. Do not convert SAT scores to
+ACT scores and vice versa. The 25th percentile is the score that 25 percent scored at or below; the 75th percentile
+score is the one that 25 percent scored at or above.
+
+Percent submitting SAT scores 74
+Number submitting SAT scores 1398
+Percent submitting ACT scores 33
+Number submitting ACT scores 625
+
+                       25th Percentile 75th Percentile
+     SAT I Verbal       630              720
+
+     SAT I Math         660              750
+
+     ACT Composite      29               32
+
+     ACT English        28               32
+
+     ACT Math           28               33
+
+Percent of first-time, first-year (freshman) students with scores in each range:
+
+               SAT I Verbal SAT I Math
+     700-800    43            56
+
+     600-699    45            37
+
+     500-599    10            7
+
+     400-499    2             0
+
+     300-399    0             0
+
+     200-299    0             0
+
+
+
+               ACT Composite ACT English ACT Math
+     30-36      69                 58           66
+
+     24-29      28                 37           29
+
+    18-23       3                  5             5
+
+    12-17       0                  0             0
+
+    6-11        0                  0             0
+
+    Below 6     0                  0             0
+
+
+C10. Percent of all degree-seeking, first-time, first-year (freshman) students who had high school class
+rank within each of the following ranges (report information for those students from whom you collected
+high school rank information).
+
+
+Percent in top tenth of high school graduating class                                            84
+Percent in top quarter of high school graduating class                                          96
+Percent in top half of high school graduating class                                             100
+Percent in bottom half of high school graduating class                                          0
+Percent in bottom quarter of high school graduating class                                       0
+Percent of total first-time, first-year (freshman) students who submitted high school class rank: 63.4%
+
+
+C11. Percentage of all enrolled, degree-seeking, first-time, first-year (freshman) students who had high
+school grade-point averages within each of the following ranges (using 4.0 scale). Report information only
+for those students from whom you collected high school GPA.
+
+
+Percent who had GPA of 3.0 and higher
+Percent who had GPA between 2.0 and 2.99
+Percent who had GPA between 1.0 and 1.99
+Percent who had GPA below 1.0
+
+
+C12. Average high school GPA of all degree-seeking, first-time, first-year (freshman) students who
+submitted GPA:
+Percent of total first-time, first-year (freshman) students who submitted high school GPA:                 %
+
+Admission Policies
+
+C13. Application fee
+
+
+Does your institution have an application fee?           Yes       No
+Amount of application fee:                             $60
+Can it be waived for applicants with financial need?     Yes       No
+
+
+C14. Application closing date
+
+
+Does your institution have an application closing date?      Yes        No
+Application closing date (fall):                          01/01
+Priority date
+
+C15. Are first-time, first-year students accepted for terms other than the fall?
+
+  Yes
+  No
+
+C16. Notification to applicants of admission decision sent (fill in one only)
+
+
+On a rolling basis beginning (date):
+By (date):                             04/01
+Other:
+
+
+C17. Reply policy for admitted applicants (fill in one only)
+
+
+Must reply by (date):                                            05/01
+No set date:
+Must reply by May 1 or within ___ weeks if notified thereafter 2
+Other:
+
+
+C18. Deferred admission:
+
+
+Does your institution allow students to postpone enrollment after admission?
+
+   Yes
+   No
+
+If yes, maximum period of postponement:                                   1 yr
+
+
+C19. Early admission of high school students:
+
+Does your institution allow high school students to enroll as full-time, first-time, first-year (freshman) students one
+year or more before high school graduation?
+
+  Yes
+  No
+
+C20. Common application:
+
+Will you accept the Common Application distributed by the National Association of Secondary School Principals if
+submitted?
+
+  Yes
+  No
+
+If "yes," are supplemental forms required?
+
+  Yes
+  No
+
+Is your college a member of the Common Application Group?
+
+  Yes
+  No
+
+Early Decision and Early Action Plans
+
+C21. Early decision:
+
+Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified
+of an admission decision well in advance of the regular notification date and that asks students to commit to
+attending if accepted) for first-time, first-year (freshman) applicants for fall enrollment?
+
+  Yes
+  No
+
+If "yes," please complete the following:
+
+First or only early decision plan closing date     11/01
+First or only early decision plan notification date 12/15
+Other early decision plan closing date
+Other early decision plan notification date
+For the Fall 2000 entering class:
+Number of early decision applications received by your institution 801
+Number of applicants admitted under early decision plan              402
+Please provide significant details about your early decision plan:
+
+
+
+C22. Early action:
+
+Do you have a nonbinding early action plan whereby students are notified of an admission decision well in
+advance of the regular notification date but do not have to commit to attending your college?
+
+  Yes
+  No
+
+If "yes," please complete the following:
+
+Early action closing date
+Early action notification date
+
+Common Data Set
+
+        Northwestern Common Data Set The Common Data Set reports standard data items and definitions of
+        information detailing enrollment statistics, academic offerings, student life, and tuition at the University.
+
+
+Common Data Set: 2000-01
+Common Data Set > 2000-01 > D. Transfer admission
+
+D. Transfer admission
+
+Fall Applicants
+
+D1. Does your institution enroll transfer students?
+
+  Yes
+  No
+
+(If no, please skip to Section E)
+
+If yes, may transfer students earn advanced standing credit by transferring credits earned from course work
+completed at other colleges/universities?
+
+  Yes
+  No
+
+D2. Provide the number of students who applied, were admitted, and enrolled as degree-seeking transfer
+students in fall 2000.
+
+
+                  Applicants Admitted Applicants Enrolled Applicants
+     Men           237         83                      63
+
+     Women         292         83                      64
+
+     Total         529         166                     127
+
+Application for Admission
+
+D3. Indicate terms for which transfers may enroll:
+
+  Fall
+  Winter
+  Spring
+  Summer
+
+D4. Must a transfer applicant have a minimum number of credits completed or else must apply as an
+entering freshman?
+
+  Yes
+  No
+
+If yes, what is the minimum number of credits and the unit of measure? 24 semester hours/36 quarter hours
+
+D5. Indicate all items required of transfer students to apply for admission:
+
+
+                                     Required of Recommended of Recommended of Required of   Not
+                                        All           All           Some         Some      required
+    High school transcript            X
+
+    College transcript(s)             X
+
+    Essay or personal statement       X
+
+    Interview                                                                                          X
+
+    Standardized test scores          X
+
+    Statement of good standing
+                                      X
+    from prior institution(s)
+
+
+D6. If a minimum high school grade point average is required of transfer applicants, specify (on a 4.0
+scale):
+
+D7. If a minimum college grade point average is required of transfer applicants, specify (on a 4.0 scale): 3.0
+
+D8. List any other application requirements specific to transfer applicants:
+
+College record most important. Must have one year of college work (24 semester hours or 36 quarter hours).
+Transfers to theater, radio, television, film, and journalism limited and considered for fall quarter only.
+
+D9. List application priority, closing, notification, and candidate reply dates for transfer students. If
+applications are reviewed on a continuous or rolling basis, place a check mark in the "Rolling admission"
+column.
+
+
+                Priority Date Closing Date Notification Date       Reply Date       Rolling Admission
+    Fall                     June 1        Within one month    Within three weeks   Yes
+
+    Winter                   November 1    Within one month    Within three weeks   Yes
+
+    Spring                   February 1    Within one month    Within three weeks   Yes
+
+    Summer                   May 1         Within one month    Within three weeks   Yes
+
+
+D10. Does an open admission policy, if reported, apply to transfer students?
+
+  Yes
+  No
+
+D11. Describe additional requirements for transfer admission, if applicable:
+
+Transfer Credit Policies
+
+D12. Report the lowest grade earned for any course that may be transferred for credit: 1.0 (D)
+
+
+                                                                            Number           Unit type
+D13. Maximum number of credits or courses that may be transferred from 60             semester hours
+     a two-year institution:
+D14. Maximum number of credits or courses that may be transferred from 60             semester hours
+     a four-year institution:
+D15. Minimum number of credits that transfers must complete at your    n/a            n/a
+     institution to earn an associate degree:
+D16. Minimum number of credits that transfers must complete at your    23 units - six quarters - we do not
+     institution to earn a bachelor's degree:                          count in credits
+
+
+D17. Describe other transfer credit policies:
+
+Common Data Set
+
+      Northwestern Common Data Set The Common Data Set reports standard data items and definitions of
+      information detailing enrollment statistics, academic offerings, student life, and tuition at the University.
+
+
+Common Data Set: 2000-01
+Common Data Set > 2000-01 > E. Academic offerings and policies
+
+E. Academic offerings and policies
+
+E1. Special study options: Identify those programs available at your institution. Refer to the glossary for
+definitions.
+
+
+
+  Accelerated program                          Honors program
+  Cooperative education program                Independent study
+  Cross-registration                           Internships
+  Distance learning                            Liberal arts/career combination
+  Double major                                 Student-designed major
+  Dual enrollment                              Study abroad
+  English as a Second Language (ESL)           Teacher certification program
+  Exchange student program (domestic)          Weekend college
+  External degree program
+  Other (specify):
+
+
+
+E2. Has been removed from the CDS.
+
+E3. Areas in which all or most students are required to complete some course work prior to graduation:
+
+
+
+  Arts/fine arts                      Humanities
+  Computer literacy                   Mathematics
+  English (including composition)     Philosophy
+  Foreign languages                   Sciences (biological or physical)
+  History                             Social science
+  Other (describe):
+
+
+Library Collections
+
+Report the number of holdings. Refer to the 1998 IPEDS Academic Libraries Survey, Part D, for corresponding
+equivalents.
+
+E4. Books, serial backfiles, electronic documents, and government documents (titles) that are
+    accessible through the library's catalog (sum of lines 27 and 29, column 2):                           4,082,737
+E5. Current serial subscriptions (paper, microform, electronic), (sum of lines 30 and 31, column 2):       37,467
+E6. Microforms (units), (line 28, column 2):                                                               3,790,533
+E7. Audiovisual materials (units), (line 32, column 2):                                                    65,024
+
+Common Data Set
+
+       Northwestern Common Data Set The Common Data Set reports standard data items and definitions of
+       information detailing enrollment statistics, academic offerings, student life, and tuition at the University.
+
+
+Common Data Set: 2000-01
+Common Data Set > 2000-01 > F. Student life
+
+F. Student life
+
+F1. Percentages of first-time, first-year (freshman) students and all degree-seeking undergraduates
+enrolled in fall 2000 who fit the following categories:
+
+
+                                                                            First-time, first-year
+                                                                                                     Undergraduates
+                                                                            (freshman) students
+     Percent who are from out of state (exclude
+     international/nonresident aliens from the numerator and                76                        75
+     denominator)
+
+     Percent of men who join fraternities                                   33                        31
+
+     Percent of women who join sororities                                   36                        27
+
+     Percent who live in college-owned, -operated, or -affiliated
+                                                                            99                        70
+     housing
+
+     Percent who live off campus or commute                                 1                         30
+
+     Percent of students age 25 and older                                   <1                        4.2
+
+     Average age of full-time students
+
+     Average age of all students (full- and part-time)
+
+
+F2. Activities offered
+
+Identify those programs available at your institution.
+
+
+   Choral groups         Marching band           Student government
+   Concert band          Music ensembles         Student newspaper
+   Dance                 Musical theater         Student-run film society
+   Drama/theater         Opera                   Symphony orchestra
+   Jazz band             Pep band                Television station
+   Literary magazine     Radio station           Yearbook
+
+
+
+F3. ROTC (program offered in cooperation with Reserve Officers' Training Corps)
+
+Army ROTC is offered:
+
+  On campus
+  At cooperating institution (name): University of Illinois - Chicago
+
+Naval ROTC is offered:
+
+  On campus
+  At cooperating institution (name):
+
+Air Force ROTC is offered:
+
+  On campus
+  At cooperating institution (name): Illinois Institute of Technology
+
+
+
+F4. Housing: Check all types of college-owned, -operated, or -affiliated housing available for
+undergraduates at your institution.
+
+
+
+  Coed dorms
+  Men's dorms                                Special housing for international students
+  Women's dorms                              Fraternity/sorority housing
+  Apartments for married students            Cooperative housing
+  Apartments for single students             Other housing options (specify): Thematic Residential Colleges
+  Special housing for disabled students
+
+Common Data Set
+
+        Northwestern Common Data Set The Common Data Set reports standard data items and definitions of
+        information detailing enrollment statistics, academic offerings, student life, and tuition at the University.
+
+
+Common Data Set: 2000-01
+Common Data Set > 2000-01 > G. Annual expenses
+
+G. Annual expenses
+
+Provide 2001-2002 academic year costs for the following categories that are applicable to your institution.
+
+G1. Undergraduate full-time tuition, required fees, room and board
+
+List the typical tuition, required fees, and room and board for a full-time undergraduate student for the FULL
+2001-2002 academic year (30 semester hours or 45 quarter hours for institutions that derive annual tuition by
+multiplying credit hour cost by number of credits). A full academic year refers to the period of time generally
+extending from September to June; usually equated to two semesters, two trimesters, three quarters, or the period
+covered by a four-one-four plan. Room and board is defined as double occupancy and 19 meals per week or the
+maximum meal plan. Required fees include only charges that all full-time students must pay that are not included
+in tuition (e.g., registration, health, or activity fees.) Do not include optional fees (e.g., parking, laboratory use).
+
+                                   FIRST-YEAR UNDERGRADUATES
+     PRIVATE INSTITUTIONS:         25,839         25,839
+
+     PUBLIC INSTITUTIONS
+     In-district:
+
+     In-state (out-of-district):
+
+     Out-of-state:
+
+     NONRESIDENT ALIENS:
+
+     REQUIRED FEES:
+
+     ROOM AND BOARD:
+                                   7,776          7,776
+     (on-campus)
+
+     ROOM ONLY:
+                                   4,355          4,355
+     (on-campus)
+
+     BOARD ONLY:
+                                   3,421          3,421
+     (on-campus meal plan)
+
+Comprehensive tuition and room and board fee (if your college cannot provide separate tuition and room
+and board fees):
+Other
+
+
+G2. Number of credits per term a student can take for the stated full-time tuition
+
+  minimum
+  maximum
+
+
+G3. Do tuition and fees vary by year of study (e.g., sophomore, junior, senior)?
+
+  Yes
+  No
+
+G4. If tuition and fees vary by undergraduate instructional program, describe briefly:
+
+G5. Provide the estimated expenses for a typical full-time undergraduate student:
+
+
+                                             Commuters         Commuters
+                             Residents
+                                          (living at home) (not living at home)
+    Books and supplies:       1,206        1,206
+
+    Room only:
+
+    Board only:                            1,157
+
+    Transportation:           510          984
+
+    Other expenses:           1,380        1,380
+
+
+G6. Undergraduate per-credit-hour charges:
+
+
+    PRIVATE INSTITUTIONS:             2,925 per course. We do not count credit-hours.
+
+    PUBLIC INSTITUTIONS
+    In-district:
+
+    In-state (out-of-district):
+
+    Out-of-state:
+
+    NONRESIDENT ALIENS:
+
+Common Data Set
+
+      Northwestern Common Data Set The Common Data Set reports standard data items and definitions of
+      information detailing enrollment statistics, academic offerings, student life, and tuition at the University.
+
+
+Common Data Set: 2000-01
+Common Data Set > 2000-01 > H. Financial aid
+
+H. Financial aid
+
+Aid Awarded to Enrolled Undergraduates
+
+H1. Enter total dollar amounts awarded to full-time and less than full-time degree-seeking undergraduates
+(using the same cohort reported in CDS Question B1, "total degree-seeking" undergraduates) in the
+following categories. Include aid awarded to international students (i.e., those not qualifying for federal
+aid). Aid that is non-need-based but that was used to meet need should be reported in the need-based aid
+column. (For a suggested order of precedence in assigning categories of aid to cover need, see the entry
+for "non-need-based gift aid" on the last page of the definitions section.)
+
+Indicate the academic year for which data are reported for items H1, H2, H2A, and H6 below:
+
+  2000-2001 estimated or
+  1999-2000 final
+
+                                                                     Need-based               Non-need-based
+                                                                       (Include                   (Exclude
+                                                                  non-need-based aid         non-need-based aid
+                                                                  used to meet need.)        used to meet need.)
+                                                                 $                          $
+
+    Scholarships/Grants
+
+    Federal                                                      4,146,371                  0
+
+    State                                                        2,443,504                  118,000
+
+    Institutional (endowment, alumni, or other institutional
+    awards) and external funds awarded by the college
+                                                                 41,747,732                 0
+    excluding athletic aid and tuition waivers (which are
+    reported below)
+
+    Scholarships/grants from external sources (e.g.,
+                                                                 2,790,578                  1,096,152
+    Kiwanis, National Merit) not awarded by the college
+
+    Total Scholarships/Grants                                    51,128,185                 1,214,152
+
+    Self-Help
+
+    Student loans from all sources (excluding parent loans)      11,519,364                 2,295,831
+
+    Federal Work-Study                                           3,400,000
+
+    State and other work-study/employment                        1,591,614               0
+
+    Total Self-Help                                              16,510,978              2,295,831
+
+    Parent Loans                                                 0                       15,356,888
+
+    Tuition Waivers                                              0                       0
+
+    Athletic Awards                                              0                       $7,164,446
+
+
+H2. Number of Enrolled Students Receiving Aid: List the number of degree-seeking full-time and less-than-
+full-time undergraduates who applied for and were awarded financial aid from any source. Aid that is
+non-need-based but that was used to meet need should be counted as need-based aid. Numbers should
+reflect the cohort receiving the dollars reported in H1. Note: In the chart below, students may be counted
+in more than one row, and full-time freshmen should also be counted as full-time undergraduates.
+
+
+                                                                        First-time     Full-time     Less Than
+                                                                         Full-time    Undergrad       Full-time
+                                                                        Freshmen     (Incl. Fresh)   Undergrad
+    a) Number of degree-seeking undergraduate students (CDS
+                                                                       1885          7724
+    Item B1 if reporting on Fall 2000 cohort)
+
+    b) Number of students in line a who applied for need-based
+                                                                       1244          4079
+    financial aid
+
+    c) Number of students in line b who were determined to have
+                                                                       823           3398
+    financial need
+
+    d) Number of students in line c who were awarded any financial
+                                                                       823           3398
+    aid
+
+    e) Number of students in line d who were awarded any
+                                                                       773           3259
+    need-based scholarship or grant aid
+
+    f) Number of students in line d who were awarded any
+                                                                       691           3073
+    need-based self-help aid
+
+    g) Number of students in line d who were awarded any
+    non-need-based scholarship or grant aid
+
+    h) Number of students in line d whose need was fully met
+    (exclude PLUS loans, unsubsidized loans, and private               823           3398
+    alternative loans)
+
+    i) On average, the percentage of need that was met of students
+    who were awarded any need-based aid. Exclude any aid that
+    was awarded in excess of need as well as any resources that        100%          100%
+    were awarded to replace EFC (PLUS loans, unsubsidized
+    loans, and private alternative loans)
+
+    j) The average financial aid package of those in line d. Exclude
+    any resources that were awarded to replace EFC (PLUS loans,        $20,171       $19,906
+    unsubsidized loans, and private alternative loans)
+
+    k) Average need-based scholarship or grant award of those in
+                                                                           $17,587      $15,688
+    line e
+
+    l) Average need-based self-help award (excluding PLUS loans,
+    unsubsidized loans, and private alternative loans) of those in         $4,350       $5,373
+    line f
+
+    m) Average need-based loan (excluding PLUS loans,
+    unsubsidized loans, and private alternative loans) of those in         $3,024       $3,957
+    line f who received a need-based loan
+
+
+H2A. Number of Enrolled Students Awarded Non-need-based Scholarships and Grants: List the number of
+degree-seeking full-time and less-than-full-time undergraduates who had no financial need and who were
+awarded institutional non-need-based scholarship or grant aid. Numbers should reflect the cohort
+awarded the dollars reported in H1. Note: In the chart below, students may be counted in more than one
+row, and full-time freshmen should also be counted as full-time undergraduates.
+
+
+                                                                      First-time       Full-time     Less Than
+                                                                       Full-time      Undergrad       Full-time
+                                                                      Freshmen       (Incl. Fresh)   Undergrad
+    n) Number of students in line a who had no financial need
+    and who received non-need-based gift aid (exclude those          264             535
+    receiving athletic awards and tuition benefits)
+
+    o) Average dollar amount of non-need-based gift aid
+                                                                     $1,791          $2,269
+    awarded to students in line n
+
+    p) Number of students in line a who received a
+                                                                     88              304
+    non-need-based athletic grant or scholarship
+
+    q) Average dollar amount of non-need-based athletic
+                                                                     $25,668         $23,567
+    grants and scholarships awarded to students in line p
+
+
+H3. Which needs-analysis methodology does your institution use in awarding institutional aid?
+
+  Federal methodology (FM)
+  Institutional methodology (IM)
+  Both FM and IM
+
+H4. Percent of the 2000 undergraduate class who graduated between July 1, 1999 and June 30, 2000
+    and borrowed through any loan programs (federal, state, subsidized, unsubsidized, private, etc.;
+    exclude parent loans). Include only students who borrowed while enrolled at your institution.         50%
+H5. Average per-borrower cumulative undergraduate indebtedness of those in line H4. Do not include
+    money borrowed at other institutions:                                                                 $13,514
+
+Aid to Undergraduate Degree-seeking Nonresident Aliens
+
+(Note: Report numbers and dollar amounts for the same academic year checked in item H1.)
+
+H6. Indicate your institution's policy regarding financial aid for undergraduate degree-seeking nonresident
+aliens
+
+  College-administered need-based financial aid is available
+  College-administered non-need-based financial aid is available
+  College-administered financial aid is not available
+
+If college-administered financial aid is available for undergraduate degree-seeking nonresident aliens,
+provide the number of undergraduate degree-seeking nonresident aliens who received need-based or
+non-need-based aid:
+Average dollar amount awarded to undergraduate degree-seeking nonresident aliens:                             $
+Total dollar amount of financial aid from all sources awarded to all undergraduate degree-seeking
+                                                                                                              $
+nonresident aliens:
+
+Process for First-Year/Freshman Students
+
+H7. Check off all financial aid forms domestic first-year (freshman) financial aid applicants must submit:
+
+  FAFSA
+  Institution's own financial aid form
+  CSS/Financial Aid PROFILE
+  State aid form
+  Noncustodial PROFILE
+  Business/Farm Supplement
+  Other:
+
+H8. Check off all financial aid forms nonresident alien first-year financial aid applicants must submit:
+
+  Institution's own financial aid form
+  CSS/Financial Aid PROFILE
+  Foreign Student's Financial Aid Application
+  Foreign Student's Certification of Finances
+  Other:
+
+H9. Indicate filing dates for first-year (freshman) students:
+
+
+Priority date for filing required financial aid forms:
+Deadline for filing required financial aid forms:                         12/01 (early decision), 02/01 (regular
+                                                                          decision)
+No deadline for filing required forms (applications processed on a
+rolling basis):
+
+
+H10. Indicate notification dates for first-year (freshman) students (answer a or b):
+
+
+a.) Students notified on or about (date): 12/15 (early decision), 04/01 (regular decision)
+b.) Students notified on a rolling basis: NO
+If yes, starting date:
+
+
+H11. Indicate reply dates:
+
+
+Students must reply by (date): 02/01 (early decision), 05/01 (regular decision)
+
+or within 2 weeks of notification
+
+Types of Aid Available
+
+Please check off all types of aid available to undergraduates at your institution:
+
+H12. Loans
+
+FEDERAL DIRECT STUDENT LOAN PROGRAM (DIRECT LOAN)
+
+  Direct Subsidized Stafford Loans
+  Direct Unsubsidized Stafford Loans
+  Direct PLUS Loans
+
+FEDERAL FAMILY EDUCATION LOAN PROGRAM (FFEL)
+
+  FFEL Subsidized Stafford Loans
+  FFEL Unsubsidized Stafford Loans
+  FFEL PLUS Loans
+  Federal Perkins Loans
+  Federal Nursing Loans
+  State Loans
+  College/university loans from institutional funds
+  Other (specify):
+
+H13. Scholarships and Grants
+
+Need-based:
+
+  Federal Pell
+  SEOG
+  State scholarships/grants
+  Private scholarships
+  College/university gift aid from institutional funds
+  United Negro College Fund
+  Federal Nursing Scholarship
+  Other (specify):
+
+H14. Check off criteria used in awarding institutional aid. Check all that apply.
+
+
+                              Non-need Need-based
+     Academics
+
+     Alumni affiliation
+
+     Art
+
+     Athletics                 X
+
+     Job skills
+
+     ROTC                      X
+
+Leadership
+
+Minority status
+
+Music/drama                X
+
+Religious affiliation
+
+State/district residency
+
+Common Data Set
+
+       Northwestern Common Data Set The Common Data Set reports standard data items and definitions of
+       information detailing enrollment statistics, academic offerings, student life, and tuition at the University.
+
+
+Common Data Set: 2000-01
+Common Data Set > 2000-01 > I. Instructional faculty and class size
+
+I. Instructional faculty and class size
+
+I-1. Please report number of instructional faculty members in each category for Fall 2000.
+
+The following definition of instructional faculty is used by the American Association of University Professors
+(AAUP) in its annual Faculty Compensation Survey. Instructional Faculty is defined as those members of the
+instructional-research staff whose major regular assignment is instruction, including those with released time for
+research. Institutions are asked to EXCLUDE:
+
+    1. instructional faculty in preclinical and clinical medicine
+    2. administrative officers with titles such as dean of students, librarian, registrar, coach, and the like, even
+       though they may devote part of their time to classroom instruction and may have faculty status,
+    3. undergraduate or graduate students who assist in the instruction of courses, but have titles such as
+       teaching assistant, teaching fellow, and the like
+    4. faculty on leave without pay, and
+    5. replacement faculty for faculty on sabbatical leave.
+
+Full-time: faculty employed on a full-time basis
+Part-time: faculty teaching less than two semesters, three quarters, two trimesters, or two four-month sessions.
+Also includes adjuncts and part-time instructors.
+Minority faculty: includes faculty who designate themselves as black, non-Hispanic; American Indian or Alaskan
+native; Asian or Pacific Islander; or Hispanic.
+Doctorate: includes such degrees as Doctor of Education, Doctor of Juridical Science, Doctor of Public Health,
+and Doctor of Philosophy degree in any field such as agronomy, food technology, education, engineering, public
+administration, ophthalmology, or radiology.
+First-professional: includes the fields of dentistry (DDS or DMD), medicine (MD), optometry (OD), osteopathic
+medicine (DO), pharmacy (DPharm or BPharm), podiatric medicine (DPM), veterinary medicine (DVM),
+chiropractic (DC or DCM), law (JD) and theological professions (MDiv, MHL).
+Terminal degree: the highest degree in a field: example, M. Arch (architecture) and MFA (master of fine arts).
+
+                                                                                           Full-time Part-time Total
+    a.) Total number of instructional faculty                                               918        186        1,104
+
+    b.) Total number who are members of minority groups                                     116        15         131
+
+    c.) Total number who are women                                                          224        86         310
+
+    d.) Total number who are men                                                            694        100        794
+
+    e.) Total number who are nonresident aliens (international)                             29         5          34
+
+    f.) Total number with doctorate, first professional, or other terminal degree           918        186        1,104
+
+    g.) Total number whose highest degree is a master's but not a terminal master's
+
+     h.) Total number whose highest degree is a bachelor's
+
+     i.) Total number whose highest degree is unknown or other (Note: Items f, g, h,
+     and i must sum up to item a.)
+
+
+I-2. Student to Faculty Ratio
+
+Report the Fall 2000 ratio of full-time equivalent students (full-time plus 1/3 part time) to full-time equivalent
+instructional faculty (full time plus 1/3 part time). In the ratio calculations, exclude both faculty and students in
+stand-alone graduate or professional programs such as medicine, law, veterinary, dentistry, social work, business,
+or public health in which faculty teach virtually only graduate level students. Do not count undergraduate or
+graduate student teaching assistants as faculty.
+
+Fall 2000 Student to Faculty ratio: 7 to 1.
+
+I-3. Undergraduate Class Size
+
+In the table below, please use the following definitions to report information about the size of classes and class
+sections offered in the Fall 2000 term.
+
+Class Sections: A class section is an organized course offered for credit, identified by discipline and number,
+meeting at a stated time or times in a classroom or similar setting, and not a subsection such as a laboratory or
+discussion session. Undergraduate class sections are defined as any sections in which at least one degree-
+seeking undergraduate student is enrolled for credit. Exclude distance learning classes and noncredit classes and
+individual instruction such as dissertation or thesis research, music instruction, or one-to-one readings. Exclude
+students in independent study, co-operative programs, internships, foreign language taped tutor sessions,
+practicums, and all students in one-on-one classes. Each class section should be counted only once and should
+not be duplicated because of course catalog cross-listings.
+
+Class Subsections: A class subsection includes any subsection of a course, such as laboratory, recitation, and
+discussion subsections that are supplementary in nature and are scheduled to meet separately from the lecture
+portion of the course. Undergraduate subsections are defined as any subsections of courses in which degree-
+seeking undergraduate students enrolled for credit. As above, exclude noncredit classes and individual instruction
+such as dissertation or thesis research, music instruction, or one-to-one readings. Each class subsection should
+be counted only once and should not be duplicated because of cross-listings.
+
+Using the above definitions, please report for each of the following class-size intervals the number of class
+sections and class subsections offered in Fall 2000. For example, a lecture class with 800 students who met at
+another time in 40 separate labs with 20 students should be counted once in the "100+" column in the class
+section column and 40 times under the "20-29" column of the class subsections table.
+
+Number of Class Sections with Undergraduates Enrolled
+Undergraduate Class Size (provide numbers)
+
+                                  2-9    10-19   20-29   30-39   40-49    50-99   100+    Total
+     CLASS SECTIONS
+                                  724    430     157     94      147      76      51      1,676
+
+
+                                  2-9    10-19   20-29   30-39   40-49    50-99   100+    Total
+     CLASS SUB-SECTIONS
+                                  194    154     92      12      5        10      0       467
+
+Common Data Set
+
+       Northwestern Common Data Set The Common Data Set reports standard data items and definitions of
+       information detailing enrollment statistics, academic offerings, student life, and tuition at the University.
+
+
+Common Data Set: 2000-01
+Common Data Set > 2000-01 > J. Degrees conferred
+
+J. Degrees conferred
+
+Degrees conferred between July 1, 1999 and June 30, 2000
+
+Reference: IPEDS Completions, Part A
+
+For each of the following discipline areas, provide the percentage of diplomas/certificates, associate, and
+bachelor's degrees awarded.
+
+                                                        Diploma/                                 CIP Categories to
+                      Category                                          Associate Bachelor's
+                                                       Certificates                                   Include
+    Agriculture                                                                                  1 and 2
+
+    Architecture                                                                                 4
+
+    Area and ethnic studies                                                          1           5
+
+    Biological/life sciences                                                         6           26
+
+    Business/marketing                               20                              1           8 and 52
+
+    Communications/communication
+                                                     20                              11          9 and 10
+    technologies
+
+    Computer and information sciences                                                2           11
+
+    Education                                                                        1           13
+
+    Engineering/engineering technologies                                             17          14 and 15
+
+    English                                                                          12          23
+
+    Foreign languages and literature                                                 2           16
+
+    Health professions and related sciences                                          1           51
+
+    Home economics and vocational home
+                                                                                                 19 and 20
+    economics
+
+    Interdisciplinary studies                                                        1           30
+
+    Law/legal studies                                                                            22
+
+    Liberal arts/general studies                     60                              .5          24
+
+    Library science                                                                              25
+
+Mathematics                                        1      27
+
+Military science and technologies                         28 and 29
+
+Natural resources/environmental science            .5     3
+
+Parks and recreation                                      31
+
+Personal and miscellaneous services                       12
+
+Philosophy religion, theology                      1      38 and 39
+
+Physical sciences                                  1      40 and 41
+
+Protective services/public administration          2      43 and 44
+
+Psychology                                         8      42
+
+Social sciences and history                        20     45
+
+Trade and industry                                        46, 47, 48, and 49
+
+Visual and performing arts                         11     50
+
+Other
+
+TOTAL                                       100%   100%
+
+Common Data Set
+
+       Northwestern Common Data Set The Common Data Set reports standard data items and definitions of
+       information detailing enrollment statistics, academic offerings, student life, and tuition at the University.
+
+
+Common Data Set: 2000-01
+Common Data Set > 2000-01 > Common Data Set Definitions
+
+Common Data Set Definitions
+
+       All definitions related to the financial aid section appear at the end of the Definitions document.
+       Items preceded by an asterisk (*) represent definitions agreed to among publishers which do not appear on
+       the CDS document but may be present on individual publishers' surveys.
+
+*Academic advisement: Plan under which each student is assigned to a faculty member or a trained adviser,
+who, through regular meetings, helps the student plan and implement immediate and long-term academic and
+vocational goals.
+
+Accelerated program: Completion of a college program of study in fewer than the usual number of years, most
+often by attending summer sessions and carrying extra courses during the regular academic term.
+
+Admitted student: Applicant who is offered admission to a degree-granting program at your institution.
+
+*Adult student services: Admission assistance, support, orientation, and other services expressly for adults who
+have started college for the first time, or who are re-entering after a lapse of a few years.
+
+American Indian or Alaska native: A person having origins in any of the original peoples of North America and
+who maintains cultural identification through tribal affiliation or community recognition.
+
+Applicant (first-time, first year): An individual who has fulfilled the institution's requirements to be considered for
+admission (including payment or waiving of the application fee, if any) and who has been notified of one of the
+following actions: admission, nonadmission, placement on waiting list, or application withdrawn (by applicant or
+institution).
+
+Application fee: That amount of money that an institution charges for processing a student's application for
+acceptance. This amount is not creditable toward tuition and required fees, nor is it refundable if the student is not
+admitted to the institution.
+
+Asian or Pacific Islander: A person having origins in any of the original peoples of the Far East, Southeast Asia,
+the Indian Subcontinent, or Pacific Islands. This includes people from China, Japan, Korea, the Philippine Islands,
+American Samoa, India, and Vietnam.
+
+Associate degree: An award that normally requires at least two but less than four years of full-time equivalent
+college work.
+
+Bachelor's degree: An award (baccalaureate or equivalent degree, as determined by the Secretary of the U.S.
+Department of Education) that normally requires at least four years but not more than five years of full-time
+equivalent college-level work. This includes ALL bachelor's degrees conferred in a five-year cooperative
+(work-study plan) program. (A cooperative plan provides for alternate class attendance and employment in
+business, industry, or government; thus, it allows students to combine actual work experience with their college
+studies.) Also, it includes bachelor's degrees in which the normal four years of work are completed in three years.
+
+Black, non-Hispanic: A person having origins in any of the black racial groups of Africa (except those of Hispanic
+origin).
+
+Board (charges): Assume average cost for 19 meals per week or the maximum meal plan.
+
+Books and supplies (costs): Average cost of books and supplies. Do not include unusual costs for special
+groups of students (e.g., engineering or art majors), unless they constitute the majority of students at your
+institution.
+
+Calendar system: The method by which an institution structures most of its courses for the academic year.
+
+*Career and placement services: A range of services, including (often) the following: coordination of visits of
+employers to campus; aptitude and vocational testing; interest inventories, personal counseling; help in resume
+writing, interviewing, launching the job search; listings for those students desiring employment and those seeking
+permanent positions; establishment of a permanent reference folder; career resource materials.
+
+Carnegie units: One year of study or the equivalent in a secondary school subject.
+
+Certificate: See Postsecondary award, certificate, or diploma.
+
+Class rank: The relative numerical position of a student in his or her graduating class, calculated by the high
+school on the basis of grade-point average, whether weighted or unweighted.
+
+College-preparatory program: Courses in academic subjects (English, history and social studies, foreign
+languages, mathematics, science, and the arts) that stress preparation for college or university study.
+
+Common Application: The standard application form distributed by the National Association of Secondary School
+Principals for a large number of private colleges who are members of the Common Application Group.
+
+*Community service program: Referral center for students wishing to perform volunteer work in the community
+or participate in volunteer activities coordinated by academic departments.
+
+Commuter: A student who lives off campus in housing that is not owned by, operated by, or affiliated with the
+college. This category includes students who commute from home and students who have moved to the area to
+attend college.
+
+Contact hour: A unit of measure that represents an hour of scheduled instruction given to students. Also referred
+to as clock hour.
+
+Continuous basis (for program enrollment): A calendar system classification that is used by institutions that
+enroll students at any time during the academic year. For example, a cosmetology school or a word processing
+school might allow students to enroll and begin studies at various times, with no requirement that classes begin on
+a certain date.
+
+Cooperative housing: College-owned, -operated, or -affiliated housing in which students share room and board
+expenses and participate in household chores to reduce living expenses.
+
+Cooperative (work-study plan) program: A program that provides for alternate class attendance and
+employment in business, industry, or government.
+
+*Counseling service: Activities designed to assist students in making plans and decisions related to their
+education, career, or personal development.
+
+Credit: Recognition of attendance or performance in an instructional activity (course or program) that can be
+applied by a recipient toward the requirements for a degree, diploma, certificate, or other formal award.
+
+Credit course: A course that, if successfully completed, can be applied toward the number of courses required for
+achieving a degree, diploma, certificate, or other formal award.
+
+Credit hour: A unit of measure representing an hour (50 minutes) of instruction over a 15-week period in a
+
+semester or trimester system or a 10-week period in a quarter system. It is applied toward the total number of
+hours needed for completing the requirements of a degree, diploma, certificate, or other formal award.
+
+Cross-registration: A system whereby students enrolled at one institution may take courses at another institution
+without having to apply to the second institution.
+
+Deferred admission: The practice of permitting admitted students to postpone enrollment, usually for a period of
+one academic term or one year.
+
+Degree: An award conferred by a college, university, or other postsecondary education institution as official
+recognition for the successful completion of a program of studies.
+
+Degree-seeking students: Students enrolled in courses for credit who are recognized by the institution as
+seeking a degree or formal award. At the undergraduate level, this is intended to include students enrolled in
+vocational or occupational programs.
+
+Differs by program (calendar system): A calendar system classification that is used by institutions that have
+occupational/vocational programs of varying length. These schools may enroll students at specific times
+depending on the program desired. For example, a school might offer a two-month program in January, March,
+May, September, and November; and a three-month program in January, April, and October.
+
+Diploma: See Postsecondary award, certificate, or diploma.
+
+Distance learning: An option for earning course credit at off-campus locations via cable television, internet,
+satellite classes, videotapes, correspondence courses, or other means.
+
+Doctoral degree: The highest award a student can earn for graduate study. The doctoral degree classification
+includes such degrees as Doctor of Education, Doctor of Juridical Science, Doctor of Public Health, and the Doctor
+of Philosophy degree in any field such as agronomy, food technology, education, engineering, public
+administration, ophthalmology, or radiology. For the Doctor of Public Health degree, the prior degree is generally
+earned in the closely related field of medicine or in sanitary engineering.
+
+Double major: Program in which students may complete two undergraduate programs of study simultaneously.
+
+Dual enrollment: A program through which high school students may enroll in college courses while still enrolled
+in high school. Students are not required to apply for admission to the college in order to participate.
+
+Early action plan: An admission plan that allows students to apply and be notified of an admission decision well in
+advance of the regular notification dates. If admitted, the candidate is not committed to enroll; the student may
+reply to the offer under the college's regular reply policy.
+
+Early admission: A policy under which students who have not completed high school are admitted and enroll full
+time in college, usually after completion of their junior year.
+
+Early decision plan: A plan that permits students to apply and be notified of an admission decision (and financial
+aid offer if applicable) well in advance of the regular notification date. Applicants agree to accept an offer of
+admission and, if admitted, to withdraw their applications from other colleges. There are three possible decisions
+for early decision applicants: admitted, denied, or not admitted but forwarded for consideration with the regular
+applicant pool, without prejudice.
+
+English as a Second Language (ESL): A course of study designed specifically for students whose native
+language is not English.
+
+Exchange student program-domestic: Any arrangement between a student and a college that permits study for
+a semester or more at another college in the United States without extending the amount of time required for a
+degree. See also Study abroad.
+
+External degree program: A program of study in which students earn credits toward a degree through
+independent study, college courses, proficiency examinations, and personal experience. External degree programs
+require minimal or no classroom attendance.
+
+Extracurricular activities (as admission factor): Special consideration in the admissions process given for
+participation in both school and nonschool-related activities of interest to the college, such as clubs, hobbies,
+student government, athletics, performing arts, etc.
+
+First professional certificate (postdegree): An award that requires completion of an organized program of study
+designed for persons who have completed the first professional degree. Examples could be refresher courses or
+additional units of study in a specialty or subspecialty.
+
+First professional degree: An award in one of the following fields: Chiropractic (DC, DCM), dentistry (DDS,
+DMD), medicine (MD), optometry (OD), osteopathic medicine (DO), rabbinical and Talmudic studies (MHL, Rav),
+Pharmacy (BPharm, PharmD), podiatry (PodD, DP, DPM), veterinary medicine (DVM), law (LLB, JD),
+divinity/ministry (BD, MDiv).
+
+First-time student: A student attending any institution for the first time at the level enrolled. Includes students
+enrolled in the fall term who attended a postsecondary institution for the first time at the same level in the prior
+summer term. Also includes students who entered with advanced standing (college credit earned before
+graduation from high school).
+
+First-time, first-year (freshman) student: A student attending any institution for the first time at the
+undergraduate level. Includes students enrolled in the fall term who attended college for the first time in the prior
+summer term. Also includes students who entered with advanced standing (college credits earned before
+graduation from high school).
+
+First-year student: A student who has completed less than the equivalent of 1 full year of undergraduate work;
+that is, less than 30 semester hours (in a 120-hour degree program) or less than 900 contact hours.
+
+Freshman: A first-year undergraduate student.
+
+*Freshman/new student orientation: Orientation addressing the academic, social, emotional, and intellectual
+issues involved in beginning college. May be a few hours or a few days in length; at some colleges, there is a fee.
+
+Full-time student (undergraduate): A student enrolled for 12 or more semester credits, 12 or more quarter
+credits, or 24 or more contact hours a week each term.
+
+Geographical residence (as admission factor): Special consideration in the admission process given to
+students from a particular region, state, or country of residence.
+
+Grade-point average (academic high school GPA): The sum of grade points a student has earned in secondary
+school divided by the number of courses taken. The most common system of assigning numbers to grades counts
+four points for an A, three points for a B, two points for a C, one point for a D, and no points for an E or F.
+Unweighted GPA's assign the same weight to each course. Weighting gives students additional points for their
+grades in advanced or honors courses.
+
+Graduate student: A student who holds a bachelor's or equivalent, and is taking courses at the
+post-baccalaureate level.
+
+*Health services: Free or low cost on-campus primary and preventive health care available to students.
+
+High school diploma or recognized equivalent: A document certifying the successful completion of a prescribed
+secondary school program of studies, or the attainment of satisfactory scores on the Tests of General Educational
+Development (GED), or another state-specified examination.
+
+Hispanic: A person of Mexican, Puerto Rican, Cuban, Central or South American, or other Spanish culture or
+
+origin, regardless of race.
+
+Honors program: Any special program for very able students offering the opportunity for educational enrichment,
+independent study, acceleration, or some combination of these.
+
+Independent study: Academic work chosen or designed by the student with the approval of the department
+concerned, under an instructor's supervision, and usually undertaken outside of the regular classroom structure.
+
+In-state tuition: The tuition charged by institutions to those students who meet the state's or institution's residency
+requirements.
+
+International student: See Nonresident alien.
+
+Internship: Any short-term, supervised work experience usually related to a student's major field, for which the
+student earns academic credit. The work can be full- or part-time, on- or off-campus, paid or unpaid.
+
+*Learning center: Center offering assistance through tutors, workshops, computer programs, or audiovisual
+equipment in reading, writing, math, and skills such as taking notes, managing time, taking tests.
+
+*Legal services: Free or low cost legal advice for a range of issues (personal and other).
+
+Liberal arts/career combination: Program in which a student earns undergraduate degrees in two separate
+fields, one in a liberal arts major and the other in a professional or specialized major, whether on campus or
+through cross-registration.
+
+Master's degree: An award that requires the successful completion of a program of study of at least the full-time
+equivalent of one but not more than two academic years of work beyond the bachelor's degree.
+
+Minority affiliation (as admission factor): Special consideration in the admission process for members of
+designated racial/ethnic minority groups.
+
+*Minority student center: Center with programs, activities, and/or services intended to enhance the college
+experience of students of color.
+
+Nonresident alien: A person who is not a citizen or national of the United States and who is in this country on a
+visa or temporary basis and does not have the right to remain indefinitely.
+
+*On-campus day care: Licensed day care for students' children (usually age 3 and up); usually for a fee.
+
+Open admission: Admission policy under which virtually all secondary school graduates or students with GED
+equivalency diplomas are admitted without regard to academic record, test scores, or other qualifications.
+
+Other expenses (costs): Include average costs for clothing, laundry, entertainment, medical (if not a required
+fee), and furnishings.
+
+Out-of-state tuition: The tuition charged by institutions to those students who do not meet the institution's or
+state's residency requirements.
+
+Part-time student (undergraduate): A student enrolled for fewer than 12 credits per semester or quarter, or fewer
+than 24 contact hours a week each term.
+
+*Personal counseling: One-on-one or group counseling with trained professionals for students who want to
+explore personal, educational, or vocational issues.
+
+Post-baccalaureate certificate: An award that requires completion of an organized program of study requiring 18
+credit hours beyond the bachelor's; designed for persons who have completed a baccalaureate degree but do not
+meet the requirements of academic degrees carrying the title of master.
+
+Post-master's certificate: An award that requires completion of an organized program of study of 24 credit hours
+beyond the master's degree but does not meet the requirements of academic degrees at the doctoral level.
+
+Postsecondary award, certificate, or diploma: Includes the following three IPEDS definitions for postsecondary
+awards, certificates, and diplomas of varying durations and credit/contact hour requirements-
+
+Less Than 1 Academic Year: Requires completion of an organized program of study at the postsecondary level
+(below the baccalaureate degree) in less than 1 academic year (2 semesters or 3 quarters) or in less than 900
+contact hours by a student enrolled full-time.
+
+At Least 1 But Less Than 2 Academic Years: Requires completion of an organized program of study at the
+postsecondary level (below the baccalaureate degree) in at least 1 but less than 2 full-time equivalent academic
+years, or designed for completion in at least 30 but less than 60 credit hours, or in at least 900 but less than 1,800
+contact hours.
+
+At Least 2 But Less Than 4 Academic Years: Requires completion of an organized program of study at the
+postsecondary level (below the baccalaureate degree) in at least 2 but less than 4 full-time equivalent academic
+years, or designed for completion in at least 60 but less than 120 credit hours, or in at least 1,800 but less than
+3,600 contact hours.
+
+Private institution: An educational institution controlled by a private individual(s) or by a nongovernmental
+agency, usually supported primarily by other than public funds, and operated by other than publicly elected or
+appointed officials.
+
+Private for-profit institution: A private institution in which the individual(s) or agency in control receives
+compensation, other than wages, rent, or other expenses for the assumption of risk.
+
+Private nonprofit institution: A private institution in which the individual(s) or agency in control receives no
+compensation, other than wages, rent, or other expenses for the assumption of risk. These include both
+independent nonprofit schools and those affiliated with a religious organization.
+
+Proprietary institution: See Private for-profit institution.
+
+Public institution: An educational institution whose programs and activities are operated by publicly elected or
+appointed school officials, and which is supported primarily by public funds.
+
+Quarter calendar system: A calendar system in which the academic year consists of three sessions called
+quarters of about 12 weeks each. The range may be from 10 to 15 weeks. There may be an additional quarter in
+the summer.
+
+Race/ethnicity: Category used to describe groups to which individuals belong, identify with, or belong in the eyes
+of the community. The categories do not denote scientific definitions of anthropological origins. A person may be
+counted in only one group.
+
+Race/ethnicity unknown: Category used to classify students or employees whose race/ethnicity is not known and
+whom institutions are unable to place in one of the specified racial/ethnic categories.
+
+Religious affiliation/commitment (as admission factor): Special consideration given in the admission process
+for affiliation with a certain church or faith/religion, commitment to a religious vocation, or observance of certain
+religious tenets/lifestyle.
+
+*Religious counseling: One-on-one or group counseling with trained professionals for students who want to
+explore religious problems or issues.
+
+*Remedial services: Instructional courses designed for students deficient in the general competencies necessary
+for a regular postsecondary curriculum and educational setting.
+
+Required fees: Fixed sum charged to students for items not covered by tuition and required of such a large
+proportion of all students that the student who does NOT pay is the exception. Do not include application fees or
+optional fees such as lab fees or parking fees.
+
+Resident alien or other eligible non-citizen: A person who is not a citizen or national of the United States and
+who has been admitted as a legal immigrant for the purpose of obtaining permanent resident alien status (and who
+holds either an alien registration card [Form I-551 or I-151], a Temporary Resident Card [Form I-688], or an Arrival-
+Departure Record [Form I-94] with a notation that conveys legal immigrant status, such as Section 207 Refugee,
+Section 208 Asylee, Conditional Entrant Parolee or Cuban-Haitian).
+
+Room and board (charges)-on campus: Assume double occupancy in institutional housing and 19 meals per
+week (or maximum meal plan).
+
+Secondary school record (as admission factor): Information maintained by the secondary school that may
+include such things as the student's high school transcript, class rank, GPA, and teacher and counselor
+recommendations.
+
+Semester calendar system: A calendar system that consists of two semesters during the academic year with
+about 16 weeks for each semester of instruction. There may be an additional summer session.
+
+Student-designed major: A program of study based on individual interests, designed with the assistance of an
+adviser.
+
+Study abroad: Any arrangement by which a student completes part of the college program studying in another
+country. Can be at a campus abroad or through a cooperative agreement with some other U.S. college or an
+institution of another country.
+
+*Summer session: A summer session is shorter than a regular semester and not considered part of the academic
+year. It is not the third term of an institution operating on a trimester system or the fourth term of an institution
+operating on a quarter calendar system. The institution may have 2 or more sessions occurring in the summer
+months. Some schools, such as vocational and beauty schools, have year-round classes with no separate summer
+session.
+
+Talent/ability (as admission factor): Special consideration given to students with demonstrated talent/abilities in
+areas of interest to the institution (e.g., sports, the arts, languages, etc.).
+
+Teacher certification program: Program designed to prepare students to meet the requirements for certification
+as teachers in elementary, middle/junior high, and secondary schools.
+
+Transfer applicant: An individual who has fulfilled the institution's requirements to be considered for admission
+(including payment or waiving of the application fee, if any) and who has previously attended another college or
+university and earned college-level credit.
+
+Transfer student: A student entering the institution for the first time but known to have previously attended a
+postsecondary institution at the same level (e.g., undergraduate). The student may transfer with or without credit.
+
+Transportation (costs): Assume two round trips to student's hometown per year for students in institutional
+housing or daily travel to and from your institution for commuter students.
+
+Trimester calendar system: An academic year consisting of 3 terms of about 15 weeks each.
+
+Tuition: Amount of money charged to students for instructional services. Tuition may be charged per term, per
+course, or per credit.
+
+*Tutoring: May range from one-on-one tutoring in specific subjects to tutoring in an area such as math, reading, or
+writing. Most tutors are college students; at some colleges, they are specially trained and certified.
+
+Unit: a standard of measurement representing hours of academic instruction (e.g., semester credit, quarter credit,
+contact hour).
+
+Undergraduate: A student enrolled in a four- or five-year bachelor's degree program, an associate degree
+program, or a vocational or technical program below the baccalaureate.
+
+*Veteran's counseling: Helps veterans and their dependents obtain benefits for their selected program and
+provides certifications to the Veteran's Administration. May also provide personal counseling on the transition from
+the military to a civilian life.
+
+*Visually impaired: Any person whose sight loss is not correctable and is sufficiently severe as to adversely affect
+educational performance.
+
+Volunteer work (as admission factor): Special consideration given to students for activity done on a volunteer
+basis (e.g., tutoring, hospital care, working with the elderly or disabled) as a service to the community or the public
+in general.
+
+Wait list: List of students who meet the admission requirements but will only be offered a place in the class if
+space becomes available.
+
+Weekend college: A program that allows students to take a complete course of study and attend classes only on
+weekends.
+
+White, non-Hispanic: A person having origins in any of the original peoples of Europe, North Africa, or the Middle
+East (except those of Hispanic origin).
+
+*Women's center: Center with programs, academic activities, and/or services intended to promote an
+understanding of the evolving roles of women.
+
+Work experience (as admission factor): Special consideration given to students who have been employed prior
+to application, whether for relevance to major, demonstration of employment-related skills, or as explanation of
+student's academic and extracurricular record.
+
+Financial aid definitions
+
+Financial aid applicant: Any applicant who submits any one of the institutionally required financial aid
+applications/forms, such as the FAFSA.
+
+Indebtedness: Aggregate dollar amount borrowed through any loan programs (federal, state, subsidized,
+unsubsidized, private, etc.; excluding parent loans) while the student was enrolled at an institution. Student loans
+co-signed by a parent are assumed to be the responsibility of the student and should be included.
+
+Institutional and external funds: Endowment, alumni, or external monies for which the institution determines the
+recipient or the dollar amount awarded.
+
+Financial need: As determined by your institution using the federal methodology and/or your institution's own
+standards.
+
+Need-based aid: College-funded or college-administered award from institutional, state, federal, or other sources
+for which a student must have financial need to qualify. This includes both institutional and noninstitutional student
+aid (grants, jobs, and loans).
+
+Need-based gift aid: Scholarships and grants from institutional, state, federal, or other sources for which a
+student must have financial need to qualify.
+
+Need-based self-help aid: Loans and jobs from institutional, state, federal, or other sources for which a student
+must demonstrate financial need to qualify.
+
+Non-need-based gift aid: Scholarships and grants, gifts, or merit-based aid from institutional, state, federal, or
+other sources (including unrestricted funds or gifts and endowment income) awarded solely on the basis of
+academic achievement, merit, or any other non-need-based reason. When reporting questions H1 and H2,
+non-need-based aid that is used to meet need should be counted as need-based aid.
+
+Note: Suggested order of precedence for counting non-need money as need-based:
+Non-need institutional grants
+Non-need tuition waivers
+Non-need athletic awards
+Non-need federal grants
+Non-need state grants
+Non-need outside grants
+Non-need student loans
+Non-need parent loans
+Non-need work
+
+Non-need-based self-help aid: Loans and jobs from institutional, state, or other sources for which a student need
+not demonstrate financial need to qualify.
+
+Scholarships/grants from external sources: Monies received from outside (private) sources that the student
+brings with them (e.g., Kiwanis, National Merit scholarships). The institution may process paperwork to receive the
+dollars, but it has no role in determining the recipient or the dollar amount awarded.
+
+Work study and employment: Federal and state work study aid, and any employment packaged by your
+institution in financial aid awards.
+

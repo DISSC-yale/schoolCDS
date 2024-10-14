@@ -1,0 +1,8 @@
+pandoc: '3.2'
+pkgdown: 2.1.1
+pkgdown_sha: ~
+articles: {}
+last_built: 2024-10-14T22:24Z
+urls:
+  reference: https://DISSC-yale.github.io/schoolCDS/reference
+  article: https://DISSC-yale.github.io/schoolCDS/articles

@@ -1,0 +1,1500 @@
+                         Case Western Reserve University / Common Data Set 2012-13
+
+                                      A. General Information
+A1   Address Information
+     Name of College/University:                 Case Western Reserve University
+     Mailing Address:                            10900 Euclid Avenue
+       City/State/Zip/Country:                   Cleveland, Ohio 44106 - USA
+     Main Phone Number:                          (216) 368-2000
+     WWW Home Page Address:                      http://www.case.edu
+     Admissions Phone Number:                    (216) 368-4450
+     Admissions Toll-Free Phone Number:
+     Admissions Fax Number:                      (216) 368-5111
+     Admissions E-mail Address:                  admission@case.edu
+     If there is a separate URL for your
+     school’s online application, please         http://admission.case.edu
+     specify:
+
+A2   Source of institutional control (Check only one):
+     Public
+     Private (nonprofit)                     X
+     Proprietary
+
+A3   Classify your undergraduate institution:
+     Coeducational college                   X
+     Men's college
+     Women's college
+
+A4   Academic year calendar:
+     Semester                                X
+     Quarter
+     Trimester
+     4-1-4
+     Continuous
+     Differs by program (describe):
+     Other (describe):
+
+A5   Degrees offered by your institution:
+     Certificate
+     Diploma
+     Associate
+     Transfer Associate
+     Terminal Associate
+     Bachelor's                              X
+     Postbachelor's certificate              X
+     Master's                                X
+     Post-master's certificate
+     Doctoral degree
+                                             X
+     research/scholarship
+     Doctoral degree –
+                                             X
+     professional practice
+     Doctoral degree -- other
+
+
+
+
+                                                 A - General                         Page A-1
+
+                             Case Western Reserve University / Common Data Set 2012-13
+
+
+                            B. ENROLLMENT AND PERSISTENCE
+
+B1   Institutional Enrollment - Men and Women Provide numbers of students for each of the following
+     categories as of the institution's official fall reporting date or as of October 15, 2012. Note: Students
+     formerly designated as “first professional” are now reported in the graduate cells.
+                                                     FULL-TIME                              PART-TIME
+                                               Men             Women                 Men                 Women
+     Undergraduates
+     Degree-seeking, first-time
+     freshmen                                       763                 608                     1                   0
+     Other first-year, degree-seeking                30                  18                     1                   2
+     All other degree-seeking                     1,573               1,236                    26                  20
+     Total degree-seeking                         2,366               1,862                    28                  22
+     All other undergraduates enrolled
+     in credit courses                               18                  14                    30                  46
+     Total undergraduates                         2,384               1,876                    58                  68
+     Graduate
+     Degree-seeking, first-time                     700                 844                    92                 121
+     All other degree-seeking                     1,598               1,447                   237                 406
+     All other graduates enrolled in
+     credit courses                                  12                  15                    68                 100
+     Total graduate                               2,310               2,306                   397                 627
+     Total all undergraduates                                                                                   4,386
+     Total all graduate                                                                                         5,640
+     GRAND TOTAL ALL STUDENTS                                                                                  10,026
+
+B2   Enrollment by Racial/Ethnic Category. Provide numbers of undergraduate students for each of the
+     following categories as of the institution's official fall reporting date or as of October 15, 2012. Include
+     international students only in the category "Nonresident aliens." Complete the "Total Undergraduates"
+     column only if you cannot provide data for the first two columns. Report as your institution reports to
+     IPEDS: persons who are Hispanic should be reported only on the Hispanic line, not under any race, and
+     persons who are non-Hispanic multi-racial should be reported only under "Two or more races."
+                                                                                                            Total
+                                                                                Degree-Seeking
+                                                           Degree-Seeking                             Undergraduates
+                                                                                Undergraduates
+                                                             First-Time                              (both degree- and
+                                                                               (include first-time
+                                                             First Year                                 non-degree-
+                                                                                   first-year)
+                                                                                                          seeking)
+     Nonresident aliens                                                  93                   316                 350
+     Hispanic                                                            98                   205                 207
+     Black or African American, non-Hispanic                             65                   192                 201
+     White, non-Hispanic                                                760                 2,313                2,351
+     American Indian or Alaska Native, non-Hispanic                       1                      9                   9
+     Asian, non-Hispanic                                                277                   793                 798
+     Native Hawaiian or other Pacific Islander, non-
+     Hispanic                                                             0                      2                   2
+     Two or more races, non-Hispanic                                     59                   121                 121
+     Race and/or ethnicity unknown                                       19                   327                 347
+     TOTAL                                                            1,372                 4,278                4,386
+
+
+                                                       B - Enrollment                                              Page B-2
+
+                              Case Western Reserve University / Common Data Set 2012-13
+
+
+
+      Persistence
+B3    Number of degrees awarded from July 1, 2011 to June 30, 2012
+      Certificate/diploma
+      Associate degrees
+      Bachelor's degrees                             919
+      Postbachelor's certificates                     47
+      Master's degrees                             1,101
+      Post-Master's certificates
+      Doctoral degrees –
+      research/scholarship                           186
+      Doctoral degrees – professional
+      practice                                       472
+      Doctoral degrees – other
+
+      Graduation Rates
+      The items in this section correspond to data elements collected by the IPEDS Web-based Data Collection
+      System's Graduation Rate Survey (GRS). For complete instructions and definitions of data elements, see
+      the IPEDS GRS instructions and glossary on the 2012 Web-based survey.
+
+
+      Fall 2006 Cohort
+      Report for the cohort of full-time first-time bachelor's (or equivalent) degree-seeking undergraduate
+      students who entered in Fall 2006. Include in the cohort those who entered your institution during the
+      summer term preceding Fall 2006.
+B4    Initial 2006 cohort of first-time, full-time bachelor's (or equivalent) degree-seeking
+                                                                                                           1,015
+      undergraduate students; total all students:
+B5    Of the initial 2006 cohort, how many did not persist and did not graduate for the
+      following reasons: death, permanent disability, service in the armed forces, foreign aid
+                                                                                                                0
+      service of the federal government, or official church missions; total allowable
+      exclusions:
+B6    Final 2006 cohort, after adjusting for allowable exclusions: (subtract question B5 from
+                                                                                                           1,015
+      question B4)
+B7    Of the initial 2006 cohort, how many completed the program in four years or less (by
+                                                                                                               636
+      August 31, 2010):
+B8    Of the initial 2006 cohort, how many completed the program in more than four years
+                                                                                                               142
+      but in five years or less (after August 31, 2010 and by August 31, 2011):
+B9    Of the initial 2006 cohort, how many completed the program in more than five years but
+                                                                                                               15
+      in six years or less (after August 31, 2011 and by August 31, 2012):
+B10
+      Total graduating within six years (sum of questions B7, B8, and B9):                                     793
+
+B11
+      Six-year graduation rate for 2006 cohort (question B10 divided by question B6):                          78%
+
+
+
+
+                                                        B - Enrollment                                         Page B-3
+
+                             Case Western Reserve University / Common Data Set 2012-13
+
+
+
+
+     Retention Rates
+
+     Report for the cohort of all full-time, first-time bachelor’s (or equivalent) degree-seeking undergraduate
+     students who entered in Fall 2011 (or the preceding summer term). The initial cohort may be adjusted for
+     students who departed for the following reasons: death, permanent disability, service in the armed forces,
+     foreign aid service of the federal government or official church missions. No other adjustments to the initial
+     cohort should be made.
+
+    For the cohort of all full-time bachelor’s (or equivalent) degree-seeking undergraduate
+    students who entered your institution as freshmen in Fall 2011 (or the preceding
+B22                                                                                                          92.0%
+    summer term), what percentage was enrolled at your institution as of the date your
+    institution calculates its official enrollment in Fall 2012?
+
+
+
+     Fall 2005 Cohort
+     Report for the cohort of full-time first-time bachelor's (or equivalent) degree-seeking undergraduate
+     students who entered in Fall 2005. Include in the cohort those who entered your institution during the
+     summer term preceding Fall 2005.
+     Initial 2006 cohort of first-time, full-time bachelor's (or equivalent) degree-seeking
+     undergraduate students; total all students:                                                             1,162
+     Of the initial 2005 cohort, how many did not persist and did not graduate for the
+     following reasons: death, permanent disability, service in the armed forces, foreign aid
+     service of the federal government, or official church missions; total allowable
+     exclusions:                                                                                                 0
+     Final 2005 cohort, after adjusting for allowable exclusions: (subtract question B5 from
+     question B4)                                                                                            1,162
+     Of the initial 2005 cohort, how many completed the program in four years or less (by
+     August 31, 2009):                                                                                         702
+     Of the initial 2005 cohort, how many completed the program in more than four years
+     but in five years or less (after August 31, 2009 and by August 31, 2010):                                 179
+     Of the initial 2005 cohort, how many completed the program in more than five years but
+     in six years or less (after August 31, 2010 and by August 31, 2011):                                       29
+     Total graduating within six years (sum of questions B7, B8, and B9):
+                                                                                                               910
+     Six-year graduation rate for 2005 cohort (question B10 divided by question B6):
+                                                                                                               78%
+
+
+
+
+                                                       B - Enrollment                                          Page B-4
+
+                                 Case Western Reserve University / Common Data Set 2012-13
+
+
+                 C. FIRST-TIME, FIRST-YEAR (FRESHMAN) ADMISSION
+
+     Applications
+C1   First-time, first-year, (freshmen) students: Provide the number of degree-seeking, first-time, first-year
+     students who applied, were admitted, and enrolled (full- or part-time) in Fall 2012. Early decision, early action,
+     and students who began studies during summer are included in this cohort. Applicants include only those
+     students who fulfilled the requirements for consideration for admission (i.e., who completed actionable
+     applications) and who have been notified of one of the following actions: admission, nonadmission, placement
+     on waiting list, or application withdrawn (by applicant or institution). Admitted applicants include wait-listed
+     students who were subsequently offered admission.
+
+     Total first-time, first-year (freshman) men who applied                                 8,164
+     Total first-time, first-year (freshman) women who applied                               6,614
+
+     Total first-time, first-year (freshman) men who were admitted                           4,393
+     Total first-time, first-year (freshman) women who were admitted                         3,634
+
+     Total full-time, first-time, first-year (freshman) men who enrolled                        763
+     Total part-time, first-time, first-year (freshman) men who enrolled                          1
+
+     Total full-time, first-time, first-year (freshman) women who enrolled                      608
+     Total part-time, first-time, first-year (freshman) women who enrolled                        0
+
+C2   Freshman wait-listed students (students who met admission requirements but whose final admission
+     was contingent on space availability)
+                                                                                          Yes                 No
+     Do you have a policy of placing students on a waiting list?                           X
+     If yes, please answer the questions below for Fall 2011 admissions:
+     Number of qualified applicants offered a placed on waiting list                         3,480
+     Number accepting a place on the waiting list                                            1,737
+     Number of wait-listed students admitted                                                    39
+          Is your waiting list ranked?                                                                        X
+          If yes, do you release that information to students?
+          Do you release that information to school counselors?
+
+     Admission Requirements
+C3   High school completion requirement
+     High school diploma is required and GED is accepted                   X
+     High school diploma is required and GED is not
+     accepted
+     High school diploma or equivalent is not required
+
+C4   Does your institution require or recommend a general college-preparatory program for degree-seeking
+     students?
+     Require                                                               X
+     Recommend
+     Neither require nor recommend
+
+
+
+                                                          C - Admissions                                           Page C-5
+
+                                 Case Western Reserve University / Common Data Set 2012-13
+
+
+C5   Distribution of high school units required and/or recommended. Specify the distribution of academic high
+     school course units required and/or recommended of all or most degree-seeking students using Carnegie units
+     (one unit equals one year of study or its equivalent). If you use a different system for calculating units, please
+     convert.
+                                                   Units              Units
+                                                  Required        Recommended
+     Total academic units                             16
+     English                                          4
+     Mathematics                                      3                  4
+     Science                                          3
+       Of these, units that must be lab                2                 3
+     Foreign language                                 2                  3
+     Social studies                                   3                  4
+     History
+     Academic electives
+     Computer Science
+     Visual/Performing Arts
+     Other (specify)
+
+
+     Basis for Selection
+C6   Do you have an open admission policy, under which virtually all secondary school graduates or students with
+     GED equivalency diplomas are admitted without regard to academic record, test scores, or other qualifications?
+     If so, check which applies:
+     Open admission policy as described above for all students                                               X
+     Open admission policy as described above for most students, but--
+       selective admission for out-of-state students
+       selective admission to some programs
+     other (explain)
+
+
+
+
+                                                           C - Admissions                                         Page C-6
+
+                                 Case Western Reserve University / Common Data Set 2012-13
+
+
+C7   Relative importance of each of the following academic and nonacademic factors in first-time, first-year,
+     degree-seeking (freshman) admission decisions.
+                                                     Very
+                                                   Important          Important        Considered       Not Considered
+     Academic
+       Rigor of secondary school record                X
+       Class rank                                      X
+       Academic GPA                                    X
+       Standardized test scores                        X
+       Application Essay                                                  X
+       Recommendation(s)                                                  X
+     Nonacademic
+       Interview                                                          X
+       Extracurricular activities                      X
+       Talent/ability                                                     X
+       Character/personal qualities                                       X
+       First generation                                                                      X
+       Alumni/ae relation                                                                    X
+       Geographical residence                                                                                     X
+       State residency                                                                                            X
+       Religious affiliation/commitment                                                                           X
+       Racial/ethnic status                                                                  X
+       Volunteer work                                                     X
+       Work experience                                                    X
+       Level of applicant’s interest                                      X
+
+
+     SAT and ACT Policies
+C8   Entrance exams
+                                                                                           Yes                    No
+C8A Does your institution make use of SAT, ACT, or SAT Subject Test scores in
+    admission decisions for first-time, first-year, degree-seeking applicants?              X
+
+     If yes, place check marks in the appropriate boxes below to reflect your institution’s policies for use in
+     admission for Fall 2014.
+                                                                                     ADMISSION
+                                                                                        Require for       Consider if
+                                                    Require         Recommend             Some            Submitted          Not Used
+     SAT or ACT                                        X
+     ACT only
+     SAT only
+     SAT and SAT Subject Tests or ACT
+     SAT Subject Tests only
+
+
+
+
+                                                           C - Admissions                                              Page C-7
+
+                                  Case Western Reserve University / Common Data Set 2012-13
+
+
+C8B If your institution will make use of the ACT in admission decisions for first-time, first-year, degree-seeking applicants for Fall
+    2014, please indicate which ONE of the following applies: (regardless of whether the writing score will be used in the
+    admissions process):
+
+     ACT with Writing Component required                X
+     ACT with Writing component
+     recommended
+     ACT with or without Writing component
+     accepted
+
+      Please indicate how your institution will use the SAT or ACT writing component; check all that apply:
+                                                                     SAT essay          ACT essay
+     For admission                                                      X                  X
+     For placement
+     For advising
+     In place of an application essay
+     As a validity check on the application essay
+     No college policy as of now
+     Not using essay component
+
+C8D In addition, does your institution use applicants' test scores for academic advising?
+                                                    Yes                 No
+                                                                          X
+
+
+C8E Latest date by which SAT or ACT scores must be received for fall-term
+    admission                                                                              15-Jan
+
+     Latest date by which SAT Subject Test scores must be received for fall-term
+     admission                                                                             15-Jan
+
+
+
+C8G Please indicate which tests your institution uses for placement (e.g., state tests):
+    SAT
+    ACT
+    SAT Subject Tests
+    AP                                                X
+    CLEP
+    Institutional Exam                                X
+    State Exam (specify):
+
+
+
+
+                                                            C - Admissions                                          Page C-8
+
+                                 Case Western Reserve University / Common Data Set 2012-13
+
+
+     Freshman Profile
+     Provide percentages for ALL enrolled, degree-seeking, full-time and part-time, first-time, first-year (freshman)
+     students enrolled in Fall 2011, including students who began studies during summer, international
+     students/nonresident aliens, and students admitted under special arrangements.
+
+C9   Percent and number of first-time, first-year (freshman) students enrolled in Fall 2012 who submitted
+     national standardized (SAT/ACT) test scores. Include information for ALL enrolled, degree-seeking, first-
+     time, first-year (freshman) students who submitted test scores. Do not include partial test scores (e.g.,
+     mathematics scores but not critical reading for a category of students) or combine other standardized
+     test results (such as TOEFL) in this item. Do not convert SAT scores to ACT scores and vice versa. The
+     25th percentile is the score that 25 percent scored at or below; the 75th percentile score is the one that
+     25 percent scored at or above.
+
+     Percent submitting SAT scores                   66%          Number submitting SAT scores                      901
+     Percent submitting ACT scores                   59%          Number submitting ACT scores                      810
+
+                                                25th Percentile     75th Percentile
+     SAT Critical Reading                            600                 720
+     SAT Math                                        660                 760
+     SAT Writing                                     600                 700
+     SAT Essay
+     ACT Composite                                    29                  33
+     ACT Math                                         28                  34
+     ACT English                                      28                  34
+     ACT Writing
+
+     Percent of first-time, first-year (freshman) students with scores in each range:
+                                                   Reading            SAT Math     SAT Writing
+     700-800                                          34.0%                  60.0%      29.0%
+     600-699                                          45.0%                  33.0%      49.0%
+     500-599                                          19.0%                   7.0%      20.0%
+     400-499                                            2.0%                  0.0%       2.0%
+     300-399                                            0.0%                  0.0%       0.0%
+     200-299
+     Totals should = 100%                             100.0%                100.0%         100.0%
+                                                ACT Composite        ACT English        ACT Math
+     30-36                                              70.0%                67.0%          64.0%
+     24-29                                              29.0%                28.0%          33.0%
+     18-23                                               1.0%                  5.0%          3.0%
+     12-17                                               0.0%                  0.0%          0.0%
+     6-11
+     Below 6
+     Totals should = 100%                             100.0%                   100.0%      100.0%
+
+
+
+
+                                                           C - Admissions                                         Page C-9
+
+                                 Case Western Reserve University / Common Data Set 2012-13
+
+
+C10 Percent of all degree-seeking, first-time, first-year (freshman) students who had high school class rank within
+    each of the following ranges (report information for those students from whom you collected high school rank
+    information).
+     Percent in top tenth of high school graduating class                                      74%
+     Percent in top quarter of high school graduating class                                    94%
+     Percent in top half of high school graduating class                                      100% Top half +
+     Percent in bottom half of high school graduating class                                     0% bottom half = 100%
+     Percent in bottom quarter of high school graduating class                                  0%
+     Percent of total first-time, first-year (freshmen) students who submitted high school class
+     rank:                                                                                                        46%
+
+C11 Percentage of all enrolled, degree-seeking, first-time, first-year (freshman) students who had high school grade-
+    point averages within each of the following ranges (using 4.0 scale). Report information only for those students
+    from whom you collected high school GPA.
+     Percent who had GPA of 3.75 and higher
+     Percent who had GPA between 3.50 and 3.74
+     Percent who had GPA between 3.25 and 3.49
+     Percent who had GPA between 3.00 and 3.24
+     Percent who had GPA between 2.50 and 2.99
+     Percent who had GPA between 2.0 and 2.49
+     Percent who had GPA between 1.0 and 1.99
+     Percent who had GPA below 1.0
+     Totals should = 100%                                                    0.00%
+
+C12 Average high school GPA of all degree-seeking, first-time, first-year
+    (freshman) students who submitted GPA:
+     Percent of total first-time, first-year (freshman) students who submitted high
+     school GPA:
+
+
+     Admission Policies
+C13 Application Fee
+                                                     Yes                No
+     Does your institution have an application
+                                                                         X
+     fee?
+     Amount of application fee:
+                                                     Yes                No
+     Can it be waived for applicants with
+     financial need?
+
+     If you have an application fee and an on-line application option, please
+     indicate policy for students who apply on-line:
+     Same fee:
+     Free:
+     Reduced:
+                                                     Yes                No
+     Can on-line application fee be waived for
+     applicants with financial need?
+
+
+
+                                                           C - Admissions                                      Page C-10
+
+                                   Case Western Reserve University / Common Data Set 2012-13
+
+
+C14 Application closing date
+                                                        Yes                 No
+      Does your institution have an application
+      closing date?                                      X
+      Application closing date (fall):                   15-Jan
+      Priority date:
+
+C15                                                                                     Yes    No
+      Are first-time, first-year students accepted for terms other than the fall?        X
+
+
+
+C16 Notification to applicants of admission decision sent (fill in one only)
+    On a rolling basis beginning (date):
+    By (date):                                    20-Mar
+    Other:
+
+
+
+C17 Reply policy for admitted applicants (fill in one only)
+    Must reply by (date):                             1-May
+    No set date:
+    Must reply by May 1 or within _____
+    weeks if notified thereafter
+    Other:
+
+      Deadline for housing deposit (MM/DD):                1-May
+      Amount of housing deposit:
+      Refundable if student does not enroll?
+        Yes, in full
+        Yes, in part
+        No
+
+C18 Deferred admission
+                                                                                        Yes    No
+
+      Does your institution allow students to postpone enrollment after admission?      X
+
+      If yes, maximum period of postponement:                      1 yr.
+
+C19 Early admission of high school students
+                                                                                        Yes    No
+      Does your institution allow high school students to enroll as full-time, first-
+      time, first-year (freshman) students one year or more before high school                 X
+      graduation?
+
+
+
+
+                                                              C - Admissions                        Page C-11
+
+                                 Case Western Reserve University / Common Data Set 2012-13
+
+
+    Early Decision and Early Action Plans
+C21 Early Decision
+                                                                                          Yes                No
+    Does your institution offer an early decision plan (an admission plan that
+    permits students to apply and be notified of an admission decision well in
+    advance of the regular notification date and that asks students to commit to                             X
+    attending if accepted) for first-time, first-year (freshman) applicants for fall
+    enrollment?
+    If “yes,” please complete the following:
+    First or only early decision plan closing date
+    First or only early decision plan notification date
+    Other early decision plan closing date
+    Other early decision plan notification date
+    For the Fall 2012 entering class:
+    Number of early decision applications received by your institution
+    Number of applicants admitted under early decision plan
+    Please provide significant details about your early decision plan:
+
+
+
+C22 Early action
+                                                                                          Yes                No
+    Do you have a nonbinding early action plan whereby students are notified of
+    an admission decision well in advance of the regular notification date but do          X
+    not have to commit to attending your college?
+    If “yes,” please complete the following:
+    Early action closing date                                                               1-Nov
+    Early action notification date                                                         15-Dec
+
+    Is your early action plan a “restrictive” plan under which you limit students from applying to other early plans?
+                       Yes                            No
+                                                      X
+
+
+
+
+                                                           C - Admissions                                         Page C-12
+
+                         Case Western Reserve University / Common Data Set 2012-13
+
+
+                                     D. TRANSFER ADMISSION
+
+     Fall Applicants
+D1                                                                       Yes                 No
+     Does your institution enroll transfer students? (If no,
+                                                                           X
+     please skip to Section E)
+     If yes, may transfer students earn advanced standing credit
+     by transferring credits earned from course work completed             X
+     at other colleges/universities?
+
+D2   Provide the number of students who applied, were admitted, and enrolled as degree-seeking transfer
+     students in Fall 2011.
+                                                        Admitted       Enrolled
+                                     Applicants
+                                                        Applicants    Applicants
+     Men                                199                45            26
+     Women                              204                50            31
+     Total                              403                95            57
+
+
+     Application for Admission
+D3   Indicate terms for which transfers may enroll:
+     Fall                                 X
+     Winter
+     Spring                               X
+     Summer                               X
+
+D4                                                                       Yes                 No
+     Must a transfer applicant have a minimum number of
+     credits completed or else must apply as an entering                                      X
+     freshman?
+     If yes, what is the minimum number of credits and the unit
+     of measure?
+
+
+D5   Indicate all items required of transfer students to apply for admission:
+                                                       Recommended    Recommended
+                                    Required of All        of All       of Some        Required of Some   Not Required
+     High school transcript               X
+     College transcript(s)                X
+     Essay or personal
+                                          X
+     statement
+     Interview                                                             X
+     Standardized test scores                                                                 X
+     Statement of good standing
+     from prior institution(s)            X
+
+
+D6   If a minimum high school grade point average is required of
+     transfer applicants, specify (on a 4.0 scale):                             3.20
+
+
+                                                      D - Transfers                                          Page D-13
+
+                          Case Western Reserve University / Common Data Set 2012-13
+
+
+
+D7    If a minimum college grade point average is required of
+      transfer applicants, specify (on a 4.0 scale):                                 3.20
+
+D8    List any other application requirements specific to transfer applicants:
+
+
+
+D9    List application priority, closing, notification, and candidate reply dates for transfer students. If applications
+      are reviewed on a continuous or rolling basis, place a check mark in the “Rolling admission” column.
+
+                                                                                                             Rolling
+                                       Priority Date     Closing Date   Notification Date   Reply Date      Admission
+      Fall                                   15-Mar             1-May               5-Jun           1-Jul       X
+      Winter
+      Spring                                                    5-Oct              1-Nov         1-Dec          X
+      Summer                                                   15-Mar              1-May        15-May          X
+
+D10                                                                           Yes              No
+      Does an open admission policy, if reported, apply to
+      transfer students?
+
+D11 Describe additional requirements for transfer admission, if applicable:
+
+
+
+      Transfer Credit Policies
+D12 Report the lowest grade earned for any course that may be
+                                                                               C
+    transferred for credit:
+
+D13                                                                        Number           Unit Type
+      Maximum number of credits or courses that may be
+      transferred from a two-year institution:
+
+D14                                                                        Number           Unit Type
+      Maximum number of credits or courses that may be
+      transferred from a four-year institution:
+
+D15 Minimum number of credits that transfers must complete at
+    your institution to earn an associate degree:
+
+D16 Minimum number of credits that transfers must complete at
+                                                                               60
+    your institution to earn a bachelor’s degree:
+
+D17 Describe other transfer credit policies:
+
+
+
+
+                                                       D - Transfers                                          Page D-14
+
+                        Case Western Reserve University / Common Data Set 2012-13
+
+
+                   E. ACADEMIC OFFERINGS AND POLICIES
+E1   Special study options: Identify those programs available at your institution. Refer to the glossary
+     for definitions.
+     Accelerated program                                                                        X
+     Cooperative education program                                                              X
+     Cross-registration                                                                         X
+     Distance learning
+     Double major                                                                               X
+     Dual enrollment                                                                            X
+     English as a Second Language (ESL)                                                         X
+     Exchange student program (domestic)                                                        X
+     External degree program
+     Honors Program                                                                             X
+     Independent study                                                                          X
+     Internships                                                                                X
+     Liberal arts/career combination                                                            X
+     Student-designed major                                                                     X
+     Study abroad                                                                               X
+     Teacher certification program                                                              X
+     Weekend college
+     Other (specify): Washington Semester                                                       X
+
+
+
+E2   This question has been removed from the Common Data Set.
+
+E3   Areas in which all or most students are required to complete some course
+     work prior to graduation:
+     Arts/fine arts
+     Computer literacy
+     English (including composition)                                                            X
+     Foreign languages
+     History
+     Humanities                                                                                 X
+     Mathematics                                                                                X
+     Philosophy
+     Sciences (biological or physical)                                                          X
+     Social science                                                                             X
+     Other (describe):
+
+
+     Library Collections: The CDS Publishers will collect library data again
+     when a new Academic Libraries Survey is in place.
+
+
+
+
+                                            E - Academic Offerings                                     Page E-15
+
+                      Case Western Reserve University / Common Data Set 2012-13
+
+
+                                   F. STUDENT LIFE
+F1   Percentages of first-time, first-year (freshman) degree-seeking students and degree-seeking
+     undergraduates enrolled in Fall 2012 who fit the following categories:
+                                                           First-time, first-year
+                                                                (freshman)        Undergraduates
+                                                                  students
+     Percent who are from out of state (exclude
+     international/nonresident aliens from the numerator
+     and denominator)                                               66%                55%
+     Percent of men who join fraternities                           22%                39%
+     Percent of women who join sororities                            0%                33%
+     Percent who live in college-owned, -operated, or -
+     affiliated housing                                             97%                77%
+     Percent who live off campus or commute                          3%                23%
+     Percent of students age 25 and older                            0%                2%
+     Average age of full-time students                               18                 20
+     Average age of all students (full- and part-time)               18                 20
+
+F2   Activities offered Identify those programs available at your institution.
+     Campus Ministries                   X
+     Choral groups                       X
+     Concert band                        X
+     Dance                               X
+     Drama/theater                       X
+     International Student
+                                         X
+     Organization
+     Jazz band                           X
+     Literary magazine                   X
+     Marching band                       X
+     Model UN                            X
+     Music ensembles                     X
+     Musical theater                     X
+     Opera
+     Pep band                            X
+     Radio station                       X
+     Student government                  X
+     Student newspaper                   X
+     Student-run film society            X
+     Symphony orchestra                  X
+     Television station
+     Yearbook                            X
+
+
+
+
+                                               F - Student Life                                    Page F-16
+
+                      Case Western Reserve University / Common Data Set 2012-13
+
+
+F3   ROTC (program offered in cooperation with Reserve Officers' Training Corps)
+                                                        At Cooperating         Name of Cooperating
+                                       On Campus
+                                                            Institution              Institution
+     Army ROTC is offered:                   X                   X          John Carroll University
+     Naval ROTC is offered:
+     Air Force ROTC is offered:                                    X          Kent State University
+
+F4   Housing: Check all types of college-owned, -operated, or -affiliated housing available for
+     undergraduates at your institution.
+     Coed dorms                          X
+     Men's dorms
+     Women's dorms
+     Apartments for married students
+                                         X
+     Apartments for single students       X
+     Special housing for disabled
+     students
+     Special housing for international
+     students
+     Fraternity/sorority housing          X
+     Cooperative housing
+     Theme housing
+     Wellness housing                     X
+     Other housing options (specify):     X
+     Residential Colleges, Specific-Interest Housing
+
+
+
+
+                                              F - Student Life                                        Page F-17
+
+                           Case Western Reserve University / Common Data Set 2012-13
+
+
+                                      G. ANNUAL EXPENSES
+
+   Check here if your institution's 2013-2014 academic year costs of attendance are not available at this time
+ X and provide an approximate date (i.e., month/day) when your institution's final 2013-2014 academic year
+   costs of attendance will be available:
+G1 Undergraduate full-time tuition, required fees, room and board List the typical tuition, required
+   fees, and room and board for a full-time undergraduate student for the FULL 2013-2014 academic
+   year (30 semester or 45 quarter hours for institutions that derive annual tuition by multiplying
+   credit hour cost by number of credits). A full academic year refers to the period of time generally
+   extending from September to June; usually equated to two semesters, two trimesters, three
+   quarters, or the period covered by a four-one-four plan. Room and board is defined as double
+   occupancy and 19 meals per week or the maximum meal plan. Required fees include only charges
+   that all full-time students must pay that are not included in tuition (e.g., registration, health, or
+   activity fees.) Do not include optional fees (e.g., parking, laboratory use).
+
+
+                                                First-Year          Undergraduates
+     PRIVATE INSTITUTIONS
+     Tuition:                                           $41,420                $41,420
+     PUBLIC INSTITUTIONS
+     Tuition:
+       In-district
+     PUBLIC INSTITUTIONS
+       In-state (out-of-district):
+     PUBLIC INSTITUTIONS
+       Out-of-state:
+     NONRESIDENT ALIENS
+     Tuition:                                           $41,420                $41,420
+
+     REQUIRED FEES:                                          $860                $380
+
+     ROOM AND BOARD:
+     (on-campus)                                        $12,898                $12,898
+     ROOM ONLY:
+     (on-campus)                                         $7,430                 $7,430
+     BOARD ONLY:
+     (on-campus meal plan)                               $5,468                 $5,468
+
+     Comprehensive tuition and room and board fee (if your
+     college cannot provide separate tuition and room and
+     board fees):
+
+     Other:
+
+
+G2                                                                     Minimum                Maximum
+     Number of credits per term a student can take for the
+                                                                          12                no maximum
+     stated full-time tuition
+
+
+
+
+                                              G - Annual Expenses                                     Page G-18
+
+                         Case Western Reserve University / Common Data Set 2012-13
+
+
+G3                                                                       Yes                      No
+     Do tuition and fees vary by year of study (e.g., sophomore,
+                                                                                                   X
+     junior, senior)?
+
+G4                                                                       Yes                      No
+     Do tuition and fees vary by undergraduate instructional
+     program?                                                                                      X
+
+                                                                          %
+
+     If yes, what percentage of full-time undergraduates pay
+     more than the tuition and fees reported in G1?
+
+G5 Provide the estimated expenses for a typical full-time undergraduate student:
+                                                                       Commuters              Commuters
+                                                Residents
+                                                                    (living at home)      (not living at home)
+     Books and supplies                                  $1,200                  $1,200                   $1,200
+     Room only
+     Board only                                                                 $2,895                  $5,468
+     Room and board total (if your
+     college cannot provide separate
+     room and board figures for
+     commuters not living at home):
+     Transportation                                  100 - 2000                  $900               100 - 2000
+     Other expenses                                     $1,350                  $1,350                 $1,350
+
+
+G6 Undergraduate per-credit-hour charges (tuition only)
+   PRIVATE INSTITUTIONS:
+                                                    $1,726.00
+   PUBLIC INSTITUTIONS
+     In-district:
+   PUBLIC INSTITUTIONS
+     In-state (out-of-district):
+   PUBLIC INSTITUTIONS
+     Out-of-state:
+   NONRESIDENT ALIENS:
+
+
+
+
+                                              G - Annual Expenses                                      Page G-19
+
+                                                   Case Western Reserve University / Common Data Set 2012-13
+
+
+
+                                                      H. FINANCIAL AID
+
+     Aid Awarded to Enrolled Undergraduates
+     Enter total dollar amounts awarded to enrolled full-time and less than full-time degree-seeking
+     undergraduates (using the same cohort reported in CDS Question B1, “total degree-seeking”
+     undergraduates) in the following categories. (Note: If the data being reported are final figures for the 2012-
+     2013 academic year (see the next item below), use the 2012-2013 academic year's CDS Question B1
+     cohort.) Include aid awarded to international students (i.e., those not qualifying for federal aid). Aid that is non-
+     need-based but that was used to meet need should be reported in the need-based aid columns. (For a
+     suggested order of precedence in assigning categories of aid to cover need, see the entry for “non-need-
+     based scholarship or grant aid” on the last page of the definitions section.)
+
+H1                                                                                                      2012-2013            2011-2012
+                                                                                                        estimated              final
+     Indicate the academic year for which data are reported for items H1, H2,
+                                                                                                              X
+     H2A, and H6 below:
+
+     Which needs-analysis methodology does your institution use in awarding institutional aid?
+     Federal methodology (FM)                                                          X
+     Institutional methodology (IM)
+     Both FM and IM
+
+                                                                                                                             Non-need-
+                                                                                                      Need-based $
+                                                                                                      (Include non-need-
+                                                                                                                              based $
+                                                                                                                           (Exclude non-need-
+                                                                                                       based aid used to
+                                                                                                                            based aid used to
+                                                                                                          meet need.)
+                                                                                                                              meet need.)
+     Scholarships/Grants
+     Federal                                                                                              $4,941,905
+
+     State (i.e., all states, not only the state in which your institution is located)                    $1,077,509               $61,994
+     Institutional: Endowed scholarships, annual gifts and tuition funded
+     grants, awarded by the college, excluding athletic aid and tuition waivers                          $60,061,085          $23,169,770
+     (which are reported below).
+     Scholarships/grants from external sources (e.g., Kiwanis, National Merit)
+                                                                                                          $2,389,836            $1,457,983
+     not awarded by the college
+     Total Scholarships/Grants                                                                            $68,470,335          $24,689,747
+     Self-Help
+     Student loans from all sources (excluding parent loans)                                              $16,349,025           $4,787,228
+     Federal Work-Study                                                                                    $4,074,462
+     State and other (e.g., institutional) work-study/employment (Note:
+                                                                                                              --                   --
+     Excludes Federal Work-Study captured above.)
+     Total Self-Help                                                                                      $20,423,487           $4,787,228
+     Other
+     Parent Loans                                                                                          $7,600,529           $4,009,400
+     Tuition Waivers
+     Reporting is optional. Report tuition waivers in this row if you choose to report them. Do not        $2,560,744           $3,076,423
+     report tuition waivers elsewhere.
+     Athletic Awards                                                                                          --                   --
+
+
+
+
+                                                                                 H - Financial Aid                                              Page H-20
+
+                                             Case Western Reserve University / Common Data Set 2012-13
+
+
+
+H2   Number of Enrolled Students Awarded Aid: List the number of degree-seeking full-time and less-than-full-
+     time undergraduates who applied for and were awarded financial aid from any source. Aid that is non-need-
+     based but that was used to meet need should be counted as need-based aid. Numbers should reflect
+     the cohort awarded the dollars reported in H1. Note: In the chart below, students may be counted in more
+     than one row, and full-time freshmen should also be counted as full-time undergraduates.
+                                                                      First-time         Full-time           Less Than
+                                                                       Full-time      Undergraduate           Full-time
+                                                                      Freshmen         (Incl. Fresh.)      Undergraduate
+     a) Number of degree-seeking undergraduate students (CDS
+        Item B1 if reporting on Fall 2012 cohort)                        1,371                4,116             28
+
+     b) Number of students in line a who applied for need-based
+                                                                         1,082                3,090             15
+        financial aid
+     c) Number of students in line b who were determined to
+                                                                          857                 2,675             11
+        have financial need
+     d) Number of students in line c who were awarded any
+                                                                          855                 2,666             10
+        financial aid
+     e) Number of students in line d who were awarded any need-
+                                                                          853                 2,643              8
+        based scholarship or grant aid
+     f) Number of students in line d who were awarded any need-
+                                                                          647                 2,165              9
+        based self-help aid
+     g) Number of students in line d who were awarded any non-
+                                                                          574                 1,156              0
+        need-based scholarship or grant aid
+     h) Number of students in line d whose need was fully met
+        (exclude PLUS loans, unsubsidized loans, and private              570                 1,265              1
+        alternative loans)
+     i) On average, the percentage of need that was met of
+        students who were awarded any need-based aid. Exclude
+        any aid that was awarded in excess of need as well as any
+                                                                         88%                  82%              55%
+        resources that were awarded to replace EFC (PLUS
+        loans, unsubsidized loans, and private alternative loans)
+
+     j) The average financial aid package of those in line d.
+        Exclude any resources that were awarded to replace EFC
+                                                                       $ 33,989            $ 33,214          $ 18,564
+        (PLUS loans, unsubsidized loans, and private alternative
+        loans)
+     k) Average need-based scholarship and grant award of
+                                                                       $ 29,174            $ 27,174          $ 16,801
+        those in line e
+     l) Average need-based self-help award (excluding PLUS
+        loans, unsubsidized loans, and private alternative loans)      $ 6,462              $ 7,700           $ 5,692
+        of those in line f
+     m) Average need-based loan (excluding PLUS loans,
+        unsubsidized loans, and private alternative loans) of those    $ 3,868              $ 4,906           $ 3,303
+        in line f who were awarded a need-based loan
+
+H2A Number of Enrolled Students Awarded Non-need-based Scholarships and Grants : List the number of
+    degree-seeking full-time and less-than-full-time undergraduates who had no financial need and who were
+    awarded institutional non-need-based scholarship or grant aid. Numbers should reflect the cohort awarded
+    the dollars reported in H1. Note: In the chart below, students may be counted in more than one row, and full-
+    time freshmen should also be counted as full-time undergraduates.
+                                                                      First-time            Full-time       Less Than
+                                                                       Full-time           Undergrad         Full-time
+                                                                      Freshmen            (Incl. Fresh.)    Undergrad
+     n) Number of students in line a who had no financial need
+        and who were awarded institutional non-need-based
+                                                                          348                  917               4
+        scholarship or grant aid (exclude those who were awarded
+        athletic awards and tuition benefits)
+     o) Average dollar amount of institutional non-need-based
+        scholarship and grant aid awarded to students in line n        $ 23,372            $ 21,117           $ 8,687
+
+     p) Number of students in line a who were awarded an
+        institutional non-need-based athletic scholarship or grant         0                    0                0
+
+     q) Average dollar amount of institutional non-need-based
+        athletic scholarships and grants awarded to students in         $ 0                  $ 0               $ 0
+        line p
+
+
+
+                                                                      H - Financial Aid                                    Page H-21
+
+                                           Case Western Reserve University / Common Data Set 2012-13
+
+
+
+H3    Incorporated into H1 above.
+
+      Note: These are the graduates and loan types to include and exclude in order to fill out CDS H4, H4a, H5,
+      and H5a.
+      Include: * 2012 undergraduate class who graduated between July 1, 2011 and June 30, 2012 who started at
+      your institution as first- time students and received a bachelor's degree between July 1, 2011 and June 30,
+      2012.
+       * only loans made to students who borrowed while enrolled at your institution.
+       * co-signed loans.
+      Exclude: * those who transferred in.
+       * money borrowed at other institutions.
+
+
+H4    Provide the percentage of the class (defined above) who borrowed at any time through any
+      loan programs (institutional, state, Federal Perkins, Federal Stafford Subsidized and
+                                                                                                        52%
+      Unsubsidized, private loans that were certified by your institution, etc.; exclude parent
+      loans). Include both Federal Direct Student Loans and Federal Family Education Loans.
+H4a Provide the percentage of the class (defined above) who borrowed at any time through
+    federal loan programs--Federal Perkins, Federal Stafford Subsidized and Unsubsidized.
+                                                                                                        51%
+    Include both Federal Direct Student Loans and Federal Family Education Loans. NOTE:
+    exclude all institutional, state, private alternative loans and parent loans.
+H5    Report the average per-undergraduate-borrower cumulative principal borrowed of those in
+                                                                                                       $ 37,640
+      line H4.
+H5a Report the average per-undergraduate-borrower cumulative principal borrowed, of those in
+    H4a, through federal loan programs--Federal Perkins, Federal Stafford Subsidized and
+    Unsubsidized. Include both Federal Direct Student Loans and Federal Family Education               $ 25,546
+    Loans. These are listed in line H4a. NOTE: exclude all institutional, state, private alternative
+    loans and exclude parent loans.
+
+
+
+
+                                                                   H - Financial Aid                                Page H-22
+
+                                             Case Western Reserve University / Common Data Set 2012-13
+
+
+
+      Aid to Undergraduate Degree-seeking Nonresident Aliens                                                       (Note:
+      Report numbers and dollar amounts for the same academic year checked in item H1.)
+
+H6    Indicate your institution’s policy regarding institutional scholarship and grant aid for undergraduate degree-
+      seeking nonresident aliens:
+      Institutional need-based scholarship or grant aid is available                           X
+      Institutional non-need-based scholarship or grant aid is available
+      Institutional scholarship or grant aid is not available
+
+      If institutional financial aid is available for undergraduate degree-seeking nonresident
+      aliens, provide the number of undergraduate degree-seeking nonresident aliens who were                   5
+      awarded need-based or non-need-based aid:
+
+      Average dollar amount of institutional financial aid awarded to undergraduate degree-
+      seeking nonresident aliens:                                                                               $28,768
+
+      Total dollar amount of institutional financial aid awarded to undergraduate degree-seeking
+      nonresident aliens:                                                                                      $143,840
+
+H7    Check off all financial aid forms nonresident alien first-year financial aid applicants must submit:
+      Institution’s own financial aid form
+      CSS/Financial Aid PROFILE                                                               X
+      International Student’s Financial Aid Application
+      International Student’s Certification of Finances
+      Other (specify):
+
+
+
+      Process for First-Year/Freshman Students
+
+H8    Check off all financial aid forms domestic first-year (freshman) financial aid applicants must submit:
+      FAFSA                                                                                 X
+      Institution's own financial aid form                                                  X
+      CSS/Financial Aid PROFILE                                                             X
+      State aid form
+      Noncustodial PROFILE
+      Business/Farm Supplement
+      Other (specify):
+
+
+
+H9    Indicate filing dates for first-year (freshman) students:
+      Priority date for filing required financial aid forms:                                    15-Feb
+      Deadline for filing required financial aid forms:                                         15-May
+      No deadline for filing required forms (applications processed on a rolling
+      basis):
+
+H10 Indicate notification dates for first-year (freshman) students (answer a or b):
+    a) Students notified on or about (date):
+                                                                        Yes                 No
+      b) Students notified on a rolling basis:                           X
+         If yes, starting date:                                             15-Mar
+
+H11 Indicate reply dates:
+    Students must reply by (date):                                            1-May
+    or within ___2____ weeks of notification.
+
+
+
+
+                                                                    H - Financial Aid                                       Page H-23
+
+                                           Case Western Reserve University / Common Data Set 2012-13
+
+
+
+      Types of Aid Available
+      Please check off all types of aid available to undergraduates at your institution:
+H12 Loans
+    FEDERAL DIRECT STUDENT LOAN PROGRAM (DIRECT LOAN)
+    Direct Subsidized Stafford Loans                                                        X
+    Direct Unsubsidized Stafford Loans                                                      X
+    Direct PLUS Loans                                                                       X
+
+      Federal Perkins Loans                                                                 X
+      Federal Nursing Loans                                                                 X
+      State Loans
+      College/university loans from institutional funds                                     X
+      Other (specify): Alternative Loans                                                    X
+
+
+
+H13 Scholarships and Grants
+      NEED-BASED:
+      Federal Pell                                                                          X
+      SEOG                                                                                  X
+      State scholarships/grants                                                             X
+      Private scholarships                                                                  X
+      College/university scholarship or grant aid from institutional funds                  X
+      United Negro College Fund
+      Federal Nursing Scholarship
+      Other (specify):
+
+
+
+H14 Check off criteria used in awarding institutional aid. Check all that apply.
+                                                                  Non-Need Based        Need-Based
+      Academics                                                          X
+      Alumni affiliation                                                 X
+      Art                                                                X
+      Athletics
+      Job skills
+      ROTC
+      Leadership                                                         X
+      Minority status
+      Music/drama                                                        X
+      Religious affiliation
+      State/district residency
+
+H15 If your institution has recently implemented any major financial aid policy, program, or initiative to make your
+    institution more affordable to incoming students such as replacing loans with grants, or waiving costs for
+    families below a certain income level please provide details below:
+
+
+
+
+                                                                    H - Financial Aid                                  Page H-24
+
+                            Case Western Reserve University / Common Data Set 2012-13
+
+
+                       I. INSTRUCTIONAL FACULTY AND CLASS SIZE
+I1   Please report the number of instructional faculty members in each category for Fall 2012. Include faculty
+     who are on your institution’s payroll on the census date your institution uses for IPEDS/AAUP. The
+     following definition of full-time instructional faculty is used by the American Association of University
+     Professors (AAUP) in its annual Faculty Compensation Survey (the part time definitions are not used by
+     AAUP). Instructional Faculty is defined as those members of the instructional-research staff whose major
+     regular assignment is instruction, including those with released time for research. Use the chart below to
+     determine inclusions and exclusions:
+                                                                                                            Full-time    Part-time
+          (a) instructional faculty in preclinical and clinical medicine, faculty who are not paid (e.g.,
+          those who donate their services or are in the military), or research-only faculty, post-                      Include only
+          doctoral fellows, or pre-doctoral fellows                                                                     if they teach
+                                                                                                                        one or more
+                                                                                                            Exclude
+                                                                                                                         non-clinical
+                                                                                                                             credit
+                                                                                                                            courses
+
+          (b) administrative officers with titles such as dean of students, librarian, registrar, coach,                  Include if
+          and the like, even though they may devote part of their time to classroom instruction and                      they teach
+          may have faculty status                                                                                       one or more
+                                                                                                            Exclude
+                                                                                                                        non-clinical
+                                                                                                                            credit
+                                                                                                                           courses
+
+          (c) other administrators/staff who teach one or more non-clinical credit courses even
+                                                                                                            Exclude       Include
+          though they do not have faculty status
+          (d) undergraduate or graduate students who assist in the instruction of courses, but
+                                                                                                            Exclude       Exclude
+          have titles such as teaching assistant, teaching fellow, and the like
+          (e) faculty on sabbatical or leave with pay                                                        Include      Exclude
+          (f) faculty on leave without pay                                                                  Exclude       Exclude
+          (g) replacement faculty for faculty on sabbatical leave or leave with pay                         Exclude       Include
+
+
+     Full-time instructional faculty: faculty employed on a full-time basis for instruction (including those with released time
+     for research)
+     Part-time instructional faculty: Adjuncts and other instructors being paid solely for part-time classroom instruction.
+     Also includes full-time faculty teaching less than two semesters, three quarters, two trimesters, or two four-month
+     sessions. Employees who are not considered full-time instructional faculty but who teach one or more non-clinical
+     credit courses may be counted as part-time faculty.
+     Minority faculty: includes faculty who designate themselves as Black, non-Hispanic; American Indian or Alaska
+     Native; Asian, Native Hawaiian or other Pacific Islander, or Hispanic.
+     Doctorate: includes such degrees as Doctor of Philosophy, Doctor of Education, Doctor of Juridical Science, and
+     Doctor of Public Health in any field such as arts, sciences, education, engineering, business, and public
+     administration. Also includes terminal degrees formerly designated as “first professional,” including dentistry (DDS or
+     DMD), medicine (MD), optometry (OD), osteopathic medicine (DO), pharmacy (DPharm or BPharm), podiatric
+     medicine (DPM), veterinary medicine (DVM), chiropractic (DC or DCM), or law (JD).
+     Terminal degree: the highest degree in a field: example, M. Arch (architecture) and MFA (master of fine arts).
+
+
+
+
+                                                            I - Faculty                                                   Page I-25
+
+                          Case Western Reserve University / Common Data Set 2012-13
+
+
+
+
+I1                                                                                   Full-Time Part-Time       Total
+     a)   Total number of instructional faculty                                            755         178         933
+     b)   Total number who are members of minority groups                                  130          14         144
+     c)   Total number who are women                                                       307          77         384
+     d)   Total number who are men                                                         448         101         549
+     e)   Total number who are nonresident aliens (international)
+     f)   Total number with doctorate, or other terminal degree                            690         113         803
+     g)   Total number whose highest degree is a master's but not a terminal
+          master's                                                                          63          60         123
+     h)   Total number whose highest degree is a bachelor's                                  2           5           7
+          Total number whose highest degree is unknown or other (Note:
+     i)
+          Items f, g, h, and i must sum up to item a.)
+          Total number in stand-alone graduate/ professional programs in
+     j)
+          which faculty teach virtually only graduate-level students                       160          58         218
+
+I2   Student to Faculty Ratio
+     Report the Fall 2012 ratio of full-time equivalent students (full-time plus 1/3 part time) to full-time equivalent
+     instructional faculty (full time plus 1/3 part time). In the ratio calculations, exclude both faculty and students
+     in stand-alone graduate or professional programs such as medicine, law, veterinary, dentistry, social work,
+     business, or public health in which faculty teach virtually only graduate-level students. Do not count
+     undergraduate or graduate student teaching assistants as faculty.
+
+     Fall 2012 Student to Faculty ratio         9.7 to 1    (based on 6,488 students and 667 faculty).
+
+I3   Undergraduate Class Size
+     In the table below, please use the following definitions to report information about the size of classes and
+     class sections offered in the Fall 2012 term.
+     Class Sections: A class section is an organized course offered for credit, identified by discipline and
+     number, meeting at a stated time or times in a classroom or similar setting, and not a subsection such as a
+     laboratory or discussion session. Undergraduate class sections are defined as any sections in which at
+     least one degree-seeking undergraduate student is enrolled for credit. Exclude distance learning classes
+     and noncredit classes and individual instruction such as dissertation or thesis research, music instruction,
+     or one-to-one readings. Exclude students in independent study, co-operative programs, internships, foreign
+     language taped tutor sessions, practicums, and all students in one-on-one classes. Each class section
+     should be counted only once and should not be duplicated because of course catalog cross-listings.
+
+     Class Subsections: A class subsection includes any subsection of a course, such as laboratory,
+     recitation, and discussion subsections that are supplementary in nature and are scheduled to meet
+     separately from the lecture portion of the course. Undergraduate subsections are defined as any
+     subsections of courses in which degree-seeking undergraduate students enrolled for credit. As above,
+     exclude noncredit classes and individual instruction such as dissertation or thesis research, music
+     instruction, or one-to-one readings. Each class subsection should be counted only once and should not be
+     duplicated because of cross-listings.
+
+
+
+
+                                                       I - Faculty                                            Page I-26
+
+                    Case Western Reserve University / Common Data Set 2012-13
+
+
+Using the above definitions, please report for each of the following class-size intervals the number of class
+sections and class subsections offered in Fall 2012. For example, a lecture class with 800 students who
+met at another time in 40 separate labs with 20 students should be counted once in the “100+” column in
+the class section column and 40 times under the “20-29” column of the class subsections table.
+
+
+
+                        Number of Class Sections with Undergraduates Enrolled
+
+                                        Undergraduate Class Size
+   CLASS              2-9       10-19       20-29       30-39      40-49       50-99       100+       Total
+  SECTIONS            166        324         106         74         42          55          27         794
+
+ CLASS SUB-           2-9       10-19       20-29       30-39      40-49       50-99       100+       Total
+  SECTIONS            26         53          52          42          9           2           0         184
+
+
+
+
+                                                I - Faculty                                          Page I-27
+
+                                    Case Western Reserve University / Common Data Set 2012-13
+
+
+                                                J. DEGREES CONFERRED
+
+J1   Degrees conferred between July 1, 2011 and June 30, 2012
+     For each of the following discipline areas, provide the percentage of diplomas/certificates, associate, and bachelor’s degrees
+     awarded. To determine the percentage, use majors, not headcount (e.g., students with one degree but a double major will be
+     represented twice). Calculate the percentage from your institution’s IPEDS Completions by using the sum of 1st and 2nd majors for
+     each CIP code as the numerator and the sum of the Grand Total by 1st Majors and the Grand Total by 2nd major as the
+     denominator. If you prefer, you can compute the percentages using 1st majors only.
+                                                            Diploma/                                            CIP 2000 Categories
+     Category                                                                 Associate         Bachelor’s
+                                                           Certificates                                              to Include
+     Agriculture                                                                                                          1
+     Natural resources/environmental science                                                       0.6%                   3
+     Architecture                                                                                  0.4%                   4
+     Area and ethnic studies                                                                       0.7%                   5
+     Communication/journalism                                                                                             9
+     Communication technologies                                                                                           10
+     Computer and information sciences                                                             4.0%                  11
+     Personal and culinary services                                                                                       12
+     Education                                                                                    0.7%                   13
+     Engineering                                                                                  24.4%                  14
+     Engineering technologies                                                                                             15
+     Foreign languages and literature                                                              3.0%                  16
+     Family and consumer sciences                                                                  2.2%                  19
+     Law/legal studies                                                                                                    22
+     English                                                                                       2.4%                  23
+     Liberal arts/general studies                                                                  0.1%                  24
+     Library science                                                                                                      25
+     Biological/life sciences                                                                     12.1%                  26
+     Mathematics and statistics                                                                   1.3%                   27
+     Military science and military technologies                                                                        28 & 29
+     Interdisciplinary studies                                                                     4.3%                  30
+     Parks and recreation                                                                                                 31
+     Philosophy and religious studies                                                              0.7%                  38
+     Theology and religious vocations                                                                                     39
+     Physical sciences                                                                             7.0%                  40
+     Science technologies                                                                                                 41
+     Psychology                                                                                    7.7%                  42
+     Homeland Security, law enforcement, firefighting,
+                                                                                                                          43
+     and protective services
+     Public administration and social services                                                                            44
+     Social sciences                                                                              10.2%                  45
+     Construction trades                                                                                                  46
+     Mechanic and repair technologies                                                                                     47
+     Precision production                                                                                                 48
+     Transportation and materials moving                                                                                  49
+     Visual and performing arts                                                                    2.8%                  50
+     Health professions and related sciences                                                       6.1%                  51
+     Business/marketing                                                                            7.3%                  52
+     History                                                                                       1.8%                  54
+     Other
+     TOTAL (should = 100%)                                    0.00%             0.00%            100.00%
+
+
+
+
+                                                             J - Degrees                                                  Page J-28
+

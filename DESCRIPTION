@@ -1,0 +1,25 @@
+Package: schoolCDS
+Type: Package
+Title: School Common Data Set (CDS) Data
+Version: 0.1.0
+Authors@R: c(
+    person("Data-Intensive Social Science Center", role = c("fnd", "cph")),
+    person("Micah", "Iserman", role = c("cre", "aut"), email = "micah.iserman@gmail.com")
+  )
+Description: Collect, process, and work with school Common
+  Data Set (CDS) data (<https://commondataset.org>).
+License: MIT + file LICENSE
+Imports: curl, jsonlite, pdftools
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Encoding: UTF-8
+Config/testthat/edition: 3
+RoxygenNote: 7.3.2
+Roxygen: list(old_usage = TRUE)
+URL: https://DISSC-yale.github.io/schoolCDS/, https://github.com/DISSC-yale/schoolCDS
+BugReports: https://github.com/DISSC-yale/schoolCDS/issues
+Depends: 
+    R (>= 2.10)
+LazyData: true

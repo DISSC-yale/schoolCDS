@@ -1,0 +1,72 @@
+{
+  "B": {
+    "label": "Enrollment and Persistence",
+    "items": {
+      "B1": {
+        "label": "Enrollment by Sex",
+        "slot_parts": [
+          {"men": "Men", "women": "Women"},
+          {"undergrad": "Undergraduate", "grad": "Graduate"},
+          {
+            "new": "Degree-seeking, first-time",
+            "first": "Other first-year, degree-seeking",
+            "other": "All other degree-seeking",
+            "credit": "All other enrolled in credit sources",
+            "total": "All students"
+          }
+        ]
+      }
+    }
+  },
+  "G": {
+    "header": "Annual Expenses",
+    "items": {
+      "G1": {
+        "label": "Undergraduate Tuition",
+        "slot_parts": [
+          {"first_year": "First-Year", "undergraduate": "Undergraduate"},
+          {"private": "Private institution", "public": "Public Institution", "non_resident": "Non-Resident Alien"},
+          {
+            "district": "In-district",
+            "state": "In-state",
+            "out_state": "Out-of-state",
+            "fees": "Required Fees",
+            "food_room": "Room and Board",
+            "room": "Housing only",
+            "food": "Board only"
+          }
+        ]
+      },
+      "G5": {
+        "label": "Undergraduate Costs",
+        "slot_parts": [
+          {
+            "resident": "Resident",
+            "commuter_home": "Commuters living at home",
+            "commuter_not_home": "Commuters not living at home"
+          },
+          {
+            "book_supplies": "Books and supplies",
+            "room": "Housing only",
+            "food": "Board only",
+            "transport": "Transportation",
+            "other": "Other expenses"
+          }
+        ]
+      }
+    }
+  },
+  "H": {
+    "label": "Financial Aid",
+    "items": {
+      "H1": {
+        "label": "Amount Awarded",
+        "slot_parts": [
+          {"need": "Need-Based", "non_need": "Non-Need-Based"},
+          {"scholarship": "Scholarship/Grant", "self": "Self-Help"},
+          {"parent_load": "Parent Loans", "waiver": "Tuition Waivers", "athletic": "Athletic Awards"}
+        ]
+      }
+    }
+  }
+}
