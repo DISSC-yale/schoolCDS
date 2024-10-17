@@ -92,9 +92,14 @@ cds_process_report <- function(school, file) {
         parser <- cds_item_parsers[[item]]
         if (!is.null(parser)) {
           part <- text[seq(locs$start, locs$end)]
-          part <- part[!grepl(
-            "^(?:CDS[^ ]+)?\\s+(?:Page )?\\d+(?: of \\d+)?$|Common Data Set|^\\s*\\*", part
-          )]
+          part <- part[!grepl(paste(c(
+            "^(?:CDS[^ ]+)?\\s+(?:P\\s*a\\s*g\\s*e\\s*\\|\\s*)?\\d+(?: of \\d+)?$",
+            "Common Data Set",
+            school,
+            "^\\s*[^0-9]?\\s*\\d+\\s*[^0-9]?\\s*$",
+            "^\\s*\\*",
+            "[A-Z][a-z]+\\s{1,2}\\d{1,2},\\s\\d{4}$"
+          ), collapse = "|"), part)]
           values <- cds_item_parsers[[item]](part)
           names(values) <- paste(item, names(values), sep = "_")
           values

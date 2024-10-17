@@ -92,7 +92,7 @@ cds_item_parsers <- list(
           value <- gsub("^\\s+|\\s+$", "", l[[2L]])
           if (grepl("\\s", value)) next
           value <- gsub("[^0-9.]+", "", value)
-          if (value != "") slots[[label]] <- as.integer(value)
+          if (value != "" && value != ".") slots[[label]] <- as.integer(value)
         }
       }
     }
@@ -215,7 +215,7 @@ cds_item_parsers <- list(
             if (grepl("[A-Za-z]", value)) next
             if (grepl("\\s", value)) next
             value <- gsub("[^0-9.]+", "", value)
-            if (value != "") slots[[label]] <- as.integer(value)
+            if (value != "" && value != ".") slots[[label]] <- as.integer(value)
           }
         }
       }
@@ -268,7 +268,7 @@ cds_item_parsers <- list(
         value <- gsub("^\\s+|\\s+$", "", value)
         if (!grepl("\\s", value)) {
           value <- gsub("[^0-9.]+", "", value)
-          if (value != "") slots[["total"]] <- as.integer(value)
+          if (value != "" && value != ".") slots[["total"]] <- as.integer(value)
         }
       }
     }
@@ -370,7 +370,7 @@ cds_item_parsers <- list(
     std_part <- function(label) {
       label <- tolower(label)
       if (grepl("transportation", label, fixed = TRUE)) {
-        "non_resident"
+        "transport"
       } else if (grepl("other expenses", label, fixed = TRUE)) {
         "other"
       } else if (grepl("books\\s*(?:and|,|&)\\s+(?:supplies|personal)", label)) {
@@ -514,7 +514,7 @@ cds_item_parsers <- list(
             }
           }
           value <- gsub("[^0-9.]+", "", value)
-          if (value != "") slots[[label]] <- as.integer(value)
+          if (value != "" && value != ".") slots[[label]] <- as.integer(value)
         }
       }
     }
@@ -580,8 +580,10 @@ cds_item_parsers <- list(
     if (!length(head_ind)) {
       head_ind <- grep("(?:Non.[Nn]eed|Need).[Bb]ased|(?:Non.[Nn]eed|Need)", part)
       if (length(head_ind) == 2L && head_ind[[1]] == head_ind[[2]] - 1L) {
-        part[[head_ind[[2L]]]] <- paste0(part[[head_ind[[2L]]]], substring(
-          part[[head_ind[[1L]]]], nchar(part[[head_ind[[2L]]]])
+        shortest <- which.min(nchar(part[head_ind]))
+        part[[head_ind[[2L]]]] <- paste0(part[[head_ind[[shortest]]]], substring(
+          part[[head_ind[[which.max(nchar(part[head_ind]))]]]],
+          nchar(part[[head_ind[[shortest]]]])
         ))
         head_ind <- head_ind[[2L]]
       } else {
@@ -591,7 +593,7 @@ cds_item_parsers <- list(
     head_ind <- c(head_ind, length(part) + 1L)
     for (hi in seq_len(length(head_ind) - 1L)) {
       cpart <- part[seq(head_ind[[hi]], head_ind[[hi + 1L]] - 1L)]
-      head_end <- grep(")", cpart, fixed = TRUE)
+      head_end <- grep("need.)", cpart, fixed = TRUE)
       if (!length(head_end)) head_end <- 1L
       header <- cpart[seq(1L, head_end[[1]])]
       has_values <- grep("\\d\\s*$", cpart)
@@ -600,7 +602,7 @@ cds_item_parsers <- list(
         gregexpr("^(?:H1)?\\s*(?:[^ 0-9]+(?:\\s|$))+", cpart[has_values]), attr, 0L, "match.length"
       ))
       row_label <- substr(cpart, 1L, row_label_pos)
-      row_values <- substring(c(header, cpart), row_label_pos + 1L)
+      row_values <- substring(c(header, cpart[has_values]), row_label_pos)
       row <- rep(" ", max(vapply(row_values, nchar, 0L)))
       any_content <- which(colMeans(do.call(rbind, lapply(strsplit(row_values, ""), function(r) {
         row[seq_along(r)] <- r
@@ -608,7 +610,7 @@ cds_item_parsers <- list(
       })) == " ") != 1L)
       n_contentful <- length(any_content)
       colnames <- strsplit(substring(header, row_label_pos), "\\s{2,}")[[1]]
-      row_values <- row_values[-seq_len(head_end[[1]])]
+      row_values <- substring(cpart, row_label_pos)
       col_spans <- list()
       last_ind <- 1L
       for (colname in colnames) {
@@ -659,7 +661,8 @@ cds_item_parsers <- list(
       for (r in seq_along(row_spans)) {
         row_id <- names(row_spans)[[r]]
         span <- row_spans[[r]]
-        values <- row_values[seq(span[[1]], span[[2]])]
+        rinds <- seq(span[[1]], span[[2]])
+        values <- row_values[rinds[rinds %in% has_values]]
         values <- values[values != ""]
         if (length(values) == 1) {
           for (col in seq_along(col_spans)) {
@@ -671,7 +674,7 @@ cds_item_parsers <- list(
               stop("H1: values span columns: ", value, call. = FALSE)
             }
             value <- gsub("[^0-9.]+", "", value)
-            if (value != "") slots[[label]] <- as.integer(value)
+            if (value != "" && value != ".") slots[[label]] <- as.integer(value)
           }
         }
       }
