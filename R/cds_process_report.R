@@ -100,6 +100,10 @@ cds_process_report <- function(school, file) {
             "^\\s*\\*",
             "[A-Z][a-z]+\\s{1,2}\\d{1,2},\\s\\d{4}$"
           ), collapse = "|"), part)]
+          part <- sub(
+            "\\((?:row|page)[ |+-]\\d+[ +-]*(?:row|page)?\\s*\\d*\\)\\s*$", "", part,
+            ignore.case = TRUE
+          )
           values <- cds_item_parsers[[item]](part)
           names(values) <- paste(item, names(values), sep = "_")
           values

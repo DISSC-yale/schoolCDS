@@ -79,17 +79,17 @@ cds_item_parsers <- list(
     }
     # parse out-of-grid grand totals
     grand_total_lines <- which(grepl(
-      "^\\s*(?:grand|total|students).*[: ]\\s*[0-9.,]+\\d$", part,
+      "^(?:B1)?[ _]*(?:grand|total|students).*:?[ _*\\(]*[0-9.,]*\\d[ _*\\)]*$", part,
       ignore.case = TRUE
-    ) & !grepl("\\d\\s+\\d", part))
+    ) & !grepl("\\d[ _]+\\d", part))
     if (length(grand_total_lines)) {
       totals <- part[grand_total_lines]
       part <- part[-grand_total_lines]
-      for (l in strsplit(sub("^\\s*", "", tolower(totals)), ":\\s*|\\s{2,}")) {
+      for (l in strsplit(sub("^(?:b1)?\\s*", "", tolower(totals)), ":[ _*\\(]*|[ _*\\)]{2,}")) {
         if (length(l) == 2L) {
           label <- std_student_type(l[[1L]])
           if (!(label %in% names(slots))) next
-          value <- gsub("^\\s+|\\s+$", "", l[[2L]])
+          value <- gsub("^[ _*\\(]+|[ _*\\)]+$", "", l[[2L]])
           if (grepl("\\s", value)) next
           value <- gsub("[^0-9.]+", "", value)
           if (value != "" && value != ".") slots[[label]] <- as.integer(value)
