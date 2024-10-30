@@ -4,6 +4,8 @@
 #'
 #' @param school Name of the school, to be checked for in the document.
 #' @param file Path to the PDF report.
+#' @param ocr Logical; if \code{TRUE}, will use Optical Character Recognition to extract
+#' text from the file.
 #' @examples
 #' file <- "../../reports/text/Yale University/cds2008_2009_1.txt"
 #' if (file.exists(file)) {
@@ -13,15 +15,18 @@
 #' @return A \code{list} of data extracted from the report.
 #' @export
 
-cds_process_report <- function(school, file) {
+cds_process_report <- function(school, file, ocr = FALSE) {
   if (!file.exists(file)) stop("file does not exist", call. = FALSE)
   text <- if (grepl("pdf$", file, ignore.case = TRUE)) {
-    strsplit(paste(pdftools::pdf_text(file), collapse = "\n"), "\n+")[[1]]
+    strsplit(paste(
+      (if (ocr) pdftools::pdf_ocr_text else pdftools::pdf_text)(file),
+      collapse = "\n"
+    ), "\n+")[[1]]
   } else {
     readLines(file)
   }
   text <- text[text != ""]
-  text_start <- paste(text[seq_len(100)], collapse = " ")
+  text_start <- paste(text[seq_len(100L)], collapse = " ")
   if (!grepl("Address Information", text_start, fixed = TRUE)) {
     stop("file does not appear to be a Common Data Set report: ", file, call. = FALSE)
   }
@@ -38,10 +43,10 @@ cds_process_report <- function(school, file) {
   item <- ""
   for (i in seq_along(item_ids)) {
     id <- item_ids[[i]]
-    part <- substr(id, 1, 1)
+    part <- substr(id, 1L, 1L)
     if (part != section) {
       if (!is.null(item_locations[[part]])) next
-      if (section != "") item_locations[[section]]$end <- item_starts[[i]] - 1
+      if (section != "") item_locations[[section]]$end <- item_starts[[i]] - 1L
       section <- part
       item_locations[[section]] <- list(
         start = item_starts[[i]],
@@ -72,8 +77,10 @@ cds_process_report <- function(school, file) {
   item_locations <- lapply(item_locations, function(section) {
     nitems <- length(section$items)
     if (nitems) {
-      for (i in seq_len(nitems - 1)) {
-        section$items[[i]]$end <- section$items[[i + 1]]$start - 1
+      if (nitems > 1L) {
+        for (i in seq_len(nitems - 1L)) {
+          section$items[[i]]$end <- section$items[[i + 1L]]$start - 1L
+        }
       }
       section$items[[nitems]]$end <- section$end
     }
@@ -92,6 +99,7 @@ cds_process_report <- function(school, file) {
         parser <- cds_item_parsers[[item]]
         if (!is.null(parser)) {
           part <- text[seq(locs$start, locs$end)]
+          part <- gsub("­", " ", part)
           part <- part[!grepl(paste(c(
             "^(?:CDS[^ ]+)?\\s+(?:P\\s*a\\s*g\\s*e\\s*\\|\\s*)?\\d+(?: of \\d+)?$",
             "Common Data Set",
@@ -101,7 +109,7 @@ cds_process_report <- function(school, file) {
             "[A-Z][a-z]+\\s{1,2}\\d{1,2},\\s\\d{4}$"
           ), collapse = "|"), part)]
           part <- sub(
-            "\\((?:row|page)[ |+-]\\d+[ +-]*(?:row|page)?\\s*\\d*\\)\\s*$", "", part,
+            "\\(?(?:row|page)[ |+-]\\d+[ +-]*(?:of|row|page)?\\s*\\d*\\)?\\s*$", "", part,
             ignore.case = TRUE
           )
           values <- cds_item_parsers[[item]](part)

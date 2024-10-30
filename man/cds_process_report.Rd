@@ -4,12 +4,15 @@
 \alias{cds_process_report}
 \title{Process a CDS Report}
 \usage{
-cds_process_report(school, file)
+cds_process_report(school, file, ocr = FALSE)
 }
 \arguments{
 \item{school}{Name of the school, to be checked for in the document.}
 
 \item{file}{Path to the PDF report.}
+
+\item{ocr}{Logical; if \code{TRUE}, will use Optical Character Recognition to extract
+text from the file.}
 }
 \value{
 A \code{list} of data extracted from the report.

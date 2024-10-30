@@ -37,6 +37,11 @@ cds_get_links <- function(school, out_dir, url = NULL, overwrite = FALSE) {
       page, gregexpr('(?:href|value)="[^"]*\\.pdf', page, TRUE)
     )[[1]])
     if (!length(pdf_links)) {
+      pdf_links <- sub('file-pdf" href="', "", regmatches(
+        page, gregexpr('file-pdf" href="[^"]*', page, TRUE)
+      )[[1]])
+    }
+    if (!length(pdf_links)) {
       warning("no PDF links found for ", school)
       return()
     }
