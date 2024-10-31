@@ -92,9 +92,7 @@ cds_item_parsers <- list(
       student_ind <- student_ind[!duplicated(vapply(part[student_ind], std_student_type, ""))]
     }
     student_ind <- c(student_ind, length(part) + 1L)
-    header_inds <- lapply(headers, function(h) {
-      lapply(h, function(l) which(grepl(l, part) & grepl("\\s{2}", part) & !grepl("\\d$", part)))
-    })
+    header_inds <- get_header_inds(headers, part)
     if (!length(unlist(header_inds))) {
       return(slots)
     }
@@ -117,9 +115,9 @@ cds_item_parsers <- list(
           }
         })
       })
-      if (!length(unlist(chead[[2]]))) {
-        cheaders[[2]] <- if (
-          any(grepl(headers[[2]][[1]], cpart))
+      if (!length(unlist(chead[[2L]]))) {
+        cheaders[[2L]] <- if (
+          any(grepl(headers[[2L]][[1L]], cpart))
         ) {
           "full"
         } else {
@@ -142,7 +140,7 @@ cds_item_parsers <- list(
   },
   G1 = function(part) {
     slots <- c(paste(
-      rep(c("first_year", "undergraduate"), each = 10L),
+      rep(c("first_year", "undergrad"), each = 10L),
       c(
         "private", "public_district", "public_state", "public_out_state",
         "non_resident", "fees", "food_room", "room", "food", "total"
@@ -150,30 +148,22 @@ cds_item_parsers <- list(
       sep = "_"
     ), "total")
     slots <- as.list(structure(rep(NA_integer_, length(slots)), names = slots))
-    std_row_id <- function(row_id) {
-      row_id <- tolower(row_id)
-      if (grepl("private", row_id, fixed = TRUE)) {
-        "private"
-      } else if (grepl("required", row_id, fixed = TRUE)) {
-        "fees"
-      } else if (grepl("and", row_id, fixed = TRUE)) {
-        "food_room"
-      } else if (grepl("resident|international", row_id)) {
-        "non_resident"
-      } else if (grepl("in.district|public", row_id)) {
-        "public_district"
-      } else if (grepl("in.state", row_id)) {
-        "public_state"
-      } else if (grepl("of.state", row_id)) {
-        "public_out_state"
-      } else if (grepl("(?:housing|room) only", row_id)) {
-        "room"
-      } else if (grepl("(?:board|food) only", row_id)) {
-        "food"
-      } else {
-        ""
-      }
-    }
+    rows <- c(
+      private = "PRIVATE|[Pp]rivate",
+      fees = "REQUIRED|[Rr]equired",
+      food_room = "AND|[Aa]nd",
+      non_resident = "RESIDENT|[Rr]esident|[Ii]nternational",
+      public_district = "[Ii]n.[Dd]istrict|PUBLIC|[Pp]ublic",
+      public_state = "[Ii]n.[Ss]tate",
+      public_out_state = "[Oo]f.[Ss]tate",
+      room = "(?:HOUSING|[Hh]ousing|ROOM|[Rr]oom) (?:ONLY|[Oo]nly)",
+      food = "(?:BOARD|[Bb]oard|FOOD|[Ff]ood) (?:ONLY|[Oo]nly)"
+    )
+    headers <- list(c(
+      first_year = "FIRST.YEAR|First.[Yy]ear",
+      undergrad = "UNDERGRADUATES|Undergraduates"
+    ))
+
     # get separate comprehensive value
     comprehensive <- grep("comprehensive|other:", part, ignore.case = TRUE)
     if (length(comprehensive) == 2L) {
@@ -186,93 +176,54 @@ cds_item_parsers <- list(
         value <- gsub("^\\s+|\\s+$", "", value)
         if (!grepl("\\s", value)) {
           value <- gsub("[^0-9.]+", "", value)
-          if (value != "" && value != ".") slots[["total"]] <- as.integer(value)
+          if (value != "" && value != ".") {
+            slots[["total"]] <- as.integer(value)
+          }
         }
       }
     }
     end <- grep("board only|meal plan", part, ignore.case = TRUE)
-    if (length(end)) {
-      part <- part[seq_len(max(end))]
+    if (length(end)) part <- part[seq_len(max(end))]
+    header_ind <- get_header_inds(headers, part)
+    if (!length(unlist(header_ind))) {
+      return(slots)
     }
-    part <- gsub("$", " ", part, fixed = TRUE)
-    head_ind <- grep(
-      "(?:first.year|undergraduate)\\s+(?:first.year|undergraduate)", part,
-      ignore.case = TRUE
-    )
-    headers <- strsplit(part[head_ind[[1L]]], "\\s+")[[1L]]
-    headers <- if (grepl("under", tolower(headers[length(headers)]))) {
-      c("first_year", "undergraduate")
-    } else {
-      c("undergraduate", "first_year")
+    # align public parts
+    off_row_labels <- grep("(in|out.of).state[^0-9]*$", part, ignore.case = TRUE)
+    if (length(off_row_labels)) {
+      off_row_values <- grep("^[0-9,. ]+$", part)
+      off_row_values <- off_row_values[off_row_values %in% (off_row_labels - 1L)]
+      if (length(off_row_values) == length(off_row_labels)) {
+        part[off_row_labels] <- paste0(
+          part[off_row_labels], substring(part[off_row_values], nchar(part[off_row_labels]))
+        )
+        part[off_row_values] <- ""
+      }
     }
-    head_ind <- c(head_ind, length(part) + 1L)
-    for (hi in seq_len(length(head_ind) - 1L)) {
-      value_part <- strsplit(
-        sub("^(?:G1)?\\s+", "", part[seq(head_ind[[hi]] + 1L, head_ind[[hi + 1L]] - 1L)]),
-        "\\s{2,}"
-      )
-      value_parts <- part[seq(head_ind[[hi]] + 1L, head_ind[[hi + 1L]] - 1L)]
-      value_rows <- grep("\\d$", value_parts)
-      value_parts[value_rows] <- paste0(
-        value_parts[value_rows], "L", nchar(value_parts[value_rows])
-      )
-      value_part <- lapply(strsplit(value_parts, "\\s{2,}(?=[0-9])", perl = TRUE), function(r) {
-        r[[1L]] <- sub("^(?:G1)?\\s+", "", r[[1L]])
-        r
-      })
-      header_label <- strsplit(part[head_ind[[hi]]], "\\s{2,}")[[1]]
-      header_label <- if (length(header_label) > 2L) {
-        header_label[[1]]
+
+    part_inds <- sort(unique(c(unlist(header_ind), length(part) + 1L)))
+    chunks <- list()
+    ci <- 0L
+    last_ind <- part_inds[[1L]]
+    for (i in part_inds) {
+      if (ci && abs(last_ind - i) < 2L) {
+        chunks[[ci]] <- c(chunks[[ci]], i)
       } else {
-        ""
+        ci <- ci + 1L
+        chunks[[ci]] <- i
       }
-      if (length(value_part) > 1L) {
-        for (i in seq(length(value_part), 2L)) {
-          if (grepl("^\\d", value_part[[i]][[1L]])) {
-            value_part[[i - 1L]] <- c(value_part[[i - 1L]], value_part[[i]])
-            value_part[[i]] <- NULL
-          } else if (
-            length(value_part[[i - 1L]]) == 1L && grepl("^[A-Z]{2}", value_part[[i - 1L]][[1L]])
-          ) {
-            value_part[[i - 1L]] <- c(value_part[[i - 1L]], value_part[[i]][-1L])
-            value_part[[i - 1L]][[1L]] <- paste(value_part[[i - 1L]][[1L]], value_part[[i]][[1L]])
-            value_part[[i]] <- NULL
-          } else if (!grepl("^[A-Z]", value_part[[i]][[1]]) || (
-            length(value_part[[i]]) == 1L && !grepl("^[A-Z]{2}", value_part[[i]])
-          )) {
-            if (grepl("^\\d", value_part[[i - 1L]][[1L]])) {
-              value_part[[i - 1L]] <- c(value_part[[i]][[1L]], value_part[[i - 1L]])
-              value_part[[i]] <- NULL
-            } else if (
-              grepl("^[A-Z]{2}", value_part[[i - 1L]][[1L]]) ||
-                !grepl(":$", value_part[[i - 1L]][[1L]])
-            ) {
-              value_part[[i - 1L]][[1L]] <- paste(
-                value_part[[i - 1L]][[1L]], value_part[[i]][[1L]]
-              )
-              value_part[[i]] <- NULL
-            }
-          }
-        }
-      }
-      header_edge <- gregexpr("\\s[^ ]{2,}$", part[[head_ind[[hi]]]])[[1]]
-      for (l in value_part) {
-        if (length(l) > 1L) {
-          ids <- paste(headers, std_row_id(paste(header_label, l[[1L]])), sep = "_")
-          if (any(!(ids %in% names(slots)))) {
-            stop(
-              "G1: unrecognized value name ", paste(ids, collapse = " or "),
-              call. = FALSE
-            )
-          }
-          values <- l[-1]
-          if (length(values) == 1L) {
-            olen <- as.integer(strsplit(values, "L")[[1L]][[2L]])
-            if (olen > header_edge) values <- c("", values)
-          }
-          values <- gsub("[^0-9.]", "", sub("L\\d+$", "", values))
-          slots[[ids[[1L]]]] <- as.integer(values[[1L]])
-          if (length(values) > 1L) slots[[ids[[2L]]]] <- as.integer(values[[2L]])
+    }
+    for (i in seq_len(length(chunks) - 1L)) {
+      chead <- chunks[[i]]
+      values <- tryCatch(
+        cds_table_parser(
+          part[chead], part[seq(max(chead), min(chunks[[i + 1L]]) - 1L)], rows, headers
+        ),
+        error = function(e) NULL
+      )
+      if (length(values)) {
+        for (slot in names(values)) {
+          if (slot %in% names(slots)) slots[[slot]] <- values[[slot]]
         }
       }
     }
@@ -285,154 +236,28 @@ cds_item_parsers <- list(
       sep = "_"
     )
     slots <- as.list(structure(rep(NA_integer_, length(slots)), names = slots))
-    std_part <- function(label) {
-      label <- tolower(label)
-      if (grepl("transportation", label, fixed = TRUE)) {
-        "transport"
-      } else if (grepl("other expenses", label, fixed = TRUE)) {
-        "other"
-      } else if (grepl("books\\s*(?:and|,|&)\\s+(?:supplies|personal)", label)) {
-        "book_supplies"
-      } else if (grepl("(?:room|housing) only", label)) {
-        "room"
-      } else if (grepl("(?:board|food) only", label)) {
-        "food"
-      } else if (grepl(" and ", label, fixed = TRUE)) {
-        "room_food"
-      } else {
-        ""
-      }
-    }
-    std_group <- function(label) {
-      label <- tolower(label)
-      if (grepl("resident", label, fixed = TRUE)) {
-        "resident"
-      } else if (grepl("(living", label, fixed = TRUE)) {
-        "commuter_home"
-      } else if (grepl("(not living", label, fixed = TRUE)) {
-        "commuter_not_home"
-      } else {
-        ""
-      }
-    }
-    part <- gsub("$", " ", part, fixed = TRUE)
-    head_ind <- grep("Residents|Commuters|home\\)", part)
-    if (!length(head_ind)) {
-      stop("G5: failed to find header row(s)", call. = FALSE)
-    }
-    header <- part[head_ind]
-    part <- part[-seq_len(max(head_ind))]
-    part <- grep("[0-9]\\s*$", part, value = TRUE)
-    if (!length(part)) {
-      return(slots)
-    }
-    row_label_pos <- max(vapply(
-      gregexpr("^(?:G5)?\\s*(?:[^ 0-9]+(?:\\s|$))+", part), attr, 0L, "match.length"
+    rows <- c(
+      transport = "[Tt]ransportation",
+      other = "[Oo]ther [Ee]xpenses",
+      book_supplies = "[Bb]ooks\\s*(?:[Aa]nd|,|&)\\s+(?:[Ss]upplies|[Pp]ersonal)",
+      room = "(?:[Rr]oom|[Hh]ousing) [Oo]nly",
+      food = "(?:[Bb]oard|[Ff]ood) [Oo]nly",
+      room_food = " [Aa]nd "
+    )
+    headers <- list(c(
+      resident = "Residents",
+      commuter_home = "\\([Ll]iving[^\\(\\)]*(?:\\)|$)",
+      commuter_not_home = "\\([Nn]ot[^\\(\\)]*(?:\\)|$)"
     ))
-    row_label <- substr(part, 1L, row_label_pos)
-    row_values <- substring(c(header, part), row_label_pos + 1L)
-    row <- rep(" ", max(vapply(row_values, nchar, 0L)))
-    any_content <- which(colMeans(do.call(rbind, lapply(strsplit(row_values, ""), function(r) {
-      row[seq_along(r)] <- r
-      row
-    })) == " ") != 1L)
-    n_contentful <- length(any_content)
-    row_values <- row_values[-seq_along(header)]
-    if (length(header) > 1L) {
-      header <- grep(
-        "resident|living", substring(header, row_label_pos),
-        ignore.case = TRUE, value = TRUE
+    header_ind <- unique(unlist(get_header_inds(headers, part)))
+    if (length(header_ind)) {
+      values <- tryCatch(
+        cds_table_parser(part[header_ind], part[-seq(1L, max(header_ind))], rows, headers),
+        error = function(e) NULL
       )
-      colnames <- NULL
-      last_pos <- 0L
-      for (i in seq_along(header)) {
-        m <- gregexpr("([^ ]\\s?)+", header[[i]])[[1]]
-        if (length(m)) {
-          for (mi in seq_along(m)) {
-            ms <- m[[mi]] - 1L
-            mt <- std_group(substr(header[[i]], ms, ms + attr(m, "match.length")[[mi]] - 1L))
-            if (mt != "") {
-              colnames <- if (m[[mi]] > last_pos) {
-                c(colnames, mt)
-              } else {
-                c(mt, colnames)
-              }
-              last_pos <- ms
-            }
-          }
-        }
-      }
-    } else {
-      colnames <- vapply(strsplit(header, "\\s{2,}")[[1]], std_group, "")
-      colnames <- colnames[colnames != ""]
-    }
-    ncols <- length(colnames)
-    col_spans <- list()
-    last_ind <- 1L
-    for (i in seq_len(ncols)) {
-      label <- colnames[[i]]
-      hit <- FALSE
-      if (last_ind < n_contentful) {
-        for (ci in seq(last_ind, n_contentful - 1L)) {
-          if (!any(any_content[[ci]] == any_content[[ci + 1L]] - c(1L, 2L))) {
-            col_spans[[label]] <- c(any_content[[last_ind]], any_content[[ci]])
-            last_ind <- ci + 1L
-            hit <- TRUE
-            break
-          }
-        }
-      }
-      if (!hit) {
-        col_spans[[label]] <- c(any_content[[last_ind]], any_content[[length(any_content)]])
-      }
-    }
-    ncols <- length(col_spans)
-    row_spans <- list()
-    last_id <- ""
-    last_pos <- 0L
-    for (i in rev(seq_along(row_label))) {
-      row_id <- gsub("^\\s+|\\s+$", "", row_label[[i]])
-      if (grepl("^[A-Z]", row_id)) {
-        id <- std_part(paste(row_id, last_id))
-        if (id == "") {
-          stop("G5: unrecognized row ID (", row_id, ")", call. = FALSE)
-        }
-        if (last_pos == 0L) last_pos <- i
-        row_spans[[id]] <- c(i, last_pos)
-        last_id <- ""
-        last_pos <- 0L
-      } else {
-        if (last_id == "") {
-          last_id <- row_id
-          last_pos <- i
-        } else {
-          last_id <- paste(row_id, last_id)
-        }
-      }
-    }
-    for (r in seq_along(row_spans)) {
-      row_id <- names(row_spans)[[r]]
-      span <- row_spans[[r]]
-      values <- row_values[seq(span[[1]], span[[2]])]
-      values <- values[values != ""]
-      if (length(values) == 1) {
-        for (col in seq_along(col_spans)) {
-          label <- paste(names(col_spans)[[col]], row_id, sep = "_")
-          if (!(label %in% names(slots))) next
-          crange <- col_spans[[col]]
-          value <- gsub("^\\s+|\\s+$", "", substr(values, crange[[1]], crange[[2]]))
-          if (grepl("[A-Za-z]", value)) next
-          if (grepl("[ -]", value)) {
-            value <- strsplit(value, "\\s*-\\s*")[[1]]
-            if (length(value) == 2L) {
-              message("range collapsed to value: ", paste(value, collapse = "-"))
-              value <- mean(as.integer(gsub("[^0-9.]", "", value)))
-            } else {
-              stop("G5: value spans columns: ", value, call. = FALSE)
-            }
-          }
-          value <- gsub("[^0-9.]+", "", value)
-          if (value != "" && value != ".") slots[[label]] <- as.integer(value)
+      if (length(values)) {
+        for (slot in names(values)) {
+          if (slot %in% names(slots)) slots[[slot]] <- values[[slot]]
         }
       }
     }
@@ -449,151 +274,50 @@ cds_item_parsers <- list(
       sep = "_"
     )
     slots <- as.list(structure(rep(NA_integer_, length(slots)), names = slots))
-    part <- gsub("$", " ", part, fixed = TRUE)
+    rows <- c(
+      self_other = "State and",
+      self_federal = "[Ww]ork.[Ss]tudy",
+      scholarship_institutional = "Endowed",
+      self_loan = "Student loans",
+      parent_loan = "Parent Loans",
+      scholarship_external = "external",
+      scholarship_total = "Total [Ss]cholarships",
+      self_total = "Total [Ss]elf",
+      scholarship_state = "State (?:[Aa]l|\\()",
+      scholarship_federal = "Federal\\s{2}",
+      waiver = "Waivers",
+      athletic = "Athletic"
+    )
+    headers <- list(c(need = "Need[^ ]*", non_need = "Non[^ ]*"))
     last <- grep("athletic awards", part, ignore.case = TRUE)
-    if (length(last) != 1) {
+    if (length(last) != 1L) {
       stop("H1: failed to identify end of table", call. = FALSE)
     }
     part <- part[seq_len(last)]
-    std_part <- function(label) {
-      label <- tolower(label)
-      if (grepl("state and other", label, fixed = TRUE)) {
-        "self_other"
-      } else if (grepl("federal work", label, fixed = TRUE)) {
-        "self_federal"
-      } else if (grepl("endowed scholarship", label, fixed = TRUE)) {
-        "scholarship_institutional"
-      } else if (grepl("student loans", label, fixed = TRUE)) {
-        "self_loan"
-      } else if (grepl("parent loans", label, fixed = TRUE)) {
-        "parent_loan"
-      } else if (grepl("external source", label, fixed = TRUE)) {
-        "scholarship_external"
-      } else if (grepl("total scholarship", label, fixed = TRUE)) {
-        "scholarship_total"
-      } else if (grepl("total self", label, fixed = TRUE)) {
-        "self_total"
-      } else if (grepl("state", label, fixed = TRUE)) {
-        "scholarship_state"
-      } else if (grepl("federal", label, fixed = TRUE)) {
-        "scholarship_federal"
-      } else if (grepl("waiver", label, fixed = TRUE)) {
-        "waiver"
-      } else if (grepl("athletic", label, fixed = TRUE)) {
-        "athletic"
+    header_ind <- get_header_inds(headers, part)
+    part_inds <- unique(c(unlist(header_ind), length(part) + 1L))
+    chunks <- list()
+    ci <- 0L
+    last_ind <- part_inds[[1L]]
+    for (i in part_inds) {
+      if (ci && abs(last_ind - i) < 5L) {
+        chunks[[ci]] <- c(chunks[[ci]], i)
       } else {
-        ""
+        ci <- ci + 1L
+        chunks[[ci]] <- i
       }
     }
-    std_group <- function(label) {
-      if (grepl("Non", label)) {
-        "non_need"
-      } else if (grepl("Need", label)) {
-        "need"
-      } else {
-        ""
-      }
-    }
-    head_ind <- grep("(?:Non.[Nn]eed|Need).[Bb]ased[^N]+(?:Non.[Nn]eed|Need)", part)
-    if (!length(head_ind)) {
-      head_ind <- grep("(?:Non.[Nn]eed|Need).[Bb]ased|(?:Non.[Nn]eed|Need)", part)
-      if (length(head_ind) == 2L && head_ind[[1]] == head_ind[[2]] - 1L) {
-        shortest <- which.min(nchar(part[head_ind]))
-        part[[head_ind[[2L]]]] <- paste0(part[[head_ind[[shortest]]]], substring(
-          part[[head_ind[[which.max(nchar(part[head_ind]))]]]],
-          nchar(part[[head_ind[[shortest]]]])
-        ))
-        head_ind <- head_ind[[2L]]
-      } else {
-        stop("H1: failed to find header row(s)", call. = FALSE)
-      }
-    }
-    head_ind <- c(head_ind, length(part) + 1L)
-    for (hi in seq_len(length(head_ind) - 1L)) {
-      cpart <- part[seq(head_ind[[hi]], head_ind[[hi + 1L]] - 1L)]
-      head_end <- grep("need.)", cpart, fixed = TRUE)
-      if (!length(head_end)) head_end <- 1L
-      header <- cpart[seq(1L, head_end[[1]])]
-      has_values <- grep("\\d\\s*$", cpart)
-      if (!length(has_values)) next
-      row_label_pos <- max(vapply(
-        gregexpr("^(?:H1)?\\s*(?:[^ 0-9]+(?:\\s|$))+", cpart[has_values]), attr, 0L, "match.length"
-      ))
-      row_label <- substr(cpart, 1L, row_label_pos)
-      row_values <- substring(c(header, cpart[has_values]), row_label_pos)
-      row <- rep(" ", max(vapply(row_values, nchar, 0L)))
-      any_content <- which(colMeans(do.call(rbind, lapply(strsplit(row_values, ""), function(r) {
-        row[seq_along(r)] <- r
-        row
-      })) == " ") != 1L)
-      n_contentful <- length(any_content)
-      colnames <- strsplit(substring(header, row_label_pos), "\\s{2,}")[[1]]
-      row_values <- substring(cpart, row_label_pos)
-      col_spans <- list()
-      last_ind <- 1L
-      for (colname in colnames) {
-        label <- std_group(colname)
-        if (label != "") {
-          hit <- FALSE
-          if (last_ind < n_contentful) {
-            for (ci in seq(last_ind, n_contentful - 1L)) {
-              if (!any(any_content[[ci]] == any_content[[ci + 1L]] - c(1L, 2L))) {
-                col_spans[[label]] <- c(any_content[[last_ind]], any_content[[ci]])
-                last_ind <- ci + 1L
-                hit <- TRUE
-                break
-              }
-            }
-          }
-          if (!hit) {
-            col_spans[[label]] <- c(any_content[[last_ind]], any_content[[length(any_content)]])
-          }
-        }
-      }
-      ncols <- length(col_spans)
-      row_spans <- list()
-      last_id <- ""
-      last_pos <- 0L
-      for (i in rev(seq_along(row_label))) {
-        row_id <- gsub("^\\s+|\\s+$", "", sub(
-          "(?:Federal )?(?:Work.)?Study captured above", "", row_label[[i]]
-        ))
-        if (
-          !grepl("^(?:Report|Note|Merit|Nation|Kiwani|Exclud)", row_id) & grepl("^[A-Z]", row_id)
-        ) {
-          id <- std_part(paste(row_id, last_id))
-          if (id == "") next
-          if (last_pos == 0L) last_pos <- i
-          row_spans[[id]] <- c(i, last_pos)
-          last_id <- ""
-          last_pos <- 0L
-        } else {
-          if (last_id == "") {
-            last_id <- row_id
-            last_pos <- i
-          } else {
-            last_id <- paste(row_id, last_id)
-          }
-        }
-      }
-      for (r in seq_along(row_spans)) {
-        row_id <- names(row_spans)[[r]]
-        span <- row_spans[[r]]
-        rinds <- seq(span[[1]], span[[2]])
-        values <- row_values[rinds[rinds %in% has_values]]
-        values <- values[values != ""]
-        if (length(values) == 1) {
-          for (col in seq_along(col_spans)) {
-            label <- paste(names(col_spans)[[col]], row_id, sep = "_")
-            if (!(label %in% names(slots))) next
-            crange <- col_spans[[col]]
-            value <- gsub("^\\s+|\\s+$", "", substr(values, crange[[1]], crange[[2]]))
-            if (grepl("\\s", value)) {
-              stop("H1: values span columns: ", value, call. = FALSE)
-            }
-            value <- gsub("[^0-9.]+", "", value)
-            if (value != "" && value != ".") slots[[label]] <- as.integer(value)
-          }
+    for (i in seq_len(length(chunks) - 1L)) {
+      chead <- chunks[[i]]
+      values <- tryCatch(
+        cds_table_parser(
+          part[chead], part[seq(max(chead) + 1L, min(chunks[[i + 1L]]) - 1L)], rows, headers
+        ),
+        error = function(e) NULL
+      )
+      if (length(values)) {
+        for (slot in names(values)) {
+          if (slot %in% names(slots)) slots[[slot]] <- values[[slot]]
         }
       }
     }
@@ -653,7 +377,9 @@ cds_table_parser <- function(header, body, rows, header_groups) {
       last_start <- start
     }
   }
-  if (!length(row_spans)) next
+  if (!length(row_spans)) {
+    return(NULL)
+  }
   row_spans <- do.call(rbind, row_spans)
   row_spans <- row_spans[order(row_spans$start), ]
   nmatches <- nrow(row_spans)
@@ -671,37 +397,46 @@ cds_table_parser <- function(header, body, rows, header_groups) {
   values <- list()
   for (r in seq_along(value_pos)) {
     pos <- value_pos[[r]]
-    len <- attr(pos, "match.length")
     valid <- which(pos != -1L & pos > row_start[[r]])
     if (length(valid)) {
+      row <- r >= row_spans$start
+      if (!any(row)) next
+      len <- attr(pos, "match.length")
+      row <- row_spans$label[[max(which(row))]]
       for (i in valid) {
         span <- c(pos[[i]], pos[[i]] + len[[i]] - 1L)
-        value <- gsub(",", "", substr(body[[r]], span[[1]], span[[2]]), fixed = TRUE)
+        value <- gsub(",", "", substr(body[[r]], span[[1L]], span[[2L]]), fixed = TRUE)
         if (value != ".") {
-          row <- which(r >= row_spans$start)
-          if (length(row)) {
-            row <- row_spans$label[max(row)]
-            rcenter <- mean(span)
-            headers <- vapply(header_spans, function(s) {
-              if (is.character(s)) {
-                return(s)
-              }
-              if (nrow(s)) {
-                s$label[if (nrow(s) == 1L) {
-                  1L
-                } else {
-                  which.min(abs(s$rcenter - rcenter))
-                }]
+          rcenter <- mean(span)
+          headers <- vapply(header_spans, function(s) {
+            if (is.character(s)) {
+              return(s)
+            }
+            if (nrow(s)) {
+              s$label[if (nrow(s) == 1L) {
+                1L
               } else {
-                ""
-              }
-            }, "")
-            id <- paste(c(headers[headers != ""], row), collapse = "_")
-            values[[id]] <- as.numeric(value)
-          }
+                which.min(abs(s$rcenter - rcenter))
+              }]
+            } else {
+              ""
+            }
+          }, "")
+          id <- paste(c(headers[headers != ""], row), collapse = "_")
+          values[[id]] <- as.numeric(value)
         }
       }
     }
   }
   values
+}
+
+get_header_inds <- function(headers, part) {
+  lapply(headers, function(h) {
+    lapply(h, function(l) {
+      which(
+        grepl(l, part) & grepl("\\s{2}", part) & !grepl("\\d$", part)
+      )
+    })
+  })
 }

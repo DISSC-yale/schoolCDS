@@ -23,7 +23,7 @@ test_that("table extraction works", {
     group2_header2_row3 = 8
   )
   auto <- cds_table_parser(
-    table[1:5], table[6:9],
+    table[1L:5L], table[6L:9L],
     rows = c(row1 = "row1", row2 = "row2", row3 = "row3"),
     header_groups = list(
       c(group1 = "group1", group2 = "group2"),
@@ -42,7 +42,7 @@ test_that("full extraction works", {
     mode = "wb"
   )
   if (file.exists(file)) {
-    values <- cds_process_report("Yale University", file)
+    values <- cds_process_report("Yale University", file)$values
     expect_true(values$year == 2023L)
     expect_identical(
       as.integer(values[c("B1_undergrad", "B1_grad", "B1_total")]),

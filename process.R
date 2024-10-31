@@ -6,7 +6,7 @@ sources <- read.csv("reports/sources.csv")
 for (i in seq_len(nrow(sources))) {
   source <- sources[i, ]
   message("retrieving links for ", source$school, "...")
-  cds_get_links(source$school, source_dir, source$url, overwrite = TRUE)
+  cds_get_links(source$school, source_dir, source$url)
 }
 
 # download reports
@@ -28,23 +28,27 @@ for (manifest_file in manifests) {
     path <- paste0(school_dir, "/", sub("pdf$", "txt", file, ignore.case = TRUE))
     if (is.null(process_log[[school]][[info$md5]])) {
       if (file.exists(path)) {
-        values <- tryCatch(
+        message("trying ", path)
+        report <- tryCatch(
           cds_process_report(school, path),
           error = function(e) e$message
         )
-        if (is.list(values)) {
-          process_log[[school]][[info$md5]] <- "processed"
+        if (is.list(report)) {
+          process_log[[school]][[info$md5]] <- list(
+            file = file,
+            items = report$locations
+          )
           processed[[info$md5]] <- c(
             school = school,
             source = info$url,
             md5 = info$md5,
             retrieved = info$retrieved,
             processed = date(),
-            values
+            report$values
           )
         } else {
-          message("failed to process ", school, " file ", file, ": ", values)
-          process_log[[school]][[info$md5]] <- paste("failed:", values)
+          message("failed to process ", school, " file ", file, ": ", report)
+          process_log[[school]][[info$md5]] <- paste("failed:", report)
         }
       } else {
         message("file doesn't exist: ", file)

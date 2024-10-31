@@ -12,7 +12,8 @@
 #'   values <- cds_process_report("Yale University", file)
 #'   values[1:10]
 #' }
-#' @return A \code{list} of data extracted from the report.
+#' @return A \code{list} containing the \code{locations} of items identified in the report
+#' and the \code{values} extracted from the report.
 #' @export
 
 cds_process_report <- function(school, file, ocr = FALSE) {
@@ -87,36 +88,41 @@ cds_process_report <- function(school, file, ocr = FALSE) {
     section
   })
   specs <- jsonlite::read_json(system.file("spec.json", package = "schoolCDS"))
-  c(
-    year = as.integer(regmatches(text_start, gregexpr("(?:20[012]|199)\\d", text_start))[[1]][[1]]),
-    as.list(unlist(lapply(names(specs), function(section) {
-      spec <- specs[[section]]
-      lapply(names(spec$items), function(item) {
-        locs <- item_locations[[section]]$items[[item]]
-        if (is.null(locs)) {
-          stop("failed to locate ", item)
-        }
-        parser <- cds_item_parsers[[item]]
-        if (!is.null(parser)) {
-          part <- text[seq(locs$start, locs$end)]
-          part <- gsub("­", " ", part)
-          part <- part[!grepl(paste(c(
-            "^(?:CDS[^ ]+)?\\s+(?:P\\s*a\\s*g\\s*e\\s*\\|\\s*)?\\d+(?: of \\d+)?$",
-            "Common Data Set",
-            school,
-            "^\\s*[^0-9]?\\s*\\d+\\s*[^0-9]?\\s*$",
-            "^\\s*\\*",
-            "[A-Z][a-z]+\\s{1,2}\\d{1,2},\\s\\d{4}$"
-          ), collapse = "|"), part)]
-          part <- sub(
-            "\\(?(?:row|page)[ |+-]\\d+[ +-]*(?:of|row|page)?\\s*\\d*\\)?\\s*$", "", part,
-            ignore.case = TRUE
-          )
-          values <- cds_item_parsers[[item]](part)
-          names(values) <- paste(item, names(values), sep = "_")
-          values
-        }
-      })
-    })))
+  list(
+    locations = item_locations,
+    values = c(
+      year = as.integer(regmatches(
+        text_start, gregexpr("(?:20[012]|199)\\d", text_start)
+      )[[1L]][[1L]]),
+      as.list(unlist(lapply(names(specs), function(section) {
+        spec <- specs[[section]]
+        lapply(names(spec$items), function(item) {
+          locs <- item_locations[[section]]$items[[item]]
+          if (is.null(locs)) {
+            stop("failed to locate ", item)
+          }
+          parser <- cds_item_parsers[[item]]
+          if (!is.null(parser)) {
+            part <- text[seq(locs$start, locs$end)]
+            part <- gsub("­", " ", part)
+            part <- part[!grepl(paste(c(
+              "^(?:CDS[^ ]+)?\\s+(?:P\\s*a\\s*g\\s*e\\s*\\|\\s*)?\\d+(?: of \\d+)?$",
+              "Common Data Set",
+              school,
+              "^\\s*[^0-9]?\\s*\\d+\\s*[^0-9]?\\s*$",
+              "^\\s*\\*",
+              "[A-Z][a-z]+\\s{1,2}\\d{1,2},\\s\\d{4}$"
+            ), collapse = "|"), part)]
+            part <- sub(
+              "\\(?(?:row|page)[ |+-]\\d+[ +-]*(?:of|row|page)?\\s*\\d*\\)?\\s*$", "", part,
+              ignore.case = TRUE
+            )
+            values <- cds_item_parsers[[item]](part)
+            names(values) <- paste(item, names(values), sep = "_")
+            values
+          }
+        })
+      })))
+    )
   )
 }

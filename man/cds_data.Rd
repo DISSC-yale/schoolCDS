@@ -26,7 +26,7 @@ Extracted portions of school Common Data Set reports.
 }
 \examples{
 cds_data[1:10, c(
-  "school", "retrieved", "B1_men_undergrad_new_full", "B1_women_undergrad_new_full"
+  "school", "retrieved", "B1_men_full_new_undergrad", "B1_women_full_new_undergrad"
 )]
 }
 \keyword{datasets}

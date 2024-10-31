@@ -15,7 +15,8 @@ cds_process_report(school, file, ocr = FALSE)
 text from the file.}
 }
 \value{
-A \code{list} of data extracted from the report.
+A \code{list} containing the \code{locations} of items identified in the report
+and the \code{values} extracted from the report.
 }
 \description{
 Extract data from a CDS PDF report.

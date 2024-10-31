@@ -66,7 +66,8 @@ text from the file.</p></dd>
 </dl></div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
-    <p>A <code>list</code> of data extracted from the report.</p>
+    <p>A <code>list</code> containing the <code>locations</code> of items identified in the report
+and the <code>values</code> extracted from the report.</p>
     </div>
 
     <div class="section level2">
@@ -76,35 +77,1194 @@ text from the file.</p></dd>
 <span class="r-in"><span>  <span class="va">values</span> <span class="op">&lt;-</span> <span class="fu">cds_process_report</span><span class="op">(</span><span class="st">"Yale University"</span>, <span class="va">file</span><span class="op">)</span></span></span>
 <span class="r-in"><span>  <span class="va">values</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">10</span><span class="op">]</span></span></span>
 <span class="r-in"><span><span class="op">}</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $year</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 4</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 46</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items$A1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items$A1$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 4</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items$A1$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 22</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items$A2</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items$A2$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 23</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items$A2$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 26</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items$A3</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items$A3$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 27</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items$A3$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 30</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items$A4</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items$A4$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 31</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items$A4$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 35</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items$A5</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items$A5$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 36</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$A$items$A5$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 46</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 47</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 161</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B1$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 47</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B1$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 77</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B2</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B2$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 78</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B2$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 94</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B3</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B3$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 95</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B3$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 120</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B4</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B4$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 121</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B4$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 123</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B5</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B5$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 124</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B5$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 128</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B6</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B6$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 129</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B6$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 131</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B7</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B7$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 132</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B7$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 134</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B8</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B8$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 135</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B8$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 137</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B9</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B9$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 138</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B9$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 141</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B10</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B10$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 142</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B10$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 143</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B11</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B11$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 144</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B11$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 153</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B22</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B22$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 154</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$B$items$B22$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 161</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 162</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 441</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C1$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 162</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C1$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 175</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C2</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C2$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 176</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C2$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 185</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C3</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C3$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 186</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C3$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 190</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C4</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C4$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 191</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C4$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 197</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C5</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C5$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 198</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C5$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 212</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C6</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C6$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 213</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C6$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 220</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C7</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C7$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 221</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C7$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 248</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C8</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C8$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 249</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C8$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 305</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C9</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C9$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 306</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C9$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 343</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C10</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C10$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 344</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C10$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 356</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C11</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C11$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 357</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C11$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 368</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C12</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C12$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 369</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C12$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 372</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C13</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C13$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 373</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C13$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 384</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C14</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C14$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 385</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C14$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 388</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C15</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C15$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 389</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C15$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 389</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C16</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C16$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 390</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C16$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 393</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C17</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C17$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 394</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C17$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 404</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C18</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C18$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 405</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C18$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 407</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C19</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C19$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 408</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C19$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 409</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C20</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C20$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 410</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C20$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 411</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C21</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C21$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 412</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C21$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 427</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C22</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C22$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 428</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$C$items$C22$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 441</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 442</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 504</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D1$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 442</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D1$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 445</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D2</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D2$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 446</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D2$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 452</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D3</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D3$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 453</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D3$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 454</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D4</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D4$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 455</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D4$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 457</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D5</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D5$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 458</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D5$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 467</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D6</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D6$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 468</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D6$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 469</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D7</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D7$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 470</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D7$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 471</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D8</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D8$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 472</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D8$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 475</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D9</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D9$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 476</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D9$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 483</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D10</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D10$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 484</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D10$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 484</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D11</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D11$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 485</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D11$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 490</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D12</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D12$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 491</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D12$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 491</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D13</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D13$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 492</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D13$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 493</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D14</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D14$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 494</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D14$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 495</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D15</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D15$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 496</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D15$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 496</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D16</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D16$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 497</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D16$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 498</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D17</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D17$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 499</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$D$items$D17$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 504</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$E</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$E$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 505</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$E$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 530</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$E$items</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$E$items$E1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$E$items$E1$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 505</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$E$items$E1$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 515</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$E$items$E2</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$E$items$E2$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 516</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$E$items$E2$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 516</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$E$items$E3</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$E$items$E3$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 517</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$E$items$E3$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 530</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 531</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 580</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F$items</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F$items$F1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F$items$F1$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 531</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F$items$F1$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 543</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F$items$F2</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F$items$F2$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 544</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F$items$F2$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 550</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F$items$F3</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F$items$F3$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 551</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F$items$F3$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 560</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F$items$F4</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F$items$F4$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 561</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$F$items$F4$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 580</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 581</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 634</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G1$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 581</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G1$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 608</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G2</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G2$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 609</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G2$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 609</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G3</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G3$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 610</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G3$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 610</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G4</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G4$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 611</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G4$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 615</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G5</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G5$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 616</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G5$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 623</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G6</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G6$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 624</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$G$items$G6$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 634</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 635</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 635</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H1$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 635</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H1$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 682</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H2</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H2$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 683</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H2$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 750</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H4</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H4$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 751</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H4$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 756</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H5</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H5$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 757</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H5$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 764</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H6</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H6$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 765</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H6$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 775</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H7</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H7$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 776</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H7$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 785</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H8</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H8$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 786</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H8$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 793</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H9</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H9$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 794</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H9$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 797</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H10</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H10$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 798</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H10$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 800</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H11</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H11$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 801</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H11$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 804</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H12</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H12$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 805</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H12$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 821</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H13</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H13$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 822</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H13$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 831</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H14</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H14$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 832</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H14$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 839</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H15</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H15$start</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 840</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $locations$H$items$H15$end</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 635</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$year</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2008</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $B1_men_full_new_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_full_new_undergrad</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] 653</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $B1_men_full_first_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_full_first_undergrad</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $B1_men_full_other_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_full_other_undergrad</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] 1979</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $B1_men_full_degree_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_full_degree_undergrad</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2632</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $B1_men_full_credit_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_full_credit_undergrad</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $B1_men_full_total_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_full_total_undergrad</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2634</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $B1_men_part_new_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_part_new_undergrad</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $B1_men_part_first_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_part_first_undergrad</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $B1_men_part_other_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_part_other_undergrad</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] 3</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_part_degree_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 3</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_part_credit_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 7</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_part_total_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 10</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_full_new_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 755</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_full_other_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 1559</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_full_degree_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_full_credit_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 34</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_full_total_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2348</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_part_new_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 6</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_part_other_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 24</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_part_degree_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_part_credit_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 4</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_part_total_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 34</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_full_total</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_men_part_total</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_full_new_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 665</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_full_first_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_full_other_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 1954</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_full_degree_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2619</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_full_credit_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_full_total_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2620</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_part_new_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_part_first_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_part_other_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_part_degree_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_part_credit_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 11</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_part_total_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 13</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_full_new_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 830</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_full_other_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 1586</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_full_degree_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_full_credit_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 40</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_full_total_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2456</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_part_new_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 9</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_part_other_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 60</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_part_degree_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_part_credit_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 9</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_part_total_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 78</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_full_total</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_women_part_total</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_full_new_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_full_first_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_full_other_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_full_degree_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_full_credit_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_full_total_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_part_new_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_part_first_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_part_other_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_part_degree_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_part_credit_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_part_total_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_full_new_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_full_other_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_full_degree_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_full_credit_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_full_total_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_part_new_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_part_other_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_part_degree_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_part_credit_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_part_total_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_full_total</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_other_part_total</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_undergrad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 5277</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_grad</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 6169</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$B1_total</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 11446</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_first_year_private</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 36500</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_first_year_public_district</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_first_year_public_state</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_first_year_public_out_state</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_first_year_non_resident</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_first_year_fees</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_first_year_food_room</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 11000</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_first_year_room</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_first_year_food</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_first_year_total</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_undergrad_private</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 36500</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_undergrad_public_district</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_undergrad_public_state</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_undergrad_public_out_state</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_undergrad_non_resident</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_undergrad_fees</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_undergrad_food_room</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 11000</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_undergrad_room</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_undergrad_food</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_undergrad_total</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G1_total</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_resident_book_supplies</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 950</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_resident_room</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_resident_food</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_resident_room_food</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_resident_transport</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 720</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_resident_other</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_commuter_home_book_supplies</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 950</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_commuter_home_room</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_commuter_home_food</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_commuter_home_room_food</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_commuter_home_transport</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_commuter_home_other</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2050</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_commuter_not_home_book_supplies</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 950</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_commuter_not_home_room</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_commuter_not_home_food</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_commuter_not_home_room_food</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_commuter_not_home_transport</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$G5_commuter_not_home_other</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2050</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_need_scholarship_federal</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 3959619</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_need_scholarship_state</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 274720</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_need_scholarship_institutional</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 87892290</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_need_scholarship_external</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 4522313</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_need_scholarship_total</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 96648942</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_need_self_loan</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 701076</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_need_self_federal</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 798400</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_need_self_other</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2910835</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_need_self_total</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 4410311</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_need_parent_loan</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_need_waiver</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_need_athletic</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_non_need_scholarship_federal</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_non_need_scholarship_state</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_non_need_scholarship_institutional</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_non_need_scholarship_external</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 637383</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_non_need_scholarship_total</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_non_need_self_loan</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 1726896</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_non_need_self_federal</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_non_need_self_other</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_non_need_self_total</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_non_need_parent_loan</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 5366240</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_non_need_waiver</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $values$H1_non_need_athletic</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] NA</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $&lt;NA&gt;</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $&lt;NA&gt;</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $&lt;NA&gt;</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $&lt;NA&gt;</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $&lt;NA&gt;</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $&lt;NA&gt;</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $&lt;NA&gt;</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> NULL</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $&lt;NA&gt;</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> NULL</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 </code></pre></div>
     </div>
