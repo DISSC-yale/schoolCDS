@@ -16,7 +16,7 @@ for (school in sources$school) {
 
 # reformat Mistral results
 for (file in list.files("reports/mistral", recursive = TRUE, full.names = TRUE)) {
-  out_file <- sub("mistral", "mistral_text", sub("json", "txt", file))
+  out_file <- sub("mistral", "mistral_text", sub("json", "md", file))
   dir.create(dirname(out_file), FALSE)
   write(paste(vapply(
       jsonlite::read_json(file)$pages, "[[", "", "markdown"
