@@ -2,6 +2,7 @@
 ^renv\.lock$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^\.env$
 ^reports$
 ^LICENSE\.md$
 ^_pkgdown\.yml$
@@ -9,3 +10,5 @@
 ^pkgdown$
 build\.r
 process\.r
+check\.r
+process_minstral.py

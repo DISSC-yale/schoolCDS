@@ -1,0 +1,999 @@
+Office of Institutional Research \& Planning Support
+
+1030 N. Mountain Ave. P.O. Box 210134
+
+Tucson, AZ 85721-0134
+Tel: 520-621-1986
+Fax: 520-626-1234
+http://oirps.arizona.edu
+
+25 January 2010
+
+Dear Readers,
+Enclosed please find The University of Arizona's 2009-10 Common Data Set.
+If you have any questions or comments, please contact Aeyn Edwards, at aeyn@arizona.edu or at 520-621-1986.
+
+The Office of Institutional Research and Planning Support
+# A. General Information 
+
+| A0 | Name: | Aeyn Edwards |
+| :--: | :--: | :--: |
+| A0 | Title: | University Reports Coordinator |
+| A0 | Office: | Institutional Research \& Planning Support |
+| A0 | Mailing Address: | 1030 N. Mountain Ave. |
+| A0 | City/State/Zip/Country: | Tucson, AZ 85721 |
+| A0 | Phone: | 520-621-1986 |
+| A0 | Fax: | 520-626-1234 |
+| A0 | E-mail Address: | aeyn@arizona.edu |
+| A0 | Are your responses to the CDS posted for reference on your institution's Web site? Yes |  |
+| A0 | If yes, please provide the URL of the corresponding Web page: http://oirps.arizona.edu/CommonDataSet.asp |  |
+
+A1 Address Information
+
+| A1 | Name of College/University: | The University of Arizona |
+| :--: | :--: | :--: |
+| A1 | Mailing Address: | PO Box 210066 |
+| A1 | City/State/Zip/Country: | Tucson, AZ 85721-0066 |
+| A1 | Main Phone Number: | 520-621-3237 |
+| A1 | WWW Home Page Address: | http://www.arizona.edu/ |
+| A1 | Admissions Phone Number: | 520-621-3237 or 602-266-0059 |
+| A1 | Admissions Office Mailing Address: | PO Box 210040 |
+| A1 | City/State/Zip/Country: | Tucson, AZ 85721-0040 |
+| A1 | Admissions Fax Number: | 520-621-9799 |
+| A1 | Admissions E-mail Address: | http://admissions.arizona.edu/ |
+
+A2 Source of institutional control (Check only one):
+A2 Public X
+A2 Private (nonprofit)
+A2 Proprietary
+
+A3 Classify your undergraduate institution:
+A3 Coeducational college X
+A3 Men's college
+A3 Women's college
+
+A4 Academic year calendar:
+A4 Semester X
+A4 Quarter
+A4 Trimester
+A4 4-1-4
+A4 Continuous
+A4 Differs by program (describe):
+A4 Other (describe):
+
+A5 Degrees offered by your institution:
+A5 Certificate
+A5 Diploma
+A5 Associate
+A5 Transfer Associate
+A5 Terminal Associate
+A5 Bachelor's X
+A5 Postbachelor's certificate X
+A5 Master's X
+A5 Post-master's certificate X
+A5 Doctoral degree research/scholarship
+A5 Doctoral degree professional practice X
+A5 Doctoral degree -- other
+# B. ENROLLMENT AND PERSISTENCE 
+
+B1 Institutional Enrollment - Men and Women Provide numbers of students for each of the following categories as of the institution's official fall reporting date or as of October 15, 2009. Note: Report students formerly designated as "first professional" in the graduate cells.
+
+| B1 |  | FULL-TIME |  | PART-TIME |  |
+| :--: | :--: | :--: | :--: | :--: | :--: |
+|  |  | Men | Women | Men | Women |
+| B1 | Undergraduates |  |  |  |  |
+| B1 | Degree-seeking, first-time freshmen | 3,090 | 3,692 | 99 | 85 |
+| B1 | Other first-year, degree-seeking | 1,035 | 979 | 119 | 124 |
+| B1 | All other degree-seeking | 8,675 | 9,623 | 1,438 | 1,374 |
+| B1 | Total degree-seeking | 12,800 | 14,294 | 1,656 | 1,583 |
+| B1 | All other undergraduates enrolled in credit courses | 6 | 3 | 2 | 2 |
+| B1 | Total undergraduates | 12,806 | 14,297 | 1,658 | 1,585 |
+| B1 | Graduate |  |  |  |  |
+| B1 | Degree-seeking, first-time | 842 | 810 | 76 | 82 |
+| B1 | All other degree-seeking | 2,094 | 2,155 | 647 | 930 |
+| B1 | All other graduates enrolled in credit courses | 50 | 52 | 267 | 416 |
+| B1 | Total graduate | 2,986 | 3,017 | 990 | 1,428 |
+| B1 | Total all undergraduates |  |  |  | 30,346 |
+| B1 | Total all graduate |  |  |  | 8,421 |
+| B1 | GRAND TOTAL ALL STUDENTS |  |  |  | 38,767 |
+
+B2 Enrollment by Racial/Ethnic Category. Provide numbers of undergraduate students for each of the following categories as of the institution's official fall reporting date or as of October 15, 2009. Include international students only in the category "Nonresident aliens." Complete the "Total Undergraduates" column only if you cannot provide data for the first two columns.
+
+| B2 |  |  | Degree-Seeking First-Time First Year | Degree-Seeking Undergraduates (include first-time first-year) | Total Undergraduates (both degree- and non-degreesseeking) |
+| :--: | :--: | :--: | :--: | :--: | :--: |
+| B2 | Nonresident aliens |  | 226 | 978 | 980 |
+| B2 | Black, non-Hispanic |  | 273 | 1,112 | 1,113 |
+| B2 | American Indian or Alaska Native |  | 188 | 792 | 792 |
+| B2 | Asian or Pacific Islander |  | 582 | 2,187 | 2,187 |
+| B2 | Hispanic |  | 1,306 | 5,398 | 5,401 |
+| B2 | White, non-Hispanic |  | 4,332 | 19,126 | 19,130 |
+| B2 | Race/ethnicity unknown |  | 59 | 740 | 743 |
+| B2 | TOTAL |  | 6,966 | 30,333 | 30,346 |
+
+## Persistence
+
+B3 Number of degrees awarded from July 1, 2008 to June 30, 2009
+
+| B3 |  | Male | Female | Total |
+| :-- | :-- | :--: | :--: | :--: |
+| B3 | Bachelor's degrees | 2,672 | 3,242 | 5,914 |
+| B3 | Master's degrees | 713 | 777 | 1,490 |
+| B3 | Post-Master's certificates | 4 | 9 | 13 |
+| B3 | Doctoral degrees - <br> research/scholarship | 268 | 211 | 479 |
+| :-- | :-- | :--: | :--: | :--: |
+| B3 | Doctoral degrees - professional <br> practice | 161 | 184 | 345 |
+| B3 | Doctoral degrees - other |  |  |  |
+|  | Total | 3,818 | 4,423 | 8,241 |
+
+# Graduation Rates 
+
+The items in this section correspond to data elements collected by the IPEDS Web-based Data Collection
+
+## For Bachelor's or Equivalent Programs Fall 2003 Cohort
+
+Report for the cohort of full-time first-time bachelor's (or equivalent) degree-seeking undergraduate students who entered in fall 2003. Include in the cohort those who entered your institution during the summer term preceding fall 2003.
+
+| B4 | Initial 2003 cohort of first-time, full-time bachelor's (or equivalent) degree-seeking undergraduate students; total all students: | 5,780 |
+| :--: | :--: | :--: |
+| B5 | Of the initial 2003 cohort, how many did not persist and did not graduate for the following reasons: death, permanent disability, service in the armed forces, foreign aid service of the federal government, or official church missions; total allowable exclusions: | n/a |
+| B6 | Final 2003 cohort, after adjusting for allowable exclusions: (subtract question B5 from question B4) | 5,780 |
+| B7 | Of the initial 2003 cohort, how many completed the program in four years or less (by August 31, 2007): | 1,850 |
+| B8 | Of the initial 2003 cohort, how many completed the program in more than four years but in five years or less (after August 31, 2007 and by August 31, 2008): | 1,214 |
+| B9 | Of the initial 2003 cohort, how many completed the program in more than five years but in six years or less (after August 31, 2008 and by August 31, 2009): | 289 |
+| B10 | Total graduating within six years (sum of questions B7, B8, and B9): | 3,353 |
+| B11 | Six-year graduation rate for 2003 cohort (question B10 divided by question B6): | $58 \%$ |
+
+## Fall 2002 Cohort
+
+Report for the cohort of full-time first-time bachelor's (or equivalent) degree-seeking undergraduate students who entered in fall 2002. Include in the cohort those who entered your institution during the summer term preceding fall 2002.
+
+| B4 | Initial 2002 cohort of first-time, full-time bachelor's (or equivalent) degree-seeking undergraduate students; total all students: | 5,613 |
+| :--: | :--: | :--: |
+| B5 | Of the initial 2002 cohort, how many did not persist and did not graduate for the following reasons: death, permanent disability, service in the armed forces, foreign aid service of the federal government, or official church missions; total allowable exclusions: |  |
+| :--: | :--: | :--: |
+| B6 | Final 2002 cohort, after adjusting for allowable exclusions: (subtract question B5 from question B4) | 5,613 |
+| B7 | Of the initial 2002 cohort, how many completed the program in four years or less (by August 31, 2006): | 1,805 |
+| B8 | Of the initial 2002 cohort, how many completed the program in more than four years but in five years or less (after August 31, 2006 and by August 31, 2007): | 1,125 |
+| B9 | Of the initial 2002 cohort, how many completed the program in more than five years but in six years or less (after August 31, 2007 and by August 31, 2008): | 279 |
+| B10 | Total graduating within six years (sum of questions B7, B8, and B9): | 3,209 |
+| B11 | Six-year graduation rate for 2002 cohort (question B10 divided by question B6): | $57 \%$ |
+
+# Retention Rates 
+
+Report for the cohort of all full-time, first-time bachelor's (or equivalent) degree-seeking undergraduate students who entered in fall 2008 (or the preceding summer term). The initial cohort may be adjusted for students who departed for the following reasons: death, permanent disability, service in the armed forces, foreign aid service of the federal government or official church missions. No other adjustments to the initial cohort should be made.
+
+B22 For the cohort of all full-time bachelor's (or equivalent) degree-seeking undergraduate students who entered your institution as freshmen in fall 2008 (or the preceding summer term), what percentage was enrolled at your institution as of the date your institution calculates its official enrollment in fall 2009?
+$78 \%$
+# C. FIRST-TIME, FIRST-YEAR (FRESHMAN) ADMISSION 
+
+## Applications
+
+C1 First-time, first-year, (freshmen) students: Provide the number of degree-seeking, first-time, first-year students who applied, were admitted, and enrolled (full- or part-time) in fall 2009. Include early decision, early action, and students who began studies during summer in this cohort. Applicants should include only those students who fulfilled the requirements for consideration for admission (i.e., who completed actionable applications) and who have been notified of one of the following actions: admission, nonadmission, placement on waiting list, or application withdrawn (by applicant or institution). Admitted applicants should include wait-listed students who were subsequently offered admission.
+
+| C1 | Total first-time, first-year (freshman) men who applied | 11,743 | Total |
+| :--: | :--: | :--: | :--: |
+| C1 | Total first-time, first-year (freshman) women who applied | 12,882 | 24,625 |
+| C1 | Total first-time, first-year (freshman) men who were admitted | 8,903 |  |
+| C1 | Total first-time, first-year (freshman) women who were admitted | 10,304 | 19,207 |
+| C1 | Total full-time, first-time, first-year (freshman) men who enrolled | 3,090 |  |
+| C1 | Total part-time, first-time, first-year (freshman) men who enrolled | 99 | 3,189 |
+| C1 | Total full-time, first-time, first-year (freshman) women who enrolled | 3,692 |  |
+| C1 | Total part-time, first-time, first-year (freshman) women who enrolled | 85 | 3,777 |
+|  | Total Enrolled | 6,966 |  |
+
+C2 Freshman wait-listed students (students who met admission requirements but whose final admission was contingent on space availability)
+
+|  |  | Yes | No |
+| :-- | :-- | :--: | :--: |
+| C2 | Do you have a policy of placing students on a waiting list? |  | X |
+
+## Admission Requirements
+
+C3 High school completion requirement
+C3 High school diploma is required and GED is accepted X
+
+C4 Does your institution require or recommend a general college-preparatory program for degreeseeking students?
+
+| C4 | Require |  |
+| :-- | :-- | :-- |
+| C4 | Recommend | X |
+| C4 | Neither require nor recommend |  |
+
+C5 Distribution of high school units required and/or recommended. Specify the distribution of academic high school course units required and/or recommended of all or most degree-seeking students using Carnegie units (one unit equals one year of study or its equivalent). If you use a different system for calculating units, please convert.
+
+| C5 |  | Units <br> Required | Units <br> Recommended |
+| :--: | :--: | :--: | :--: |
+| C5 | Total academic units | 16 | 16 |
+| C5 | English | 4 | 4 |
+| C5 | Mathematics | 3 | 3 |
+| C5 | Science | 3 | 3 |
+| C5 | Of these, units that must be <br> lab | 3 | 3 |
+| C5 | Foreign language | 2 | 2 |
+| C5 | Social studies | 1 | 2 |
+| C5 | History | 1 | 1 |
+| C5 | Academic electives |  |  |
+| C5 | Computer Science |  |  |
+| :-- | :-- | :-- | :-- |
+| C5 | Visual/Performing Arts |  |  |
+| C5 | Other (Fine Art) | 1 | 1 |
+
+# Basis for Selection 
+
+C6 Do you have an open admission policy, under which virtually all secondary school graduates or students with GED equivalency diplomas are admitted without regard to academic record, test scores, or other qualifications? No.
+
+C7 Relative importance of each of the following academic and nonacademic factors in first-time, firstyear, degree-seeking (freshman) admission decisions.
+
+| C7 |  | Very Important | Important | Considered | Not Considered |
+| :--: | :--: | :--: | :--: | :--: | :--: |
+| C7 | Academic |  |  |  |  |
+| C7 | Rigor of secondary school record | X |  |  |  |
+| C7 | Class rank |  |  | X |  |
+| C7 | Academic GPA | X |  |  |  |
+| C7 | Standardized test scores |  |  | X |  |
+| C7 | Application Essay |  |  | X |  |
+| C7 | Recommendation(s) |  |  | X |  |
+| C7 | Nonacademic |  |  |  |  |
+| C7 | Interview |  |  | X |  |
+| C7 | Extracurricular activities |  |  | X |  |
+| C7 | Talent/ability |  |  | X |  |
+| C7 | Character/personal qualities |  |  | X |  |
+| C7 | First generation |  |  | X |  |
+| C7 | Alumni/ae relation |  |  |  | X |
+| C7 | Geographical residence |  |  | X |  |
+| C7 | State residency |  |  | X |  |
+| C7 | Religious affiliation/commitment |  |  |  | X |
+| C7 | Racial/ethnic status |  |  | X |  |
+| C7 | Volunteer work |  |  | X |  |
+| C7 | Work experience |  |  | X |  |
+| C7 | Level of applicant's interest |  |  |  | X |
+
+## SAT and ACT Policies
+
+C8 Entrance exams
+
+|  | Yes | No |
+| :--: | :--: | :--: |
+|  |  |  |
+| C8A | Does your institution make use of SAT, ACT, or SAT Subject Test scores in admission decisions for first-time, first-year, degree-seeking applicants? | X |  |
+
+C8A If yes, place check marks in the appropriate boxes below to reflect your institution's policies for use in admission for Fall 2010.
+
+| C8A | ADMISSION |  |  |  |  |  |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| C8A |  | Require | Recommend | Require for Some | Consider if Submitted | Not Used |
+| C8A | SAT or ACT |  | X |  |  |  |
+| C8A | ACT only |  |  |  | X |  |
+| C8A | SAT only |  |  |  | X |  |
+| C8A | SAT and SAT Subject Tests or ACT |  |  |  | X |  |
+| C8A | SAT Subject Tests only |  |  |  | X |  |
+C8B If your institution will make use of the ACT in admission decisions for first-time, first-year, degree-seeking applicants for Fall 2010, please indicate which ONE of the following applies: (regardless of whether the writing score will be used in the admissions process):
+C8B ACT with Writing Component required
+C8B ACT with Writing component recommended
+C8B ACT with or without Writing component accepted
+![img-0.jpeg](img-0.jpeg)
+
+C8C Please indicate how your institution will use the SAT or ACT writing component; check all that apply:
+C8C For admission
+C8C For placement
+C8C For advising
+C8C In place of an application essay
+C8C As a validity check on the application essay
+C8C No college policy as of now
+C8C Not using essay component
+![img-1.jpeg](img-1.jpeg)
+
+C8D In addition, does your institution use applicants' test scores for academic advising?
+C8D $\quad$ Yes No
+$\square$ $X$
+
+C8E Latest date by which SAT or ACT scores must be received for fall-
+C8E Latest date by which SAT Subject Test scores must be received for
+fall-term admission
+
+C8G Please indicate which tests your institution uses for placement (e.g., state tests):
+
+| C8G | SAT | $X$ |  |  |
+| :-- | :-- | :-- | :-- | :-- |
+| C8G | ACT | $X$ |  |  |
+| C8G | SAT Subject Tests |  |  |  |
+| C8G | AP | $X$ |  |  |
+| C8G | CLEP | $X$ |  |  |
+| C8G | Institutional Exam | $X$ |  |  |
+| C8G | State Exam (specify): |  |  |  |
+
+# Freshman Profile 
+
+Provide percentages for ALL enrolled, degree-seeking, full-time and part-time, first-time, first-year (freshman) students enrolled in fall 2009, including students who began studies during summer, international students/nonresident aliens, and students admitted under special arrangements.
+
+C9 Percent and number of first-time, first-year (freshman) students enrolled in fall 2009 who submitted national standardized (SAT/ACT) test scores. Include information for ALL enrolled, degree-seeking, first-time, first-year (freshman) students who submitted test scores Do not include partial test scores (e.g., mathematics scores but not critical reading for a category of students) or combine other standardized test results (such as TOEFL) in this item. Do not convert SAT scores to ACT scores and vice versa. The 25 th percentile is the score that 25 percent scored at or below; the 75 th percentile score is the one that 25 percent scored at or above.
+
+| C9 | Percent submitting SAT scores | $76 \%$ | Number submitting SAT scores | 5286 |
+| :-- | :-- | :--: | :-- | :--: |
+| C9 | Percent submitting ACT scores | $42 \%$ | Number submitting ACT scores | 2946 |
+
+C9 $\quad$| 25th Percentile | 75th Percentile |
+| :-- | :-- |
+| C9 | SAT Critical Reading | 460 | 600 |
+| :--: | :--: | :--: | :--: |
+| C9 | SAT Math | 490 | 620 |
+|  | SAT Writing | - | - |
+|  | SAT Essay | - | - |
+| C9 | ACT Composite | 21 | 27 |
+| C9 | ACT Math | - | - |
+| C9 | ACT English | - | - |
+| C9 | ACT Writing | - | - |
+
+C9 Percent of first-time, first-year (freshman) students with scores in each range:
+
+| C9 |  | SAT Critical <br> Reading | SAT Math | SAT Writing |
+| :--: | :--: | :--: | :--: | :--: |
+| C9 | 700-800 | 5.00\% | 6.00\% | - |
+| C9 | 600-699 | 23.00\% | 29.00\% | - |
+| C9 | 500-599 | 44.00\% | 38.00\% | - |
+| C9 | 400-499 | 24.00\% | 23.00\% | - |
+| C9 | 300-399 | 4.00\% | 4.00\% | - |
+| C9 | 200-299 | - | - | - |
+|  | Totals should $=100 \%$ | 100.00\% | 100.00\% | - |
+| C9 |  | ACT Composite | ACT English | ACT Math |
+| C9 | 30-36 | 10.00\% | - | - |
+| C9 | 24-29 | 41.00\% | - | - |
+| C9 | 18-23 | 41.00\% | - | - |
+| C9 | 12-17 | 8.00\% | - | - |
+| C9 | 6-11 | - | - | - |
+| C9 | Below 6 | - | - | - |
+|  | Totals should $=100 \%$ | 100.00\% | - | - |
+
+C10 Percent of all degree-seeking, first-time, first-year (freshman) students who had high school class rank within each of the following ranges (report information for those students from whom you collected high school rank information).
+C10 Percent in top tenth of high school graduating class
+$34 \%$
+C10 Percent in top quarter of high school graduating class
+$62 \%$
+C10 Percent in top half of high school graduating class
+$88 \%$
+Top + bottom half $=100 \%$
+C10 Percent in bottom half of high school graduating class
+$12 \%$
+C10 Percent in bottom quarter of high school graduating class
+$0 \%$
+C10 Percent of total first-time, first-year (freshmen) students who submitted high school class rank:
+
+C11 Percentage of all enrolled, degree-seeking, first-time, first-year (freshman) students who had high school grade-point averages within each of the following ranges (using 4.0 scale). Report information only for those students from whom you collected high school GPA.
+
+| C11 | Percent who had GPA of 3.75 and higher | $23.10 \%$ |
+| :-- | :-- | --: |
+| C11 | Percent who had GPA between 3.50 and 3.74 | $16.90 \%$ |
+| C11 | Percent who had GPA between 3.25 and 3.49 | $16.20 \%$ |
+| C11 | Percent who had GPA between 3.00 and 3.24 | $18.40 \%$ |
+| C11 | Percent who had GPA between 2.50 and 2.99 | $23.40 \%$ |
+| C11 | Percent who had GPA between 2.0 and 2.49 | $1.90 \%$ |
+| C11 | Percent who had GPA between 1.0 and 1.99 | $0.10 \%$ |
+| C11 | Percent who had GPA below 1.0 |  |
+|  | Totals should $=100 \%$ | $100.00 \%$ |
+
+
+| C12 | Average high school GPA of all degree-seeking, first-time, first-year <br> (freshman) students who submitted GPA: | 3.37 |
+| :-- | :-- | --: |
+| C12 | Percent of total first-time, first-year (freshman) students who <br> submitted high school GPA: | 100.00\% |
+![img-2.jpeg](img-2.jpeg)
+
+C13 If you have an application fee and an on-line application option,
+C13 Same fee:
+X
+C13 Free:
+C13 Reduced:
+
+|  | Yes | No |
+| :-- | :-- | :-- |
+|  |  |  |
+|  |  |  |
+
+C14 Application closing date
+
+| C14 |  | Yes | No |
+| :--: | :--: | :--: | :--: |
+| C14 | Does your institution have an application closing date? | X |  |
+| C14 | Application closing date (fall): | $5 / 1$ |  |
+| C14 | Priority date: |  |  |
+
+C15
+C15
+Are first-time, first-year students accepted for terms other than the fall?
+
+|  | Yes | No |
+| :-- | :-- | :-- |
+| X |  |  |
+
+C16 Notification to applicants of admission decision sent (fill in one only)
+C16 On a rolling basis beginning (date):
+X
+C16 By (date):
+C16 Other:
+
+C17 Reply policy for admitted applicants (fill in one only)
+C17 Must reply by (date):
+C17 No set date:
+C17 Must reply by May 1 or within 4 weeks if notified thereafter X
+C17 Other:
+C17 Deadline for housing deposit (MM/DD):
+C17 Amount of housing deposit:
+C17 Refundable if student does not enroll?
+C17 Yes, in full
+C17 Yes, in part
+C17 No
+
+C18 Deferred admission
+| C18 |  | Yes | No |
+| :--: | :--: | :--: | :--: |
+| C18 | Does your institution allow students to postpone enrollment after admission? |  | X |
+| C18 | If yes, maximum period of postponement: |  |  |
+
+C19 Early admission of high school students
+
+| C19 |  | Yes | No |
+| :--: | :--: | :--: | :--: |
+| C19 | Does your institution allow high school students to enroll as full-time, first-time, first-year (freshman) students one year or more before high school graduation? | $x$ |  |
+
+Early Decision and Early Action Plans
+
+| C21 | Early Decision |  |  |
+| :--: | :--: | :--: | :--: |
+| C21 |  | Yes | No |
+| C21 | Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year (freshman) applicants for fall enrollment? |  | X |
+| C22 | Early action |  |  |
+| C22 |  | Yes | No |
+| C22 | Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? |  | X |
+# D. TRANSFER ADMISSION 
+
+## Fall Applicants
+
+| D1 |  | Yes | No |
+| :--: | :--: | :--: | :--: |
+| D1 | Does your institution enroll transfer students? (If no, please skip to Section E) | X |  |
+| D1 | If yes, may transfer students earn advanced standing credit by transferring credits earned from course work completed at other colleges/universities? | X |  |
+
+D2 Provide the number of students who applied, were admitted, and enrolled as degree-seeking transfer students in fall 2009.
+
+| D2 |  | Applicants | Admitted <br> Applicants | Enrolled <br> Applicants |
+| :-- | :-- | :--: | :--: | :--: |
+| D2 | Men | 2,271 | 1,483 | 1,079 |
+| D2 | Women | 2,362 | 1,479 | 833 |
+| D2 | Total | $\mathbf{4 , 6 3 3}$ | $\mathbf{2 , 9 6 2}$ | $\mathbf{1 , 9 1 2}$ |
+
+## Application for Admission
+
+| D3 | Indicate terms for which transfers may enroll: |  |
+| :-- | :-- | :-- |
+| D3 | Fall | $\Phi$ |
+| D3 | Winter |  |
+| D3 | Spring | $\Phi$ |
+| D3 | Summer | $\Phi$ |
+
+
+| D4 |  | Yes | No |
+| :-- | :-- | :--: | :--: |
+| D4 | Must a transfer applicant have a minimum number of <br> credits completed or else must apply as an entering <br> freshman? | X |  |
+| D4 | If yes, what is the minimum number of credits and the unit <br> of measure? |  |  |
+
+D5 Indicate all items required of transfer students to apply for admission:
+
+| D5 |  | Required of All | Recommended <br> of All | Recommended <br> of Some | Required of Some | Not Required |
+| :-- | :-- | :--: | :--: | :--: | :--: | :--: |
+| D5 | High school transcript |  |  |  | X |  |
+| D5 | College transcript(s) | X |  |  |  |  |
+| D5 | Essay or personal <br> statement |  |  |  |  | X |
+| D5 | Interview |  |  |  |  | X |
+| D5 | Standardized test scores |  |  |  |  | X |
+| D5 | Statement of good standing <br> from prior institution(s) |  |  |  |  | X |
+
+D6 If a minimum high school grade point average is required of transfer applicants, specify (on a 4.0 scale):
+D7 If a minimum college grade point average is required of transfer applicants, specify (on a 4.0 scale):
+2.00
+
+D8 List any other application requirements specific to transfer applicants:
+
+D9 List application priority, closing, notification, and candidate reply dates for transfer students. If applications are reviewed on a continuous or rolling basis, place a check mark in the "Rolling admission" column.
+
+| D9 |  | Priority Date | Closing Date | Notification Date | Reply Date | Rolling <br> Admission |
+| :-- | :-- | :-- | :-- | :-- | :-- | :--: |
+| D9 | Fall |  |  |  |  | X |
+| D9 | Winter |  |  |  |  |  |
+| D9 | Spring |  |  |  |  | X |
+| D9 | Summer |  |  |  |  | X |
+
+D10
+Does an open admission policy, if reported, apply to transfer students?
+
+| Yes | No |
+| :-- | :-- |
+| X |  |
+
+D11 Describe additional requirements for transfer admission, if applicable:
+
+# Transfer Credit Policies 
+
+D12
+Report the lowest grade earned for any course that may be transferred for credit:
+
+| D13 |  | Number | Unit Type |
+| :--: | :--: | :--: | :--: |
+| D13 | Maximum number of credits or courses that may be transferred from a two-year institution: | 64 | Semester |
+| D14 |  | Number | Unit Type |
+| D14 | Maximum number of credits or courses that may be transferred from a four-year institution: | Varies | Semester |
+| D15 | Minimum number of credits that transfers must complete at your institution to earn an associate degree: | $\mathrm{n} / \mathrm{a}$ |  |
+| D16 | Minimum number of credits that transfers must complete at your institution to earn a bachelor's degree: | 30.00 |  |
+
+D17
+Describe other transfer credit policies:
+# E. ACADEMIC OFFERINGS AND POLICIES 
+
+E1 Special study options: Identify those programs available at your institution. Refer to the glossary for definitions.
+
+| E1 | Accelerated program | $X$ |
+| :-- | :-- | :-- |
+| E1 | Cooperative education program | $X$ |
+| E1 | Cross-registration | $X$ |
+| E1 | Distance learning | $X$ |
+| E1 | Double major | $X$ |
+| E1 | Dual enrollment | $X$ |
+| E1 | English as a Second Language (ESL) | $X$ |
+| E1 | Exchange student program (domestic) | $X$ |
+| E1 | External degree program | $X$ |
+| E1 | Honors Program | $X$ |
+| E1 | Independent study | $X$ |
+| E1 | Internships | $X$ |
+| E1 | Liberal arts/career combination | $X$ |
+| E1 | Student-designed major |  |
+| E1 | Study abroad | $X$ |
+| E1 | Teacher certification program | $X$ |
+| E1 | Weekend college | $X$ |
+| E1 | Other (specify): |  |
+
+E3 Areas in which all or most students are required to complete some course work prior to graduation:
+
+| E3 | Arts/line arts | $X$ |
+| :-- | :-- | :--: |
+| E3 | Computer literacy |  |
+| E3 | English (including composition) | $X$ |
+| E3 | Foreign languages | $X$ |
+| E3 | History |  |
+| E3 | Humanities | $X$ |
+| E3 | Mathematics | $X$ |
+| E3 | Philosophy |  |
+| E3 | Sciences (biological or physical) | $X$ |
+| E3 | Social science | $X$ |
+| E3 | Other (describe): |  |
+# F. STUDENT LIFE 
+
+F1 Percentages of first-time, first-year (freshman) degree-seeking students and degree-seeking undergraduates enrolled in Fall 2009 who fit the following categories:
+
+| F1 |  | First-time, first-year (freshman) students | Undergraduates |
+| :--: | :--: | :--: | :--: |
+| F1 | Percent who are from out of state (exclude international/nonresident aliens from the numerator and denominator) | $38.8 \%$ | $30.3 \%$ |
+| F1 | Percent of men who join fraternities | n/a | $10 \%$ |
+| F1 | Percent of women who join sororities | n/a | $11 \%$ |
+| F1 | Percent who live in college-owned, -operated, or affiliated housing | $81 \%$ | $20 \%$ |
+| F1 | Percent who live off campus or commute | $19 \%$ | $80 \%$ |
+| F1 | Percent of students age 25 and older | $2 \%$ | $9 \%$ |
+| F1 | Average age of full-time students | 19 | 20 |
+| F1 | Average age of all students (full- and part-time) | 19 | 21 |
+
+F2 Activities offered Identify those programs available at your institution.
+F2 Campus Ministries X
+F2 Choral groups X
+F2 Concert band X
+F2 Dance X
+F2 Drama/theater X
+F2 International Student X
+Organization X
+F2 Jazz band X
+F2 Literary magazine X
+F2 Marching band X
+F2 Model UN X
+F2 Music ensembles X
+F2 Musical theater X
+F2 Opera X
+F2 Pep band X
+F2 Radio station X
+F2 Student government X
+F2 Student newspaper X
+F2 Student-run film society
+F2 Symphony orchestra X
+F2 Television station X
+F2 Yearbook X
+F3 ROTC (program offered in cooperation with Reserve Officers' Training Corps)
+
+| F3 |  | On Campus | At Cooperating Institution | Name of Cooperating Institution |
+| :--: | :--: | :--: | :--: | :--: |
+| F3 | Army ROTC is offered: | X |  |  |
+| F3 | Naval ROTC is offered: | X |  |  |
+| F3 | Air Force ROTC is offered: | X |  |  |
+F4 Housing: Check all types of college-owned, -operated, or -affiliated housing available for undergraduates at your institution.
+
+| F4 | Coed dorms | X |
+| :-- | :-- | :--: |
+| F4 | Men's dorms |  |
+| F4 | Women's dorms | X |
+| F4 | Apartments for married students |  |
+| F4 | Apartments for single students | X |
+| F4 | Special housing for disabled <br> students | X |
+| F4 | Special housing for international <br> students | X |
+| F4 | Fraternity/sorority housing | X |
+| F4 | Cooperative housing |  |
+| F4 | Theme housing |  |
+| F4 | Wellness housing |  |
+| F4 | Other housing options (specify): |  |
+# G. ANNUAL EXPENSES 
+
+Provide 2010-2011 academic year costs of attendance for the following categories that are applicable to your institution.
+
+X
+Check here if your institution's 2010-2011 academic year costs of attendance are not available at this time and provide an approximate date (i.e., month/day) when your institution's final 2010-2011 academic year costs of attendance will be available:
+Mid 2010
+G1 Undergraduate full-time tuition, required fees, room and board List the typical tuition, required fees, and room and board for a full-time undergraduate student for the FULL 2010-2011 academic year (30 semester or 45 quarter hours for institutions that derive annual tuition by multiplying credit hour cost by number of credits). A full academic year refers to the period of time generally extending from September to June; usually equated to two semesters, two trimesters, three quarters, or the period covered by a four-one-four plan. Room and board is defined as double occupancy and 19 meals per week or the maximum meal plan. Required fees include only charges that all full-time students must pay that are not included in tuition (e.g., registration, health, or activity fees.) Do not include optional fees (e.g., parking, laboratory use).
+
+THIS IS 2009-10 Tuition \& Fees. 2010-11 will NOT be available until mid-2010.
+
+| G1 |  | First-Year | Undergraduates |
+| :--: | :--: | :--: | :--: |
+| G1 | PRIVATE INSTITUTIONS Tuition: |  |  |
+| G1 | PUBLIC INSTITUTIONS Tuition: In-district | $\$ 6,540$ | $\$ 6,540$ |
+| G1 | PUBLIC INSTITUTIONS In-state (out-of-district): | $\$ 6,540$ | $\$ 6,540$ |
+| G1 | PUBLIC INSTITUTIONS Out-of-state: | $\$ 21,949$ | $\$ 21,949$ |
+| G1 | NONRESIDENT ALIENS Tuition: | $\$ 21,949$ | $\$ 21,949$ |
+| G1 | REQUIRED FEES: | $\$ 315$ | $\$ 315$ |
+| G1 | ROOM AND BOARD: <br> (on-campus) | $\$ 8,614$ | $\$ 8,614$ |
+| G1 | ROOM ONLY: <br> (on-campus) | $\$ 5,846$ | $\$ 5,846$ |
+| G1 | BOARD ONLY: <br> (on-campus meal plan) | $\$ 2,768$ | $\$ 2,768$ |
+| G1 | Comprehensive tuition and room and board fee (if your college cannot provide separate tuition and room and board fees): |  |  |
+
+G1
+Other:
+| G2 |  | Minimum | Maximum |
+| :-- | :-- | :--: | :--: |
+| G2 | Number of credits per term a student can take for the <br> stated full-time tuition | 7 | 21 |
+| G3 |  | Yes | No |
+| G3 | Do tuition and fees vary by year of study (e.g., sophomore, <br> junior, senior)? |  | X |
+
+G4 If tuition and fees vary by undergraduate instructional program, describe briefly:
+
+G5 Provide the estimated expenses for a typical full-time undergraduate student:
+
+|  |  | Residents | Commuters <br> (living at home) | Commuters <br> (not living at home) |
+| :-- | :-- | :--: | :--: | :--: |
+| G5 | Books and supplies | $\$ 1,000$ | $\$ 1,000$ | $\$ 1,000$ |
+| G5 | Room only |  |  | $\$ 7,930$ |
+| G5 | Board only |  |  | $\$ 3,304$ |
+| G5 | Room and board total (if your <br> college cannot provide separate <br> room and board figures for <br> commuters not living at home): |  |  |  |
+| G5 | Transportation | $\$ 1,682$ | $\$ 2,362$ | $\$ 3,418$ |
+| G5 | Other expenses | $\$ 2,368$ | $\$ 2,368$ | $\$ 4,532$ |
+
+G6 Undergraduate per-credit-hour charges (tuition only)
+
+| G6 | PRIVATE INSTITUTIONS: |  |
+| :-- | :-- | :-- |
+| G6 | PUBLIC INSTITUTIONS <br> In-district: | $\$ 357.00$ |
+| G6 | PUBLIC INSTITUTIONS <br> In-state (out-of-district): | $\$ 357.00$ |
+| G6 | PUBLIC INSTITUTIONS <br> Out-of-state: | $\$ 943.00$ |
+| G6 | NONRESIDENT ALIENS: | $\$ 943.00$ |
+# H. FINANCIAL AID 
+
+## Aid Awarded to Enrolled Undergraduates
+
+Enter total dollar amounts awarded to enrolled full-time and less than full-time degree-seeking undergraduates (using the same cohort reported in CDS Question B1, "total degree-seeking" undergraduates) in the following categories. (Note: If the data being reported are final figures for the 20082009 academic year (see the next item below), use the 2008-2009 academic year's CDS Question B1 cohort.) Include aid awarded to international students (i.e., those not qualifying for federal aid). Aid that is non-need-based but that was used to meet need should be reported in the need-based aid columns. (For a suggested order of precedence in assigning categories of aid to cover need, see the entry for "non-need-based scholarship or grant aid" on the last page of the definitions section.)
+
+| H1 |  | 2009-2010 <br> estimated | 2008-2009 <br> final |
+| :-- | :-- | :--: | :--: |
+| H3 Which needs-analysis methodology does your institution use in awarding institutional aid? |  |  |  |
+| H3 | Federal methodology (FM) | X |  |
+| H3 | Institutional methodology (IM) |  |  |
+| H1 | Both FM and IM |  |  |
+
+H1
+
+## Scholarships/Grants
+
+H1 Federal
+H1 State (i.e., all states, not only the state in which your institution is located)
+
+H1 Institutional: Endowed scholarships, annual gifts and tuition funded grants, awarded by the college, excluding athletic aid and tuition waivers (which are reported below).
+
+H1 Scholarships/grants from external sources (e.g., Kiwanis, National Merit) not awarded by the college
+
+H1 Total Scholarships/Grants
+H1 Self-Help
+
+H1 Student loans from all sources (excluding parent loans)
+H1 Federal Work-Study
+
+H1 State and other (e.g., institutional) work-study/employment (Note: Excludes Federal Work-Study captured above.)
+
+H1 Total Self-Help
+
+## Other
+
+H1 Parent Loans
+H1 Tuition Waivers
+Reporting is optional.
+H1
+Athletic Awards
+
+Need-based \$
+(Include non-needbased aid used to meet need.)
+
+## Non-need-
+
+based \$ (Exclude non-needbased aid used to meet need.)
+
+## Non-need-based \$
+
+(Exclude non-needbased aid used to meet need.)
+
+## Non-need-based \$
+
+(Exclude non-needbased aid used to meet need.)
+H2 Number of Enrolled Students Awarded Aid: List the number of degree-seeking full-time and less-than-full-time undergraduates who applied for and were awarded financial aid from any source. Aid that is non-need-based but that was used to meet need should be counted as need-based aid. Numbers should reflect the cohort awarded the dollars reported in H1. Note: In the chart below, students may be counted in more than one row, and full-time freshmen should also be counted as full-time undergraduates.
+
+| H2 |  |  | First-time Full-time Freshmen | Full-time Undergraduate (Incl. Fresh.) | Less Than Full-time Undergraduate |
+| :--: | :--: | :--: | :--: | :--: | :--: |
+| H2 | a) | Number of degree-seeking undergraduate students (CDS Item B1 if reporting on Fall 2009 cohort) | 6,331 | 25,964 | 3,755 |
+| H2 | b) | Number of students in line a who applied for needbased financial aid | 4,048 | 14,614 | 1,447 |
+| H2 | c) | Number of students in line $\mathbf{b}$ who were determined to have financial need | 2,476 | 10,709 | 1,151 |
+| H2 | d) | Number of students in line $\mathbf{c}$ who were awarded any financial aid | 2,401 | 10,318 | 972 |
+| H2 | e) | Number of students in line $\mathbf{d}$ who were awarded any need-based scholarship or grant aid | 2,268 | 9,437 | 805 |
+| H2 | f) | Number of students in line $\mathbf{d}$ who were awarded any need-based self-help aid | 1,294 | 6,717 | 662 |
+| H2 | g) | Number of students in line $\mathbf{d}$ who were awarded any non-need-based scholarship or grant aid | 293 | 827 | 15 |
+| H2 | h) | Number of students in line $\mathbf{d}$ whose need was fully met (exclude PLUS loans, unsubsidized loans, and private alternative loans) | 321 | 1,111 | 34 |
+| H2 | i) | On average, the percentage of need that was met of students who were awarded any need-based aid. Exclude any aid that was awarded in excess of need as well as any resources that were awarded to replace EFC (PLUS loans, unsubsidized loans, and private alternative loans) | $65.3 \%$ | $63.9 \%$ | $44.5 \%$ |
+| H2 | j) | The average financial aid package of those in line d. Exclude any resources that were awarded to replace EFC (PLUS loans, unsubsidized loans, and private alternative loans) | \$ 9,152 | \$ 10,021 | \$ 6,996 |
+| H2 | k) | Average need-based scholarship and grant award of those in line $\mathbf{e}$ | \$ 7,794 | \$ 7,849 | \$ 4,938 |
+| H2 | 1) | Average need-based self-help award (excluding PLUS loans, unsubsidized loans, and private alternative loans) of those in line $\mathbf{f}$ | \$ 3,333 | \$ 4,406 | \$ 4,287 |
+| H2 | m) | Average need-based loan (excluding PLUS loans, unsubsidized loans, and private alternative loans) of those in line $\mathbf{f}$ who were awarded a need-based loan | \$ 3,376 | \$ 4,325 | \$ 4,148 |
+
+H2A Number of Enrolled Students Awarded Non-need-based Scholarships and Grants: List the number of degree-seeking full-time and less-than-full-time undergraduates who had no financial need and who were awarded institutional non-need-based scholarship or grant aid. Numbers should reflect the cohort awarded the dollars reported in H1. Note: In the chart below, students may be counted in more than one row, and full-time freshmen should also be counted as full-time undergraduates.
+| H2A |  | First-time Full-time Freshmen | Full-time Undergrad (Incl. Fresh.) | Less Than Full-time Undergrad |
+| :--: | :--: | :--: | :--: | :--: |
+| H2A | n) Number of students in line a who had no financial need and who were awarded institutional non-need-based scholarship or grant aid (exclude those who were awarded athletic awards and tuition benefits) | 2,200 | 6,364 | 105 |
+| H2A | o) Average dollar amount of institutional non-need-based scholarship and grant aid awarded to students in line $\mathbf{n}$ | \$ 4,586 | \$ 5,064 | \$ 3,026 |
+| H2A | p) Number of students in line a who were awarded an institutional non-need-based athletic scholarship or grant | 57 | 238 | 13 |
+| H2A | q) Average dollar amount of institutional non-need-based athletic scholarships and grants awarded to students in line $\mathbf{p}$ | \$ 14,405 | \$ 14,297 | \$ 5,804 |
+
+H3 Incorporated into H1 above.
+Note: These are the graduates and loan types to include and exclude in order to fill out CDS H4, H4a, H5, and H5a.
+Include: * 2009 undergraduate class who graduated between July 1, 2008 and June 30, 2009 who started at your institution as first- time students and received a bachelor's degree between July 1, 2008 and June 30, 2009.
+* only loans made to students who borrowed while enrolled at your institution.
+* co-signed loans.
+
+Exclude: * those who transferred in.
+
+* money borrowed at other institutions.
+
+H4 Provide the percentage of the class (defined above) who borrowed at any time through any loan programs (institutional, state, Federal Perkins, Federal Stafford Subsidized and Unsubsidized, private loans that were certified by your institution, etc.; exclude parent loans). Include both Federal Direct Student Loans and Federal Family Education Loans. 43\%
+
+H4a
+Provide the percentage of the class (defined above) who borrowed at any time through federal loan programs--Federal Perkins, Federal Stafford Subsidized and Unsubsidized. Include both Federal Direct Student Loans and Federal Family Education Loans. NOTE: exclude all institutional, state, private alternative loans and parent loans.
+H5 Report the average per-undergraduate-borrower cumulative principal borrowed of those in line H4.
+$\$ 18,712$
+H5a Report the average per-undergraduate-borrower cumulative principal borrowed, of those in H4a, through federal loan programs--Federal Perkins, Federal Stafford Subsidized and Unsubsidized. Include both Federal Direct Student Loans and Federal Family Education Loans. These are listed in line H4a. NOTE: exclude all institutional, state, private alternative loans and exclude parent loans.
+
+Aid to Undergraduate Degree-seeking Nonresident Aliens (Note: Report numbers and dollar amounts for the same academic year checked in item H1.)
+H6 Indicate your institution's policy regarding institutional scholarship and grant aid for undergraduate degreeseeking nonresident aliens:
+
+| H6 | Institutional need-based scholarship or grant aid is available | X |
+| :-- | :-- | :-- |
+| H6 | Institutional non-need-based scholarship or grant aid is available |  |
+| H6 | Institutional scholarship or grant aid is not available |  |
+
+H6 If institutional financial aid is available for undergraduate degree-seeking nonresident aliens, provide the number of undergraduate degree-seeking nonresident aliens who were awarded need-based or non-need-based aid:
+
+H6
+Average dollar amount of institutional financial aid awarded to undergraduate degree- seeking nonresident aliens:
+$\$ 10,847$
+H6
+Total dollar amount of institutional financial aid awarded to undergraduate degree-seeking nonresident aliens:
+$\$ 3,058,818$
+
+H7 Check off all financial aid forms nonresident alien first-year financial aid applicants must submit:
+
+| H7 | Institution's own financial aid form |  |
+| :-- | :-- | :-- |
+| H7 | CSS/Financial Aid PROFILE |  |
+| H7 | International Student's Financial Aid Application |  |
+| H7 | International Student's Certification of Finances |  |
+| H7 | Other (specify): |  |
+
+# Process for First-Year/Freshman Students 
+
+H8 Check off all financial aid forms domestic first-year (freshman) financial aid applicants must submit:
+
+| H8 | FAFSA | X |
+| :-- | :-- | :-- |
+| H8 | Institution's own financial aid form |  |
+| H8 | CSS/Financial Aid PROFILE |  |
+| H8 | State aid form |  |
+| H8 | Noncustodial PROFILE |  |
+| H8 | Business/Farm Supplement |  |
+| H8 | Other (specify): |  |
+
+H9 Indicate filing dates for first-year (freshman) students:
+
+| H9 | Priority date for filing required financial aid forms: |  |
+| :-- | :-- | :-- |
+| H9 | Deadline for filing required financial aid forms: |  |
+| No deadline for filing required forms (applications processed on a <br> rolling basis): |  |  |
+
+H10 Indicate notification dates for first-year (freshman) students (answer a or b):
+
+| H10 | a) | Students notified on or about (date): |  |  |
+| :--: | :--: | :--: | :--: | :--: |
+| H10 |  | Yes | No |  |
+| H10 | b) | Students notified on a rolling basis: | X |  |
+| H10 |  | If yes, starting date: |  |  |
+
+H11 Indicate reply dates:
+| H11 | Students must reply by (date): |  |
+| :-- | :-- | :-- |
+| H11 | or within $\qquad$ weeks of notification. |  |
+
+# Types of Aid Available 
+
+Please check off all types of aid available to undergraduates at your institution:
+H12 Loans
+H12 FEDERAL DIRECT STUDENT LOAN PROGRAM (DIRECT LOAN)
+
+| H12 | Direct Subsidized Stafford Loans |  |
+| :-- | :-- | :-- |
+| H12 | Direct Unsubsidized Stafford Loans |  |
+| H12 | Direct PLUS Loans |  |
+
+H12 FEDERAL FAMILY EDUCATION LOAN PROGRAM (FFEL)
+
+| H12 | FFEL Subsidized Stafford Loans | X |
+| :-- | :-- | :-- |
+| H12 | FFEL Unsubsidized Stafford Loans | X |
+| H12 | FFEL PLUS Loans | X |
+
+H12 Federal Perkins Loans X
+
+H12 Federal Nursing Loans X
+
+H12 State Loans
+H12 College/university loans from institutional funds X
+
+H12 Other (specify):
+H13 Scholarships and Grants
+H13 NEED-BASED:
+
+| H13 | Federal Pell | X |
+| :-- | :-- | :-- |
+| H13 | SEOG | X |
+| H13 | State scholarships/grants | X |
+| H13 | Private scholarships | X |
+| H13 | College/university scholarship or grant aid from institutional funds | X |
+| H13 | United Negro College Fund |  |
+| H13 | Federal Nursing Scholarship | X |
+| H13 | Other (specify): |  |
+
+H14 Check off criteria used in awarding institutional aid. Check all that apply.
+
+| H14 |  | Non-Need Based | Need-Based |
+| :--: | :--: | :--: | :--: |
+| H14 | Academics | X | X |
+| H14 | Alumni affiliation |  |  |
+| H14 | Art | X |  |
+| H14 | Athletics |  |  |
+| H14 | Job skills |  |  |
+| H14 | ROTC |  |  |
+| H14 | Leadership |  |  |
+| H14 | Minority status |  |  |
+| H14 | Music/drama | X |  |
+| H14 | Religious affiliation |  |  |
+| H14 | State/district residency |  |  |
+H15 If your institution has recently implemented any major financial aid policy, program, or initiative to make your institution more affordable to incoming students such as replacing loans with grants, or waiving costs for families below a certain income level please provide details below:
+# I. INSTRUCTIONAL FACULTY AND CLASS SIZE 
+
+Please report the number of instructional faculty members in each category for Fall 2009. Include faculty who are on your institution's payroll on the census date your institution uses for IPEDS/AAUP.
+The following definition of full-time instructional faculty is used by the American Association of University Professors (AAUP) in its annual Faculty Compensation Survey (the part time definitions are not used by AAUP). Instructional Faculty is defined as those members of the instructional-research staff whose major regular assignment is instruction, including those with released time for research. Use the chart below to determine inclusions and exclusions:
+
+|  |  | Full-time | Part-time |
+| :--: | :--: | :--: | :--: |
+|  | (a) instructional faculty in preclinical and clinical medicine, faculty who are not paid (e.g., those who donate their services or are in the military), or research-only faculty, postdoctoral fellows, or pre-doctoral fellows | Exclude | Include only if they teach one or more nonclinical credit courses |
+|  | (b) administrative officers with titles such as dean of students, librarian, registrar, coach, and the like, even though they may devote part of their time to classroom instruction and may have faculty status | Exclude | Include if they teach one or more non-clinical credit courses |
+|  | (c) other administrators/staff who teach one or more non-clinical credit courses even though they do not have faculty status | Exclude | Include |
+|  | (d) undergraduate or graduate students who assist in the instruction of courses, but have titles such as teaching assistant, teaching fellow, and the like | Exclude | Exclude |
+|  | (e) faculty on sabbatical or leave with pay | Include | Exclude |
+|  | (f) faculty on leave without pay | Exclude | Exclude |
+|  | (g) replacement faculty for faculty on sabbatical leave or leave with pay | Exclude | Include |
+
+Full-time instructional faculty: faculty employed on a full-time basis for instruction (including those with released time for research)
+Part-time instructional faculty: Adjuncts and other instructors being paid solely for part-time classroom instruction. Also includes full-time faculty teaching less than two semesters, three quarters, two trimesters, or two four-month sessions. Employees who are not considered full-time instructional faculty but who teach one or more non-clinical credit courses may be counted as part-time faculty.
+Minority faculty: includes faculty who designate themselves as black, non-Hispanic; American Indian or Alaska Native; Asian or Pacific Islander; or Hispanic.
+Doctorate: includes such degrees as Doctor of Philosophy, Doctor of Education, Doctor of Juridical Science, and Doctor of Public Health in any field such as arts, sciences, education, engineering, business, and public administration. Also includes terminal degrees formerly designated as "first professional," including dentistry (DDS or DMD), medicine (MD), optometry (OD), osteopathic medicine (DO), pharmacy (DPharm or BPharm), podiatric medicine (DPM), veterinary medicine (DVM), chiropractic (DC or DCM), or law (JD).
+Terminal degree: the highest degree in a field: example, M. Arch (architecture) and MFA (master of fine arts).
+
+|  |  | Full-Time | Part-Time | Total |
+| :--: | :--: | :--: | :--: | :--: |
+| II | a) | Total number of instructional faculty | 1,546 | 407 | 1,953 |
+| 11 | b) | Total number who are members of minority groups | 262 | 41 | 303 |
+| 11 | c) | Total number who are women | 562 | 179 | 741 |
+| 11 | d) | Total number who are men | 984 | 228 | 1,212 |
+| 11 | e) | Total number who are nonresident aliens (international) | 56 | 5 | 61 |
+|  | f) | Total number with doctorate, or other terminal degree | 1,412 | 246 | 1,658 |
+|  | g) | Total number whose highest degree is a master's but not a terminal <br> master's | 95 | 97 | 192 |
+| :--: | :--: | :--: | :--: | :--: | :--: |
+| 11 | h) | Total number whose highest degree is a bachelor's | 28 | 45 | 73 |
+|  | i) | Total number whose highest degree is unknown or other (Note: <br> Items f, g, h, and i must sum up to item a.) | 11 | 19 | 30 |
+|  | j) | Total number in stand-alone graduate/ professional programs in <br> which faculty teach virtually only graduate-level students | 56 | 22 | 78 |
+
+# I2 Student to Faculty Ratio 
+
+Report the Fall 2009 ratio of full-time equivalent students (full-time plus $1 / 3$ part time) to full-time equivalent instructional faculty (full time plus $1 / 3$ part time). In the ratio calculations, exclude both faculty and students in stand-alone graduate or professional programs such as medicine, law, veterinary, dentistry, social work, business, or public health in which faculty teach virtually only graduate-level students. Do not count undergraduate or graduate student teaching assistants as faculty.
+
+| 12 | Fall 2009 Student to Faculty ratio | 19.7 to 1 | (based on | 31,952 students |  |
+| :--: | :--: | :--: | :--: | :--: | :--: |
+|  |  |  | and | 1,618 faculty). |  |
+
+## 13 Undergraduate Class Size
+
+In the table below, please use the following definitions to report information about the size of classes and class sections offered in the Fall 2009 term.
+Class Sections: A class section is an organized course offered for credit, identified by discipline and number, meeting at a stated time or times in a classroom or similar setting, and not a subsection such as a laboratory or discussion session. Undergraduate class sections are defined as any sections in which at least one degree-seeking undergraduate student is enrolled for credit. Exclude distance learning classes and noncredit classes and individual instruction such as dissertation or thesis research, music instruction, or one-to-one readings. Exclude students in independent study, co-operative programs, internships, foreign language taped tutor sessions, practicums, and all students in one-on-one classes. Each class section should be counted only once and should not be duplicated because of course catalog cross-listings.
+
+Class Subsections: A class subsection includes any subsection of a course, such as laboratory, recitation, and discussion subsections that are supplementary in nature and are scheduled to meet separately from the lecture portion of the course. Undergraduate subsections are defined as any subsections of courses in which degree-seeking undergraduate students enrolled for credit. As above, exclude noncredit classes and individual instruction such as dissertation or thesis research, music instruction, or one-to-one readings. Each class subsection should be counted only once and should not be duplicated because of cross-listings.
+Using the above definitions, please report for each of the following class-size intervals the number of class sections and class subsections offered in Fall 2009. For example, a lecture class with 800 students who met at another time in 40 separate labs with 20 students should be counted once in the "100+" column in the class section column and 40 times under the "20-29" column of the class subsections table.
+
+## 13
+
+Number of Class Sections with Undergraduates Enrolled
+
+| 13 | Undergraduate Class Size (provide numbers) |  |  |  |  |  |  |  |  |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| 13 | CLASS <br> SECTIONS | 2-9 | 10-19 | 20-29 | 30-39 | 40-49 | 50-99 | 100+ | Total |
+| 13 |  | 542 | 776 | 1124 | 383 | 133 | 211 | 183 | 3352 |
+| 13 | CLASS SUBSECTIONS | 2-9 | 10-19 | 20-29 | 30-39 | 40-49 | 50-99 | 100+ | Total |
+| 13 |  | 56 | 155 | 456 | 109 | 5 | 38 | 3 | 822 |
+# J. DEGREES CONFERRED 
+
+J1 Degrees conferred between July 1, 2008 and June 30, 2009
+J1 For each of the following discipline areas, provide the percentage of diplomas/certificates, associate, and bachelor's degrees awarded. To determine the percentage, use majors, not headcount (e.g., students with one degree but a double major will be represented twice). Calculate the percentage from your institution's IPEDS Completions by using the sum of 1st and 2nd majors for each CIP code as the numerator and the sum of the Grand Total by 1st Majors and the Grand Total by 2nd major as the denominator. If you prefer, you can compute the percentages using 1st majors only.
+
+| J1 | Category | Bachelor's | \% Bachelor's | CIP 2000 <br> Categories |
+| :--: | :--: | :--: | :--: | :--: |
+| J1 | Agriculture | 64 | $1.01 \%$ | 1 |
+| J1 | Natural resources/environmental science | 39 | $0.62 \%$ | 3 |
+| J1 | Architecture | 201 | $3.18 \%$ | 4 |
+| J1 | Area and ethnic studies | 83 | $1.31 \%$ | 5 |
+| J1 | Communications/journalism | 494 | $7.82 \%$ | 9 |
+| J1 | Communication technologies |  |  | 10 |
+| J1 | Computer and information sciences | 66 | $1.04 \%$ | 11 |
+| J1 | Personal and culinary services |  |  | 12 |
+| J1 | Education | 450 | $7.12 \%$ | 13 |
+| J1 | Engineering | 444 | $7.03 \%$ | 14 |
+| J1 | Engineering technologies |  |  | 15 |
+| J1 | Foreign languages and literature | 229 | $3.62 \%$ | 16 |
+| J1 | Family and consumer sciences | 188 | $2.98 \%$ | 19 |
+| J1 | Law/legal studies |  |  | 22 |
+| J1 | English | 220 | $3.48 \%$ | 23 |
+| J1 | Liberal arts/general studies |  |  | 24 |
+| J1 | Library science |  |  | 25 |
+| J1 | Biological/life sciences | 629 | $9.95 \%$ | 26 |
+| J1 | Mathematics | 62 | $0.98 \%$ | 27 |
+| J1 | Military science and technologies |  |  | 29 |
+| J1 | Interdisciplinary studies | 216 | $3.42 \%$ | 30 |
+| J1 | Parks and recreation |  |  | 31 |
+| J1 | Philosophy and religious studies | 66 | $1.04 \%$ | 38 |
+| J1 | Theology and religious vocations |  |  | 39 |
+| J1 | Physical sciences | 104 | $1.65 \%$ | 40 |
+| J1 | Science technologies | 3 | $0.05 \%$ | 41 |
+| J1 | Psychology | 451 | $7.14 \%$ | 42 |
+| J1 | Security and protective services | 21 | $0.33 \%$ | 43 |
+| J1 | Public administration and social services | 23 | $0.36 \%$ | 44 |
+| J1 | Social sciences | 642 | $10.16 \%$ | 45 |
+| J1 | Construction trades |  |  | 46 |
+| J1 | Mechanic and repair technologies |  |  | 47 |
+| J1 | Precision production |  |  | 48 |
+| J1 | Transportation and materials moving |  |  | 49 |
+| J1 | Visual and performing arts | 292 | $4.62 \%$ | 50 |
+| J1 | Health professions and related sciences | 295 | $4.67 \%$ | 51 |
+| J1 | Business/marketing | 881 | $13.94 \%$ | 52 |
+| J1 | History | 156 | $2.47 \%$ | 54 |
+| J1 | Other |  |  |  |
+| J1 | TOTAL | 6,319 | $100.00 \%$ |  |

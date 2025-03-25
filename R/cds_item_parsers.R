@@ -50,7 +50,7 @@ cds_item_parsers <- list(
     # parse out-of-grid grand totals
     ## consolidate broken lines
     grand_total_lines <- grep(
-      "^(?:B1)?[ _]*(?:grand|total|students).*:?[ _*\\(]*$", part,
+      "^\\s*(?:B1)?[ _]*(?:grand|total|students).*:?[ _*\\(]*$", part,
       ignore.case = TRUE
     )
     number_rows <- grep("(?:[A-Za-z]|^)[ _*\\(:]+[0-9,.]+\\d[ _*\\)]*$", part)
@@ -71,7 +71,7 @@ cds_item_parsers <- list(
     if (length(grand_total_lines)) {
       totals <- part[grand_total_lines]
       part <- part[-grand_total_lines]
-      for (l in strsplit(sub("^(?:b1)?\\s*", "", tolower(totals)), ":[ _*\\(]*|[ _*\\)]{2,}")) {
+      for (l in strsplit(sub("^\\s*(?:b1)?\\s*", "", tolower(totals)), ":[ _*\\(]*|[ _*\\)]{2,}")) {
         if (length(l) == 2L) {
           label <- std_student_type(l[[1L]])
           if (!(label %in% names(slots))) next
@@ -84,7 +84,7 @@ cds_item_parsers <- list(
     }
     # identify headers and row groups
     student_ind <- grep(
-      "^(?:B1)?\\s*(?:undergr|graduate|total all students|first.professional)",
+      "^\\s*(?:B1)?\\s*(?:undergr|graduate|total all students|first.professional)",
       part,
       ignore.case = TRUE
     )
@@ -96,11 +96,13 @@ cds_item_parsers <- list(
     if (!length(unlist(header_inds))) {
       return(slots)
     }
-    for (i in seq_len(length(student_ind) - 1L)) {
+    n_inds <- length(student_ind)
+    for (i in seq_len(n_inds - 1L)) {
       start <- student_ind[[i]]
       student_type <- std_student_type(part[start])
       if (student_type == "") next
-      cpart <- part[seq(start, student_ind[[i + 1L]] - 1L)]
+      part_end <- student_ind[[i + 1L]] - 1L
+      cpart <- part[seq(start, part_end)]
       end <- grep("^[ -]*(?:grand )?total[^0-9]+[0-9.,]+\\s+[0-9]", cpart, ignore.case = TRUE)
       if (!length(end)) end <- length(cpart)
       end <- max(end)
@@ -110,7 +112,12 @@ cds_item_parsers <- list(
       cheaders <- headers
       chead <- lapply(header_inds, function(g) {
         lapply(g, function(l) {
+          l <- l[l < part_end]
           if (length(l)) {
+            su <- l >= start
+            if (any(su)) l <- l[su]
+            su <- l <= part_end
+            if (any(su)) l <- l[su]
             l[which.min(abs(l - start))]
           }
         })
@@ -354,7 +361,7 @@ cds_table_parser <- function(header, body, rows, header_groups) {
         }
       }
       label_pos$end[[nmathes]] <- width
-      label_pos$rcenter <- if (nrow(label_pos) > 3) {
+      label_pos$rcenter <- if (nrow(label_pos) > 3L) {
         (label_pos$start + label_pos$end) / 2L
       } else {
         label_pos$start + label_pos$length / 2L
@@ -416,7 +423,7 @@ cds_table_parser <- function(header, body, rows, header_groups) {
               s$label[if (nrow(s) == 1L) {
                 1L
               } else {
-                which.min(abs(s$rcenter - rcenter))
+                which.min(colSums(rbind(abs(s$rcenter - rcenter), abs(s$start - span[1L]))))
               }]
             } else {
               ""

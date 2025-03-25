@@ -3,13 +3,13 @@
 #' Extract data from a CDS PDF report.
 #'
 #' @param school Name of the school, to be checked for in the document.
-#' @param file Path to the PDF report.
+#' @param file Path to the report file (PDF, text, or JSON).
 #' @param ocr Logical; if \code{TRUE}, will use Optical Character Recognition to extract
 #' text from the file.
 #' @examples
 #' file <- "../../reports/text/Yale University/cds2008_2009_1.txt"
 #' if (file.exists(file)) {
-#'   values <- cds_process_report("Yale University", file)
+#'   values <- cds_process_report("Yale University", file)$values
 #'   values[1:10]
 #' }
 #' @return A \code{list} containing the \code{locations} of items identified in the report
@@ -18,7 +18,38 @@
 
 cds_process_report <- function(school, file, ocr = FALSE) {
   if (!file.exists(file)) stop("file does not exist", call. = FALSE)
-  text <- if (grepl("pdf$", file, ignore.case = TRUE)) {
+  text <- if (grepl("json$", file, ignore.case = TRUE)) {
+    text <- strsplit(paste(vapply(
+      jsonlite::read_json(file)$pages, "[[", "", "markdown"
+    ), collapse = "\n"), "\n+")[[1]]
+    text <- gsub("\\\\[a-z]+\\{([^}])\\}", "\\1", sub("#+\\s+", "", text))
+    table_inds <- grep("^\\|", text)
+    start <- 1L
+    last <- length(table_inds) + 1L
+    for (i in c(seq_along(table_inds)[-1L], last)) {
+      if (i == last || table_inds[i] != table_inds[i - 1L] + 1L) {
+        row_inds <- seq(table_inds[start], table_inds[i - 1L])
+        rows <- strsplit(text[row_inds], "\\s*\\|\\s*")
+        row <- character(max(vapply(rows, length, 0L)))
+        text[row_inds] <- do.call(paste, lapply(
+          as.data.frame(do.call(rbind, lapply(rows, function(r) {
+            row[seq_along(r)] <- r
+            row
+          }))),
+          function(col) {
+            len <- max(nchar(col)) + 3L
+            base <- paste(rep(" ", len), collapse = "")
+            vapply(col, function(x) {
+              xlen <- nchar(x)
+              substring(paste0(x, base), 1L, len)
+            }, "")
+          }
+        ))
+        start = i
+      }
+    }
+    text
+  } else if (grepl("pdf$", file, ignore.case = TRUE)) {
     strsplit(paste(
       (if (ocr) pdftools::pdf_ocr_text else pdftools::pdf_text)(file),
       collapse = "\n"
